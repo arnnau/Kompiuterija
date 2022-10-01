@@ -39,6 +39,24 @@
       "frameworks": ***REMOVED***
         "netcoreapp3.1": ***REMOVED***
           "targetAlias": "netcoreapp3.1",
+          "dependencies": ***REMOVED***
+            "Microsoft.EntityFrameworkCore.Design": ***REMOVED***
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.29, )"
+    ***REMOVED***,
+            "Microsoft.EntityFrameworkCore.Tools": ***REMOVED***
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.29, )"
+    ***REMOVED***,
+            "MySql.EntityFrameworkCore": ***REMOVED***
+              "target": "Package",
+              "version": "[3.1.24, )"
+    ***REMOVED***
+  ***REMOVED***,
           "imports": [
             "net461",
             "net462",
