@@ -1,0 +1,3428 @@
+***REMOVED***
+  "runtimeTarget": ***REMOVED***
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  ***REMOVED***,
+  "compilationOptions": ***REMOVED***
+    "defines": [
+      "TRACE",
+      "DEBUG",
+      "NETCOREAPP",
+      "NETCOREAPP3_1"
+    ],
+    "languageVersion": "8.0",
+    "platform": "",
+    "allowUnsafe": false,
+    "warningsAsErrors": false,
+    "optimize": false,
+    "keyFile": "",
+    "emitEntryPoint": true,
+    "xmlDoc": false,
+    "debugType": "portable"
+  ***REMOVED***,
+  "targets": ***REMOVED***
+    ".NETCoreApp,Version=v3.1": ***REMOVED***
+      "Kompiuterija/1.0.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
+          "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
+          "Microsoft.AspNetCore.Authentication.Core": "3.1.0.0",
+          "Microsoft.AspNetCore.Authentication": "3.1.0.0",
+          "Microsoft.AspNetCore.Authentication.OAuth": "3.1.0.0",
+          "Microsoft.AspNetCore.Authorization": "3.1.0.0",
+          "Microsoft.AspNetCore.Authorization.Policy": "3.1.0.0",
+          "Microsoft.AspNetCore.Components.Authorization": "3.1.0.0",
+          "Microsoft.AspNetCore.Components": "3.1.0.0",
+          "Microsoft.AspNetCore.Components.Forms": "3.1.0.0",
+          "Microsoft.AspNetCore.Components.Server": "3.1.0.0",
+          "Microsoft.AspNetCore.Components.Web": "3.1.0.0",
+          "Microsoft.AspNetCore.Connections.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.CookiePolicy": "3.1.0.0",
+          "Microsoft.AspNetCore.Cors": "3.1.0.0",
+          "Microsoft.AspNetCore.Cryptography.Internal": "3.1.0.0",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "3.1.0.0",
+          "Microsoft.AspNetCore.DataProtection.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.DataProtection": "3.1.0.0",
+          "Microsoft.AspNetCore.DataProtection.Extensions": "3.1.0.0",
+          "Microsoft.AspNetCore.Diagnostics.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Diagnostics": "3.1.0.0",
+          "Microsoft.AspNetCore.Diagnostics.HealthChecks": "3.1.0.0",
+          "Microsoft.AspNetCore": "3.1.0.0",
+          "Microsoft.AspNetCore.HostFiltering": "3.1.0.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Hosting": "3.1.0.0",
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Html.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Connections.Common": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Connections": "3.1.0.0",
+          "Microsoft.AspNetCore.Http": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "3.1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "3.1.0.0",
+          "Microsoft.AspNetCore.HttpOverrides": "3.1.0.0",
+          "Microsoft.AspNetCore.HttpsPolicy": "3.1.0.0",
+          "Microsoft.AspNetCore.Identity": "3.1.0.0",
+          "Microsoft.AspNetCore.Localization": "3.1.0.0",
+          "Microsoft.AspNetCore.Localization.Routing": "3.1.0.0",
+          "Microsoft.AspNetCore.Metadata": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.ApiExplorer": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.Core": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.Cors": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.DataAnnotations": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.Localization": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.Razor": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.RazorPages": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.TagHelpers": "3.1.0.0",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "3.1.0.0",
+          "Microsoft.AspNetCore.Razor": "3.1.0.0",
+          "Microsoft.AspNetCore.Razor.Runtime": "3.1.0.0",
+          "Microsoft.AspNetCore.ResponseCaching.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.ResponseCaching": "3.1.0.0",
+          "Microsoft.AspNetCore.ResponseCompression": "3.1.0.0",
+          "Microsoft.AspNetCore.Rewrite": "3.1.0.0",
+          "Microsoft.AspNetCore.Routing.Abstractions": "3.1.0.0",
+          "Microsoft.AspNetCore.Routing": "3.1.0.0",
+          "Microsoft.AspNetCore.Server.HttpSys": "3.1.0.0",
+          "Microsoft.AspNetCore.Server.IIS": "3.1.0.0",
+          "Microsoft.AspNetCore.Server.IISIntegration": "3.1.0.0",
+          "Microsoft.AspNetCore.Server.Kestrel.Core": "3.1.0.0",
+          "Microsoft.AspNetCore.Server.Kestrel": "3.1.0.0",
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": "3.1.0.0",
+          "Microsoft.AspNetCore.Session": "3.1.0.0",
+          "Microsoft.AspNetCore.SignalR.Common": "3.1.0.0",
+          "Microsoft.AspNetCore.SignalR.Core": "3.1.0.0",
+          "Microsoft.AspNetCore.SignalR": "3.1.0.0",
+          "Microsoft.AspNetCore.SignalR.Protocols.Json": "3.1.0.0",
+          "Microsoft.AspNetCore.StaticFiles": "3.1.0.0",
+          "Microsoft.AspNetCore.WebSockets": "3.1.0.0",
+          "Microsoft.AspNetCore.WebUtilities": "3.1.0.0",
+          "Microsoft.CSharp": "4.0.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.0.0",
+          "Microsoft.Extensions.Caching.Memory": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.CommandLine": "3.1.0.0",
+          "Microsoft.Extensions.Configuration": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.Ini": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.Json": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.KeyPerFile": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.UserSecrets": "3.1.0.0",
+          "Microsoft.Extensions.Configuration.Xml": "3.1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.0.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "3.1.0.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.0.0",
+          "Microsoft.Extensions.FileProviders.Composite": "3.1.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "3.1.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "3.1.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "3.1.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "3.1.0.0",
+          "Microsoft.Extensions.Hosting": "3.1.0.0",
+          "Microsoft.Extensions.Http": "3.1.0.0",
+          "Microsoft.Extensions.Identity.Core": "3.1.0.0",
+          "Microsoft.Extensions.Identity.Stores": "3.1.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "3.1.0.0",
+          "Microsoft.Extensions.Localization": "3.1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0.0",
+          "Microsoft.Extensions.Logging.Configuration": "3.1.0.0",
+          "Microsoft.Extensions.Logging.Console": "3.1.0.0",
+          "Microsoft.Extensions.Logging.Debug": "3.1.0.0",
+          "Microsoft.Extensions.Logging": "3.1.0.0",
+          "Microsoft.Extensions.Logging.EventLog": "3.1.0.0",
+          "Microsoft.Extensions.Logging.EventSource": "3.1.0.0",
+          "Microsoft.Extensions.Logging.TraceSource": "3.1.0.0",
+          "Microsoft.Extensions.ObjectPool": "3.1.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.0.0",
+          "Microsoft.Extensions.Options.DataAnnotations": "3.1.0.0",
+          "Microsoft.Extensions.Options": "3.1.0.0",
+          "Microsoft.Extensions.Primitives": "3.1.0.0",
+          "Microsoft.Extensions.WebEncoders": "3.1.0.0",
+          "Microsoft.JSInterop": "3.1.0.0",
+          "Microsoft.Net.Http.Headers": "3.1.0.0",
+          "Microsoft.VisualBasic.Core": "10.0.5.0",
+          "Microsoft.VisualBasic": "10.0.0.0",
+          "Microsoft.Win32.Primitives": "4.1.2.0",
+          "Microsoft.Win32.Registry": "4.1.3.0",
+          "mscorlib": "4.0.0.0",
+          "netstandard": "2.1.0.0",
+          "System.AppContext": "4.2.2.0",
+          "System.Buffers": "4.0.2.0",
+          "System.Collections.Concurrent": "4.0.15.0",
+          "System.Collections": "4.1.2.0",
+          "System.Collections.Immutable": "1.2.5.0",
+          "System.Collections.NonGeneric": "4.1.2.0",
+          "System.Collections.Specialized": "4.1.2.0",
+          "System.ComponentModel.Annotations": "4.3.1.0",
+          "System.ComponentModel.DataAnnotations": "4.0.0.0",
+          "System.ComponentModel": "4.0.4.0",
+          "System.ComponentModel.EventBasedAsync": "4.1.2.0",
+          "System.ComponentModel.Primitives": "4.2.2.0",
+          "System.ComponentModel.TypeConverter": "4.2.2.0",
+          "System.Configuration": "4.0.0.0",
+          "System.Console": "4.1.2.0",
+          "System.Core": "4.0.0.0",
+          "System.Data.Common": "4.2.2.0",
+          "System.Data.DataSetExtensions": "4.0.1.0",
+          "System.Data": "4.0.0.0",
+          "System.Diagnostics.Contracts": "4.0.4.0",
+          "System.Diagnostics.Debug": "4.1.2.0",
+          "System.Diagnostics.DiagnosticSource": "4.0.5.0",
+          "System.Diagnostics.EventLog": "4.0.2.0",
+          "System.Diagnostics.FileVersionInfo": "4.0.4.0",
+          "System.Diagnostics.Process": "4.2.2.0",
+          "System.Diagnostics.StackTrace": "4.1.2.0",
+          "System.Diagnostics.TextWriterTraceListener": "4.1.2.0",
+          "System.Diagnostics.Tools": "4.1.2.0",
+          "System.Diagnostics.TraceSource": "4.1.2.0",
+          "System.Diagnostics.Tracing": "4.2.2.0",
+          "System": "4.0.0.0",
+          "System.Drawing": "4.0.0.0",
+          "System.Drawing.Primitives": "4.2.1.0",
+          "System.Dynamic.Runtime": "4.1.2.0",
+          "System.Globalization.Calendars": "4.1.2.0",
+          "System.Globalization": "4.1.2.0",
+          "System.Globalization.Extensions": "4.1.2.0",
+          "System.IO.Compression.Brotli": "4.2.2.0",
+          "System.IO.Compression": "4.2.2.0",
+          "System.IO.Compression.FileSystem": "4.0.0.0",
+          "System.IO.Compression.ZipFile": "4.0.5.0",
+          "System.IO": "4.2.2.0",
+          "System.IO.FileSystem": "4.1.2.0",
+          "System.IO.FileSystem.DriveInfo": "4.1.2.0",
+          "System.IO.FileSystem.Primitives": "4.1.2.0",
+          "System.IO.FileSystem.Watcher": "4.1.2.0",
+          "System.IO.IsolatedStorage": "4.1.2.0",
+          "System.IO.MemoryMappedFiles": "4.1.2.0",
+          "System.IO.Pipelines": "4.0.2.0",
+          "System.IO.Pipes": "4.1.2.0",
+          "System.IO.UnmanagedMemoryStream": "4.1.2.0",
+          "System.Linq": "4.2.2.0",
+          "System.Linq.Expressions": "4.2.2.0",
+          "System.Linq.Parallel": "4.0.4.0",
+          "System.Linq.Queryable": "4.0.4.0",
+          "System.Memory": "4.2.1.0",
+          "System.Net": "4.0.0.0",
+          "System.Net.Http": "4.2.2.0",
+          "System.Net.HttpListener": "4.0.2.0",
+          "System.Net.Mail": "4.0.2.0",
+          "System.Net.NameResolution": "4.1.2.0",
+          "System.Net.NetworkInformation": "4.2.2.0",
+          "System.Net.Ping": "4.1.2.0",
+          "System.Net.Primitives": "4.1.2.0",
+          "System.Net.Requests": "4.1.2.0",
+          "System.Net.Security": "4.1.2.0",
+          "System.Net.ServicePoint": "4.0.2.0",
+          "System.Net.Sockets": "4.2.2.0",
+          "System.Net.WebClient": "4.0.2.0",
+          "System.Net.WebHeaderCollection": "4.1.2.0",
+          "System.Net.WebProxy": "4.0.2.0",
+          "System.Net.WebSockets.Client": "4.1.2.0",
+          "System.Net.WebSockets": "4.1.2.0",
+          "System.Numerics": "4.0.0.0",
+          "System.Numerics.Vectors": "4.1.6.0",
+          "System.ObjectModel": "4.1.2.0",
+          "System.Reflection.DispatchProxy": "4.0.6.0",
+          "System.Reflection": "4.2.2.0",
+          "System.Reflection.Emit": "4.1.2.0",
+          "System.Reflection.Emit.ILGeneration": "4.1.1.0",
+          "System.Reflection.Emit.Lightweight": "4.1.1.0",
+          "System.Reflection.Extensions": "4.1.2.0",
+          "System.Reflection.Metadata": "1.4.5.0",
+          "System.Reflection.Primitives": "4.1.2.0",
+          "System.Reflection.TypeExtensions": "4.1.2.0",
+          "System.Resources.Reader": "4.1.2.0",
+          "System.Resources.ResourceManager": "4.1.2.0",
+          "System.Resources.Writer": "4.1.2.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.0.6.0",
+          "System.Runtime.CompilerServices.VisualC": "4.1.2.0",
+          "System.Runtime": "4.2.2.0",
+          "System.Runtime.Extensions": "4.2.2.0",
+          "System.Runtime.Handles": "4.1.2.0",
+          "System.Runtime.InteropServices": "4.2.2.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.4.0",
+          "System.Runtime.InteropServices.WindowsRuntime": "4.0.4.0",
+          "System.Runtime.Intrinsics": "4.0.1.0",
+          "System.Runtime.Loader": "4.1.1.0",
+          "System.Runtime.Numerics": "4.1.2.0",
+          "System.Runtime.Serialization": "4.0.0.0",
+          "System.Runtime.Serialization.Formatters": "4.0.4.0",
+          "System.Runtime.Serialization.Json": "4.0.5.0",
+          "System.Runtime.Serialization.Primitives": "4.2.2.0",
+          "System.Runtime.Serialization.Xml": "4.1.5.0",
+          "System.Security.AccessControl": "4.1.1.0",
+          "System.Security.Claims": "4.1.2.0",
+          "System.Security.Cryptography.Algorithms": "4.3.2.0",
+          "System.Security.Cryptography.Cng": "4.3.3.0",
+          "System.Security.Cryptography.Csp": "4.1.2.0",
+          "System.Security.Cryptography.Encoding": "4.1.2.0",
+          "System.Security.Cryptography.Primitives": "4.1.2.0",
+          "System.Security.Cryptography.X509Certificates": "4.2.2.0",
+          "System.Security.Cryptography.Xml": "4.0.3.0",
+          "System.Security": "4.0.0.0",
+          "System.Security.Permissions": "4.0.3.0",
+          "System.Security.Principal": "4.1.2.0",
+          "System.Security.Principal.Windows": "4.1.1.0",
+          "System.Security.SecureString": "4.1.2.0",
+          "System.ServiceModel.Web": "4.0.0.0",
+          "System.ServiceProcess": "4.0.0.0",
+          "System.Text.Encoding.CodePages": "4.1.3.0",
+          "System.Text.Encoding": "4.1.2.0",
+          "System.Text.Encoding.Extensions": "4.1.2.0",
+          "System.Text.Encodings.Web": "4.0.5.0",
+          "System.Text.Json": "4.0.1.0",
+          "System.Text.RegularExpressions": "4.2.2.0",
+          "System.Threading.Channels": "4.0.2.0",
+          "System.Threading": "4.1.2.0",
+          "System.Threading.Overlapped": "4.1.2.0",
+          "System.Threading.Tasks.Dataflow": "4.6.5.0",
+          "System.Threading.Tasks": "4.1.2.0",
+          "System.Threading.Tasks.Extensions": "4.3.1.0",
+          "System.Threading.Tasks.Parallel": "4.0.4.0",
+          "System.Threading.Thread": "4.1.2.0",
+          "System.Threading.ThreadPool": "4.1.2.0",
+          "System.Threading.Timer": "4.1.2.0",
+          "System.Transactions": "4.0.0.0",
+          "System.Transactions.Local": "4.0.2.0",
+          "System.ValueTuple": "4.0.3.0",
+          "System.Web": "4.0.0.0",
+          "System.Web.HttpUtility": "4.0.2.0",
+          "System.Windows": "4.0.0.0",
+          "System.Windows.Extensions": "4.0.1.0",
+          "System.Xml": "4.0.0.0",
+          "System.Xml.Linq": "4.0.0.0",
+          "System.Xml.ReaderWriter": "4.2.2.0",
+          "System.Xml.Serialization": "4.0.0.0",
+          "System.Xml.XDocument": "4.1.2.0",
+          "System.Xml.XmlDocument": "4.1.2.0",
+          "System.Xml.XmlSerializer": "4.1.2.0",
+          "System.Xml.XPath": "4.1.2.0",
+          "System.Xml.XPath.XDocument": "4.1.2.0",
+          "WindowsBase": "4.0.0.0"
+***REMOVED***,
+        "runtime": ***REMOVED***
+          "Kompiuterija.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compile": ***REMOVED***
+          "Kompiuterija.dll": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
+      "Microsoft.AspNetCore.Antiforgery/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Antiforgery.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Authentication.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Authentication.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Authentication.Cookies/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Authentication.Cookies.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Authentication.Core/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Authentication.Core.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Authentication/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Authentication.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Authentication.OAuth/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Authentication.OAuth.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Authorization/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Authorization.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Authorization.Policy/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Authorization.Policy.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Components.Authorization/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Components.Authorization.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Components/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Components.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Components.Forms/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Components.Forms.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Components.Server/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Components.Server.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Components.Web/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Components.Web.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Connections.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Connections.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.CookiePolicy/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.CookiePolicy.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Cors/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Cors.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Cryptography.Internal/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Cryptography.Internal.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.DataProtection.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.DataProtection.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.DataProtection/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.DataProtection.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.DataProtection.Extensions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.DataProtection.Extensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Diagnostics.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Diagnostics.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Diagnostics/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Diagnostics.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Diagnostics.HealthChecks/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Diagnostics.HealthChecks.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.HostFiltering/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.HostFiltering.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Hosting.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Hosting.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Hosting/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Hosting.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Html.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Html.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Http.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Http.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Http.Connections.Common/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Http.Connections.Common.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Http.Connections/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Http.Connections.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Http/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Http.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Http.Extensions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Http.Extensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Http.Features/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Http.Features.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.HttpOverrides/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.HttpOverrides.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.HttpsPolicy/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.HttpsPolicy.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Identity/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Identity.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Localization/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Localization.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Localization.Routing.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Metadata/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Metadata.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.ApiExplorer/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.ApiExplorer.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.Core/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.Core.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.Cors/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.Cors.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.DataAnnotations/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.DataAnnotations.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.Formatters.Json/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.Formatters.Json.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.Formatters.Xml/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.Localization/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.Localization.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.Razor/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.Razor.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.RazorPages/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.RazorPages.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.TagHelpers/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.TagHelpers.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Mvc.ViewFeatures/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Mvc.ViewFeatures.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Razor/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Razor.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Razor.Runtime/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Razor.Runtime.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.ResponseCaching.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.ResponseCaching.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.ResponseCaching/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.ResponseCaching.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.ResponseCompression/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.ResponseCompression.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Rewrite/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Rewrite.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Routing.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Routing.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Routing/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Routing.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Server.HttpSys/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Server.HttpSys.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Server.IIS/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Server.IIS.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Server.IISIntegration/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Server.IISIntegration.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Server.Kestrel.Core/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Server.Kestrel.Core.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Server.Kestrel/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Server.Kestrel.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.Session/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.Session.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.SignalR.Common/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.SignalR.Common.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.SignalR.Core/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.SignalR.Core.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.SignalR/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.SignalR.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.SignalR.Protocols.Json/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.SignalR.Protocols.Json.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.StaticFiles/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.StaticFiles.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.WebSockets/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.WebSockets.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.AspNetCore.WebUtilities/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.AspNetCore.WebUtilities.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.CSharp/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.CSharp.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Caching.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Caching.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Caching.Memory/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Caching.Memory.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.Binder/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.Binder.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.CommandLine/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.CommandLine.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.EnvironmentVariables.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.FileExtensions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.FileExtensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.Ini/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.Ini.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.Json/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.Json.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.KeyPerFile/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.KeyPerFile.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.UserSecrets/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.UserSecrets.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Configuration.Xml/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Configuration.Xml.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.DependencyInjection/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.DependencyInjection.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Diagnostics.HealthChecks/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Diagnostics.HealthChecks.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.FileProviders.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.FileProviders.Composite/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.FileProviders.Composite.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.FileProviders.Embedded/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.FileProviders.Embedded.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.FileProviders.Physical/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.FileProviders.Physical.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.FileSystemGlobbing/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.FileSystemGlobbing.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Hosting.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Hosting.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Hosting/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Hosting.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Http/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Http.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Identity.Core/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Identity.Core.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Identity.Stores/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Identity.Stores.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Localization.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Localization.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Localization/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Localization.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Logging.Abstractions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Logging.Abstractions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Logging.Configuration/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Logging.Configuration.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Logging.Console/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Logging.Console.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Logging.Debug/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Logging.Debug.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Logging/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Logging.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Logging.EventLog/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Logging.EventLog.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Logging.EventSource/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Logging.EventSource.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Logging.TraceSource/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Logging.TraceSource.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.ObjectPool/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.ObjectPool.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Options.ConfigurationExtensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Options.DataAnnotations/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Options.DataAnnotations.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Options/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Options.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.Primitives/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.Primitives.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Extensions.WebEncoders/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Extensions.WebEncoders.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.JSInterop/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.JSInterop.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Net.Http.Headers/3.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Net.Http.Headers.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.VisualBasic.Core/10.0.5.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.VisualBasic.Core.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.VisualBasic/10.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.VisualBasic.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Win32.Primitives/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Win32.Primitives.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "Microsoft.Win32.Registry/4.1.3.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "Microsoft.Win32.Registry.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "mscorlib/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "mscorlib.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "netstandard/2.1.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "netstandard.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.AppContext/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.AppContext.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Buffers/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Buffers.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Collections.Concurrent/4.0.15.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Collections.Concurrent.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Collections/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Collections.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Collections.Immutable/1.2.5.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Collections.Immutable.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Collections.NonGeneric/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Collections.NonGeneric.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Collections.Specialized/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Collections.Specialized.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ComponentModel.Annotations/4.3.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ComponentModel.Annotations.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ComponentModel.DataAnnotations/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ComponentModel.DataAnnotations.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ComponentModel/4.0.4.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ComponentModel.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ComponentModel.EventBasedAsync/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ComponentModel.EventBasedAsync.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ComponentModel.Primitives/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ComponentModel.Primitives.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ComponentModel.TypeConverter/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ComponentModel.TypeConverter.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Configuration/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Configuration.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Console/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Console.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Core/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Core.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Data.Common/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Data.Common.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Data.DataSetExtensions/4.0.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Data.DataSetExtensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Data/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Data.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.Contracts/4.0.4.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.Contracts.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.Debug/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.Debug.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.DiagnosticSource/4.0.5.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.DiagnosticSource.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.EventLog/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.EventLog.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.FileVersionInfo/4.0.4.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.FileVersionInfo.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.Process/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.Process.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.StackTrace/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.StackTrace.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.TextWriterTraceListener/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.TextWriterTraceListener.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.Tools/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.Tools.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.TraceSource/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.TraceSource.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Diagnostics.Tracing/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Diagnostics.Tracing.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Drawing/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Drawing.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Drawing.Primitives/4.2.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Drawing.Primitives.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Dynamic.Runtime/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Dynamic.Runtime.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Globalization.Calendars/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Globalization.Calendars.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Globalization/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Globalization.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Globalization.Extensions/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Globalization.Extensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.Compression.Brotli/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.Compression.Brotli.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.Compression/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.Compression.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.Compression.FileSystem/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.Compression.FileSystem.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.Compression.ZipFile/4.0.5.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.Compression.ZipFile.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.FileSystem/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.FileSystem.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.FileSystem.DriveInfo/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.FileSystem.DriveInfo.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.FileSystem.Primitives/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.FileSystem.Primitives.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.FileSystem.Watcher/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.FileSystem.Watcher.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.IsolatedStorage/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.IsolatedStorage.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.MemoryMappedFiles/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.MemoryMappedFiles.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.Pipelines/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.Pipelines.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.Pipes/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.Pipes.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.IO.UnmanagedMemoryStream/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.IO.UnmanagedMemoryStream.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Linq/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Linq.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Linq.Expressions/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Linq.Expressions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Linq.Parallel/4.0.4.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Linq.Parallel.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Linq.Queryable/4.0.4.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Linq.Queryable.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Memory/4.2.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Memory.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.Http/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.Http.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.HttpListener/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.HttpListener.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.Mail/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.Mail.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.NameResolution/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.NameResolution.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.NetworkInformation/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.NetworkInformation.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.Ping/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.Ping.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.Primitives/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.Primitives.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.Requests/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.Requests.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.Security/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.Security.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.ServicePoint/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.ServicePoint.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.Sockets/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.Sockets.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.WebClient/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.WebClient.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.WebHeaderCollection/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.WebHeaderCollection.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.WebProxy/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.WebProxy.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.WebSockets.Client/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.WebSockets.Client.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Net.WebSockets/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Net.WebSockets.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Numerics/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Numerics.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Numerics.Vectors/4.1.6.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Numerics.Vectors.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ObjectModel/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ObjectModel.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Reflection.DispatchProxy/4.0.6.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Reflection.DispatchProxy.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Reflection/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Reflection.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Reflection.Emit/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Reflection.Emit.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Reflection.Emit.ILGeneration/4.1.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Reflection.Emit.ILGeneration.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Reflection.Emit.Lightweight/4.1.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Reflection.Emit.Lightweight.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Reflection.Extensions/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Reflection.Extensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Reflection.Metadata/1.4.5.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Reflection.Metadata.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Reflection.Primitives/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Reflection.Primitives.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Reflection.TypeExtensions/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Reflection.TypeExtensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Resources.Reader/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Resources.Reader.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Resources.ResourceManager/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Resources.ResourceManager.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Resources.Writer/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Resources.Writer.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.CompilerServices.Unsafe/4.0.6.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.CompilerServices.Unsafe.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.CompilerServices.VisualC/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.CompilerServices.VisualC.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Extensions/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Extensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Handles/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Handles.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.InteropServices/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.InteropServices.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.4.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.InteropServices.RuntimeInformation.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.InteropServices.WindowsRuntime/4.0.4.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.InteropServices.WindowsRuntime.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Intrinsics/4.0.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Intrinsics.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Loader/4.1.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Loader.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Numerics/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Numerics.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Serialization/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Serialization.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Serialization.Formatters/4.0.4.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Serialization.Formatters.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Serialization.Json/4.0.5.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Serialization.Json.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Serialization.Primitives/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Serialization.Primitives.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Runtime.Serialization.Xml/4.1.5.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Runtime.Serialization.Xml.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.AccessControl/4.1.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.AccessControl.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Claims/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Claims.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Cryptography.Algorithms/4.3.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Cryptography.Algorithms.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Cryptography.Cng/4.3.3.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Cryptography.Cng.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Cryptography.Csp/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Cryptography.Csp.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Cryptography.Encoding/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Cryptography.Encoding.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Cryptography.Primitives/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Cryptography.Primitives.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Cryptography.X509Certificates/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Cryptography.X509Certificates.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Cryptography.Xml/4.0.3.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Cryptography.Xml.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Permissions/4.0.3.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Permissions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Principal/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Principal.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.Principal.Windows/4.1.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.Principal.Windows.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Security.SecureString/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Security.SecureString.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ServiceModel.Web/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ServiceModel.Web.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ServiceProcess/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ServiceProcess.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Text.Encoding.CodePages/4.1.3.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Text.Encoding.CodePages.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Text.Encoding/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Text.Encoding.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Text.Encoding.Extensions/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Text.Encoding.Extensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Text.Encodings.Web/4.0.5.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Text.Encodings.Web.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Text.Json/4.0.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Text.Json.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Text.RegularExpressions/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Text.RegularExpressions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading.Channels/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.Channels.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading.Overlapped/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.Overlapped.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading.Tasks.Dataflow/4.6.5.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.Tasks.Dataflow.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading.Tasks/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.Tasks.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading.Tasks.Extensions/4.3.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.Tasks.Extensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading.Tasks.Parallel/4.0.4.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.Tasks.Parallel.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading.Thread/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.Thread.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading.ThreadPool/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.ThreadPool.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Threading.Timer/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Threading.Timer.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Transactions/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Transactions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Transactions.Local/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Transactions.Local.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.ValueTuple/4.0.3.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.ValueTuple.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Web/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Web.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Web.HttpUtility/4.0.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Web.HttpUtility.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Windows/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Windows.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Windows.Extensions/4.0.1.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Windows.Extensions.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Xml/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Xml.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Xml.Linq/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Xml.Linq.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Xml.ReaderWriter/4.2.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Xml.ReaderWriter.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Xml.Serialization/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Xml.Serialization.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Xml.XDocument/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Xml.XDocument.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Xml.XmlDocument/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Xml.XmlDocument.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Xml.XmlSerializer/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Xml.XmlSerializer.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Xml.XPath/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Xml.XPath.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "System.Xml.XPath.XDocument/4.1.2.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "System.Xml.XPath.XDocument.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+      "WindowsBase/4.0.0.0": ***REMOVED***
+        "compile": ***REMOVED***
+          "WindowsBase.dll": ***REMOVED******REMOVED***
+***REMOVED***,
+        "compileOnly": true
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***,
+  "libraries": ***REMOVED***
+    "Kompiuterija/1.0.0": ***REMOVED***
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Antiforgery/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Authentication.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Authentication.Cookies/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Authentication.Core/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Authentication/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Authentication.OAuth/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Authorization/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Authorization.Policy/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Components.Authorization/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Components/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Components.Forms/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Components.Server/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Components.Web/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Connections.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.CookiePolicy/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Cors/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Cryptography.Internal/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.DataProtection.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.DataProtection/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.DataProtection.Extensions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Diagnostics.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Diagnostics/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Diagnostics.HealthChecks/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.HostFiltering/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Hosting.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Hosting/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Hosting.Server.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Html.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Http.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Http.Connections.Common/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Http.Connections/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Http/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Http.Extensions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Http.Features/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.HttpOverrides/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.HttpsPolicy/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Identity/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Localization/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Metadata/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.ApiExplorer/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.Core/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.Cors/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.DataAnnotations/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.Formatters.Json/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.Formatters.Xml/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.Localization/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.Razor/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.RazorPages/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.TagHelpers/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Mvc.ViewFeatures/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Razor/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Razor.Runtime/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.ResponseCaching.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.ResponseCaching/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.ResponseCompression/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Rewrite/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Routing.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Routing/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Server.HttpSys/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Server.IIS/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Server.IISIntegration/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Server.Kestrel.Core/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Server.Kestrel/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.Session/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.SignalR.Common/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.SignalR.Core/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.SignalR/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.SignalR.Protocols.Json/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.StaticFiles/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.WebSockets/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.AspNetCore.WebUtilities/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.CSharp/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Caching.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Caching.Memory/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.Binder/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.CommandLine/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.FileExtensions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.Ini/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.Json/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.KeyPerFile/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.UserSecrets/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Configuration.Xml/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.DependencyInjection/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Diagnostics.HealthChecks/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.FileProviders.Composite/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.FileProviders.Embedded/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.FileProviders.Physical/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.FileSystemGlobbing/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Hosting.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Hosting/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Http/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Identity.Core/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Identity.Stores/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Localization.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Localization/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Logging.Abstractions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Logging.Configuration/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Logging.Console/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Logging.Debug/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Logging/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Logging.EventLog/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Logging.EventSource/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Logging.TraceSource/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.ObjectPool/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Options.DataAnnotations/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Options/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.Primitives/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Extensions.WebEncoders/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.JSInterop/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Net.Http.Headers/3.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.VisualBasic.Core/10.0.5.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.VisualBasic/10.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Win32.Primitives/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "Microsoft.Win32.Registry/4.1.3.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "mscorlib/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "netstandard/2.1.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.AppContext/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Buffers/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Collections.Concurrent/4.0.15.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Collections/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Collections.Immutable/1.2.5.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Collections.NonGeneric/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Collections.Specialized/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ComponentModel.Annotations/4.3.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ComponentModel.DataAnnotations/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ComponentModel/4.0.4.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ComponentModel.EventBasedAsync/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ComponentModel.Primitives/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ComponentModel.TypeConverter/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Configuration/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Console/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Core/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Data.Common/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Data.DataSetExtensions/4.0.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Data/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.Contracts/4.0.4.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.Debug/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.DiagnosticSource/4.0.5.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.EventLog/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.FileVersionInfo/4.0.4.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.Process/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.StackTrace/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.TextWriterTraceListener/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.Tools/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.TraceSource/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Diagnostics.Tracing/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Drawing/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Drawing.Primitives/4.2.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Dynamic.Runtime/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Globalization.Calendars/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Globalization/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Globalization.Extensions/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.Compression.Brotli/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.Compression/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.Compression.FileSystem/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.Compression.ZipFile/4.0.5.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.FileSystem/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.FileSystem.DriveInfo/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.FileSystem.Primitives/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.FileSystem.Watcher/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.IsolatedStorage/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.MemoryMappedFiles/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.Pipelines/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.Pipes/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.IO.UnmanagedMemoryStream/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Linq/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Linq.Expressions/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Linq.Parallel/4.0.4.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Linq.Queryable/4.0.4.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Memory/4.2.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.Http/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.HttpListener/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.Mail/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.NameResolution/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.NetworkInformation/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.Ping/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.Primitives/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.Requests/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.Security/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.ServicePoint/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.Sockets/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.WebClient/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.WebHeaderCollection/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.WebProxy/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.WebSockets.Client/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Net.WebSockets/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Numerics/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Numerics.Vectors/4.1.6.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ObjectModel/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Reflection.DispatchProxy/4.0.6.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Reflection/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Reflection.Emit/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Reflection.Emit.ILGeneration/4.1.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Reflection.Emit.Lightweight/4.1.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Reflection.Extensions/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Reflection.Metadata/1.4.5.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Reflection.Primitives/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Reflection.TypeExtensions/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Resources.Reader/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Resources.ResourceManager/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Resources.Writer/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.CompilerServices.Unsafe/4.0.6.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.CompilerServices.VisualC/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Extensions/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Handles/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.InteropServices/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.InteropServices.RuntimeInformation/4.0.4.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.InteropServices.WindowsRuntime/4.0.4.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Intrinsics/4.0.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Loader/4.1.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Numerics/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Serialization/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Serialization.Formatters/4.0.4.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Serialization.Json/4.0.5.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Serialization.Primitives/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Runtime.Serialization.Xml/4.1.5.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.AccessControl/4.1.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Claims/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Cryptography.Algorithms/4.3.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Cryptography.Cng/4.3.3.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Cryptography.Csp/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Cryptography.Encoding/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Cryptography.Primitives/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Cryptography.X509Certificates/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Cryptography.Xml/4.0.3.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Permissions/4.0.3.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Principal/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.Principal.Windows/4.1.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Security.SecureString/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ServiceModel.Web/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ServiceProcess/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Text.Encoding.CodePages/4.1.3.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Text.Encoding/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Text.Encoding.Extensions/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Text.Encodings.Web/4.0.5.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Text.Json/4.0.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Text.RegularExpressions/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading.Channels/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading.Overlapped/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading.Tasks.Dataflow/4.6.5.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading.Tasks/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading.Tasks.Extensions/4.3.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading.Tasks.Parallel/4.0.4.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading.Thread/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading.ThreadPool/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Threading.Timer/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Transactions/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Transactions.Local/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.ValueTuple/4.0.3.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Web/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Web.HttpUtility/4.0.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Windows/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Windows.Extensions/4.0.1.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Xml/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Xml.Linq/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Xml.ReaderWriter/4.2.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Xml.Serialization/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Xml.XDocument/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Xml.XmlDocument/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Xml.XmlSerializer/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Xml.XPath/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "System.Xml.XPath.XDocument/4.1.2.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+    "WindowsBase/4.0.0.0": ***REMOVED***
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+***REMOVED***
+  ***REMOVED***
+***REMOVED***

@@ -1,0 +1,70 @@
+***REMOVED***
+  "version": 3,
+  "targets": ***REMOVED***
+    ".NETCoreApp,Version=v3.1": ***REMOVED******REMOVED***
+  ***REMOVED***,
+  "libraries": ***REMOVED******REMOVED***,
+  "projectFileDependencyGroups": ***REMOVED***
+    ".NETCoreApp,Version=v3.1": []
+  ***REMOVED***,
+  "packageFolders": ***REMOVED***
+    "C:\\Users\\Arnas\\.nuget\\packages\\": ***REMOVED******REMOVED***
+  ***REMOVED***,
+  "project": ***REMOVED***
+    "version": "1.0.0",
+    "restore": ***REMOVED***
+      "projectUniqueName": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj",
+      "projectName": "Kompiuterija",
+      "projectPath": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj",
+      "packagesPath": "C:\\Users\\Arnas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Arnas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": ***REMOVED***
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": ***REMOVED******REMOVED***,
+        "https://api.nuget.org/v3/index.json": ***REMOVED******REMOVED***
+  ***REMOVED***
+      "frameworks": ***REMOVED***
+        "netcoreapp3.1": ***REMOVED***
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
+      "warningProperties": ***REMOVED***
+        "warnAsError": [
+          "NU1605"
+        ]
+  ***REMOVED***
+***REMOVED***
+    "frameworks": ***REMOVED***
+      "netcoreapp3.1": ***REMOVED***
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": ***REMOVED***
+          "Microsoft.AspNetCore.App": ***REMOVED***
+            "privateAssets": "none"
+  ***REMOVED***,
+          "Microsoft.NETCore.App": ***REMOVED***
+            "privateAssets": "all"
+  ***REMOVED***
+***REMOVED***,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+***REMOVED***
