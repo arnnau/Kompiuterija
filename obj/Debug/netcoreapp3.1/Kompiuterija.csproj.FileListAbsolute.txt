@@ -6,7 +6,6 @@ C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Kompiuterija.runtime
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Kompiuterija.runtimeconfig.dev.json
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Kompiuterija.dll
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Kompiuterija.pdb
-C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.csprojAssemblyReference.cache
 C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.AssemblyInfoInputs.cache
 C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.AssemblyInfo.cs
 C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.csproj.CoreCompileInputs.cache
@@ -51,3 +50,5 @@ C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\System.Runtime.Compi
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.csproj.CopyComplete
+C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.csproj.AssemblyReference.cache
+C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.GeneratedMSBuildEditorConfig.editorconfig

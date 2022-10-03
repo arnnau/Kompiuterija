@@ -1676,7 +1676,8 @@
     ]
   ***REMOVED***,
   "packageFolders": ***REMOVED***
-    "C:\\Users\\Arnas\\.nuget\\packages\\": ***REMOVED******REMOVED***
+    "C:\\Users\\Arnas\\.nuget\\packages\\": ***REMOVED******REMOVED***,
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": ***REMOVED******REMOVED***
   ***REMOVED***,
   "project": ***REMOVED***
     "version": "1.0.0",
@@ -1687,6 +1688,9 @@
       "packagesPath": "C:\\Users\\Arnas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Arnas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1749,7 +1753,7 @@
             "privateAssets": "all"
   ***REMOVED***
 ***REMOVED***,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
   ***REMOVED***
 ***REMOVED***
   ***REMOVED***

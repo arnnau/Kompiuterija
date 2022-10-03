@@ -19,6 +19,8 @@ namespace Kompiuterija.Entities
         ***REMOVED***
 ***REMOVED***
 
+        public virtual DbSet<Computer> Computer ***REMOVED*** get; set; ***REMOVED***
+        public virtual DbSet<Part> Part ***REMOVED*** get; set; ***REMOVED***
         public virtual DbSet<Shop> Shop ***REMOVED*** get; set; ***REMOVED***
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -32,6 +34,54 @@ namespace Kompiuterija.Entities
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         ***REMOVED***
+            modelBuilder.Entity<Computer>(entity =>
+            ***REMOVED***
+                entity.ToTable("computer");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.Name)
+                    .HasColumnName("name")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.Registered)
+                    .HasColumnName("registered")
+                    .HasColumnType("date");
+
+                entity.Property(e => e.ShopId)
+                    .HasColumnName("shop_id")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.UserId)
+                    .HasColumnName("user_id")
+                    .HasColumnType("int(11)");
+    ***REMOVED***);
+
+            modelBuilder.Entity<Part>(entity =>
+            ***REMOVED***
+                entity.ToTable("part");
+
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.ComputerId)
+                    .HasColumnName("computer_id")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.Name)
+                    .IsRequired()
+                    .HasColumnName("name")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Type)
+                    .IsRequired()
+                    .HasColumnName("type")
+                    .HasMaxLength(255);
+    ***REMOVED***);
+
             modelBuilder.Entity<Shop>(entity =>
             ***REMOVED***
                 entity.ToTable("shop");

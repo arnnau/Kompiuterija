@@ -2,7 +2,8 @@
   "runtimeOptions": ***REMOVED***
     "additionalProbingPaths": [
       "C:\\Users\\Arnas\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Arnas\\.nuget\\packages"
+      "C:\\Users\\Arnas\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   ***REMOVED***
 ***REMOVED***
