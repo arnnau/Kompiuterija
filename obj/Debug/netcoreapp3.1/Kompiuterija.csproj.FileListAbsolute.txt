@@ -52,3 +52,8 @@ C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\runtimes\win\lib\net
 C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.csproj.CopyComplete
 C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.csproj.AssemblyReference.cache
 C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll

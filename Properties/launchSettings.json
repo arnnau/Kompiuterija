@@ -12,7 +12,7 @@
     "IIS Express": ***REMOVED***
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "",
       "environmentVariables": ***REMOVED***
         "ASPNETCORE_ENVIRONMENT": "Development"
   ***REMOVED***
@@ -20,7 +20,7 @@
     "Kompiuterija": ***REMOVED***
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": ***REMOVED***
         "ASPNETCORE_ENVIRONMENT": "Development"

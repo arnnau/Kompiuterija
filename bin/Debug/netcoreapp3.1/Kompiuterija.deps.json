@@ -34,6 +34,7 @@
           "Microsoft.EntityFrameworkCore.Design": "3.1.29",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.29",
           "MySql.EntityFrameworkCore": "3.1.24",
+          "Swashbuckle.AspNetCore": "5.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -457,6 +458,7 @@
           "Microsoft.EntityFrameworkCore.Design": "3.1.29"
 ***REMOVED***
   ***REMOVED***
+      "Microsoft.Extensions.ApiDescription.Server/3.0.0": ***REMOVED******REMOVED***,
       "Microsoft.Extensions.Caching.Abstractions/3.1.29": ***REMOVED***
         "dependencies": ***REMOVED***
           "Microsoft.Extensions.Primitives": "3.1.29"
@@ -610,6 +612,17 @@
 ***REMOVED***
   ***REMOVED***
       "Microsoft.NETCore.Platforms/3.1.0": ***REMOVED******REMOVED***,
+      "Microsoft.OpenApi/1.1.4": ***REMOVED***
+        "runtime": ***REMOVED***
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": ***REMOVED***
+            "assemblyVersion": "1.1.4.0",
+            "fileVersion": "1.1.4.0"
+  ***REMOVED***
+***REMOVED***,
+        "compile": ***REMOVED***
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
       "Microsoft.Win32.SystemEvents/4.7.0": ***REMOVED***
         "dependencies": ***REMOVED***
           "Microsoft.NETCore.Platforms": "3.1.0"
@@ -671,6 +684,53 @@
 ***REMOVED***,
         "compile": ***REMOVED***
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
+      "Swashbuckle.AspNetCore/5.0.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "5.0.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "5.0.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "5.0.0"
+***REMOVED***
+  ***REMOVED***
+      "Swashbuckle.AspNetCore.Swagger/5.0.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.OpenApi": "1.1.4"
+***REMOVED***,
+        "runtime": ***REMOVED***
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": ***REMOVED***
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+  ***REMOVED***
+***REMOVED***,
+        "compile": ***REMOVED***
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
+      "Swashbuckle.AspNetCore.SwaggerGen/5.0.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Swashbuckle.AspNetCore.Swagger": "5.0.0"
+***REMOVED***,
+        "runtime": ***REMOVED***
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": ***REMOVED***
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+  ***REMOVED***
+***REMOVED***,
+        "compile": ***REMOVED***
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
+      "Swashbuckle.AspNetCore.SwaggerUI/5.0.0": ***REMOVED***
+        "runtime": ***REMOVED***
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": ***REMOVED***
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+  ***REMOVED***
+***REMOVED***,
+        "compile": ***REMOVED***
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": ***REMOVED******REMOVED***
 ***REMOVED***
   ***REMOVED***
       "System.Buffers/4.5.1": ***REMOVED******REMOVED***,
@@ -2479,6 +2539,13 @@
       "path": "microsoft.entityframeworkcore.tools/3.1.29",
       "hashPath": "microsoft.entityframeworkcore.tools.3.1.29.nupkg.sha512"
 ***REMOVED***
+    "Microsoft.Extensions.ApiDescription.Server/3.0.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
+      "path": "microsoft.extensions.apidescription.server/3.0.0",
+      "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
+***REMOVED***
     "Microsoft.Extensions.Caching.Abstractions/3.1.29": ***REMOVED***
       "type": "package",
       "serviceable": true,
@@ -2563,6 +2630,13 @@
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
 ***REMOVED***
+    "Microsoft.OpenApi/1.1.4": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6SW0tpbJslc8LAY1XniRfLVcJa7bJUbbwvo2/ZRqfkMbJrsqIj9045vg3STtZhDhYRKhpYgjqGU11eeW4Pzyrg==",
+      "path": "microsoft.openapi/1.1.4",
+      "hashPath": "microsoft.openapi.1.1.4.nupkg.sha512"
+***REMOVED***
     "Microsoft.Win32.SystemEvents/4.7.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
@@ -2590,6 +2664,34 @@
       "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
       "path": "portable.bouncycastle/1.9.0",
       "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
+***REMOVED***
+    "Swashbuckle.AspNetCore/5.0.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HoJbhDNyeDqr2R1H3YhtPqGacxgZKBFBS6g5U3tlJpv80G/IHW8hHbcnHSTXZpcatnD+xh8UiUrKp4Ua857LSQ==",
+      "path": "swashbuckle.aspnetcore/5.0.0",
+      "hashPath": "swashbuckle.aspnetcore.5.0.0.nupkg.sha512"
+***REMOVED***
+    "Swashbuckle.AspNetCore.Swagger/5.0.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4MhbjCErPsLnkyYrNc7OFUWVYoyhJRGAoFwbuDONslIOhIn5CmM52a4hO8s/jaM5i55uDms/veh24d/fR1UvZw==",
+      "path": "swashbuckle.aspnetcore.swagger/5.0.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.5.0.0.nupkg.sha512"
+***REMOVED***
+    "Swashbuckle.AspNetCore.SwaggerGen/5.0.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-liZs2B35w1bHNacpNoDofNCJKmEhUaHVgvtUsjt/AToKQdZQpk9dvLWrEfRHiuwZVUiKLL30lsiV4dEF/Drzlw==",
+      "path": "swashbuckle.aspnetcore.swaggergen/5.0.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.5.0.0.nupkg.sha512"
+***REMOVED***
+    "Swashbuckle.AspNetCore.SwaggerUI/5.0.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MKDE976W6VUKc+3N/os/xgfj/WpxoHLGBlnURNyC8cb81XjKfTduoJ4JcsBgFsevSM2Yp4lxNaBeJ6vRYN3V0Q==",
+      "path": "swashbuckle.aspnetcore.swaggerui/5.0.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.5.0.0.nupkg.sha512"
 ***REMOVED***
     "System.Buffers/4.5.1": ***REMOVED***
       "type": "package",
