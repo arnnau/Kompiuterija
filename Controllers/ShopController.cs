@@ -43,7 +43,7 @@ namespace Kompiuterija.Controllers
                 return List;
     ***REMOVED***
 ***REMOVED***
-        [HttpGet("get")]
+        [HttpGet("get/***REMOVED***Id***REMOVED***")]
         public async Task<ActionResult<ShopDTO>> GetShopById(int Id)
         ***REMOVED***
             ShopDTO Shop = await DBContext.Shop.Select(s => new ShopDTO
@@ -59,6 +59,29 @@ namespace Kompiuterija.Controllers
             else
             ***REMOVED***
                 return Shop;
+    ***REMOVED***
+***REMOVED***
+        [HttpGet("get/***REMOVED***Id***REMOVED***/computers")]
+        public async Task<ActionResult<IEnumerable<ComputerDTO>>> GetComputersByShop(int Id)
+        ***REMOVED***
+            var List = await DBContext.Computer.Select(
+                s => new ComputerDTO
+                ***REMOVED***
+                    Id = s.Id,
+                    UserId = s.UserId,
+                    Name = s.Name,
+                    ShopId = s.ShopId,
+                    Registered = s.Registered
+        ***REMOVED***
+            ).Where(s => s.ShopId == Id).ToListAsync();
+
+            if (List.Count <= 0)
+            ***REMOVED***
+                return NotFound();
+    ***REMOVED***
+            else
+            ***REMOVED***
+                return List;
     ***REMOVED***
 ***REMOVED***
         [HttpPost("insert")]

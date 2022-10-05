@@ -43,8 +43,9 @@ namespace Kompiuterija.Entities
                     .HasColumnType("int(11)");
 
                 entity.Property(e => e.Name)
+                    .IsRequired()
                     .HasColumnName("name")
-                    .HasColumnType("int(11)");
+                    .HasMaxLength(255);
 
                 entity.Property(e => e.Registered)
                     .HasColumnName("registered")

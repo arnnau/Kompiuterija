@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
-// If you have enabled NRTs for your project, then un-comment the following line:
-// #nullable disable
-
-namespace Kompiuterija.Entities
+namespace Kompiuterija.DTO
 ***REMOVED***
-    public partial class Computer
+    public class ComputerDTO
     ***REMOVED***
         public int Id ***REMOVED*** get; set; ***REMOVED***
         public int UserId ***REMOVED*** get; set; ***REMOVED***
