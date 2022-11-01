@@ -13,9 +13,6 @@
         "packagesPath": "C:\\Users\\Arnas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Arnas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -43,6 +40,10 @@
         "netcoreapp3.1": ***REMOVED***
           "targetAlias": "netcoreapp3.1",
           "dependencies": ***REMOVED***
+            "Microsoft.AspNetCore.Authentication.JwtBearer": ***REMOVED***
+              "target": "Package",
+              "version": "[3.1.30, )"
+    ***REMOVED***,
             "Microsoft.EntityFrameworkCore.Design": ***REMOVED***
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -82,7 +83,7 @@
               "privateAssets": "all"
     ***REMOVED***
   ***REMOVED***,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
 ***REMOVED***
   ***REMOVED***
 ***REMOVED***

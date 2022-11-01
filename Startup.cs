@@ -12,6 +12,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Kompiuterija.Entities;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
+using Kompiuterija.Repository;
 
 namespace Kompiuterija
 ***REMOVED***
@@ -27,6 +31,24 @@ namespace Kompiuterija
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         ***REMOVED***
+            services.AddAuthentication(x =>
+            ***REMOVED***
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    ***REMOVED***).AddJwtBearer(o =>
+            ***REMOVED***
+                var Key = Encoding.UTF8.GetBytes(Configuration["JWT:Key"]);
+                o.SaveToken = true;
+                o.TokenValidationParameters = new TokenValidationParameters
+                ***REMOVED***
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Key)
+        ***REMOVED***;
+    ***REMOVED***);
+            services.AddSingleton<IJWTManagerRepository, JWTManagerRepository>();
             services.AddDbContext<kompiuterijaContext>();
             services.AddControllers();
             services.AddSwaggerGen(options =>
@@ -56,7 +78,7 @@ namespace Kompiuterija
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

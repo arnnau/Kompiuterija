@@ -11,7 +11,7 @@ using System.Net;
 namespace Kompiuterija.Controllers
 ***REMOVED***
     [ApiController]
-    [Route("[controller]")]
+    [Route("computers")]
     public class ComputerController : ControllerBase
     ***REMOVED***
         private readonly kompiuterijaContext DBContext;
@@ -21,7 +21,7 @@ namespace Kompiuterija.Controllers
             this.DBContext = DBContext;
 ***REMOVED***
 
-        [HttpGet("all")]
+        [HttpGet("")]
         public async Task<ActionResult<List<ComputerDTO>>> Get()
         ***REMOVED***
             var List = await DBContext.Computer.Select(
@@ -44,7 +44,7 @@ namespace Kompiuterija.Controllers
                 return List;
     ***REMOVED***
 ***REMOVED***
-        [HttpGet("get/***REMOVED***Id***REMOVED***")]
+        [HttpGet("***REMOVED***Id***REMOVED***")]
         public async Task<ActionResult<ComputerDTO>> GetComputerById(int Id)
         ***REMOVED***
             ComputerDTO Computer = await DBContext.Computer.Select(s => new ComputerDTO
@@ -64,8 +64,8 @@ namespace Kompiuterija.Controllers
                 return Computer;
     ***REMOVED***
 ***REMOVED***
-        [HttpPost("insert")]
-        public async Task<HttpStatusCode> InsertComputer(ComputerDTO Computer)
+        [HttpPost("")]
+        public async Task<ActionResult<ComputerDTO>> InsertComputer(ComputerDTO Computer)
         ***REMOVED***
             var entity = new Computer()
             ***REMOVED***
@@ -76,9 +76,9 @@ namespace Kompiuterija.Controllers
     ***REMOVED***;
             DBContext.Computer.Add(entity);
             await DBContext.SaveChangesAsync();
-            return HttpStatusCode.Created;
+            return Created(new Uri(Request.Path, UriKind.Relative), entity);
 ***REMOVED***
-        [HttpPut("update")]
+        [HttpPut("")]
         public async Task<HttpStatusCode> UpdateComputer(ComputerDTO Computer)
         ***REMOVED***
             var entity = await DBContext.Computer.FirstOrDefaultAsync(s => s.Id == Computer.Id);
@@ -89,8 +89,8 @@ namespace Kompiuterija.Controllers
             await DBContext.SaveChangesAsync();
             return HttpStatusCode.OK;
 ***REMOVED***
-        [HttpDelete("delete/***REMOVED***Id***REMOVED***")]
-        public async Task<HttpStatusCode> DeleteComputer(int Id)
+        [HttpDelete("***REMOVED***Id***REMOVED***")]
+        public async Task<IActionResult> DeleteComputer(int Id)
         ***REMOVED***
             var entity = new Computer()
             ***REMOVED***
@@ -99,7 +99,7 @@ namespace Kompiuterija.Controllers
             DBContext.Computer.Attach(entity);
             DBContext.Computer.Remove(entity);
             await DBContext.SaveChangesAsync();
-            return HttpStatusCode.OK;
+            return NoContent();
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***

@@ -94,7 +94,7 @@ namespace Kompiuterija.Controllers
     ***REMOVED***;
             DBContext.Shop.Add(entity);
             await DBContext.SaveChangesAsync();
-            return Created(new Uri(Request.Path, UriKind.Relative), Shop);
+            return Created(new Uri(Request.Path, UriKind.Relative), entity);
 ***REMOVED***
         [HttpPut("")]
         public async Task<HttpStatusCode> UpdateShop(ShopDTO Shop)
@@ -106,7 +106,7 @@ namespace Kompiuterija.Controllers
             return HttpStatusCode.OK;
 ***REMOVED***
         [HttpDelete("***REMOVED***Id***REMOVED***")]
-        public async Task<HttpStatusCode> DeleteShop(int Id)
+        public async Task<IActionResult> DeleteShop(int Id)
         ***REMOVED***
             var entity = new Shop()
             ***REMOVED***
@@ -115,7 +115,7 @@ namespace Kompiuterija.Controllers
             DBContext.Shop.Attach(entity);
             DBContext.Shop.Remove(entity);
             await DBContext.SaveChangesAsync();
-            return HttpStatusCode.NoContent;
+            return NoContent();
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***

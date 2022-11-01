@@ -11,7 +11,7 @@ using System.Net;
 namespace Kompiuterija.Controllers
 ***REMOVED***
     [ApiController]
-    [Route("[controller]")]
+    [Route("parts")]
     public class PartController : ControllerBase
     ***REMOVED***
         private readonly kompiuterijaContext DBContext;
@@ -21,7 +21,7 @@ namespace Kompiuterija.Controllers
             this.DBContext = DBContext;
 ***REMOVED***
 
-        [HttpGet("all")]
+        [HttpGet("")]
         public async Task<ActionResult<List<PartDTO>>> Get()
         ***REMOVED***
             var List = await DBContext.Part.Select(
@@ -43,7 +43,7 @@ namespace Kompiuterija.Controllers
                 return List;
     ***REMOVED***
 ***REMOVED***
-        [HttpGet("get/***REMOVED***Id***REMOVED***")]
+        [HttpGet("***REMOVED***Id***REMOVED***")]
         public async Task<ActionResult<PartDTO>> GetPartById(int Id)
         ***REMOVED***
             PartDTO Part = await DBContext.Part.Select(s => new PartDTO
@@ -62,8 +62,8 @@ namespace Kompiuterija.Controllers
                 return Part;
     ***REMOVED***
 ***REMOVED***
-        [HttpPost("insert")]
-        public async Task<HttpStatusCode> InsertPart(PartDTO Part)
+        [HttpPost("")]
+        public async Task<ActionResult<PartDTO>> InsertPart(PartDTO Part)
         ***REMOVED***
             var entity = new Part()
             ***REMOVED***
@@ -73,9 +73,9 @@ namespace Kompiuterija.Controllers
     ***REMOVED***;
             DBContext.Part.Add(entity);
             await DBContext.SaveChangesAsync();
-            return HttpStatusCode.Created;
+            return Created(new Uri(Request.Path, UriKind.Relative), entity);
 ***REMOVED***
-        [HttpPut("update")]
+        [HttpPut("")]
         public async Task<HttpStatusCode> UpdatePart(PartDTO Part)
         ***REMOVED***
             var entity = await DBContext.Part.FirstOrDefaultAsync(s => s.Id == Part.Id);
@@ -85,8 +85,8 @@ namespace Kompiuterija.Controllers
             await DBContext.SaveChangesAsync();
             return HttpStatusCode.OK;
 ***REMOVED***
-        [HttpDelete("delete/***REMOVED***Id***REMOVED***")]
-        public async Task<HttpStatusCode> DeletePart(int Id)
+        [HttpDelete("***REMOVED***Id***REMOVED***")]
+        public async Task<IActionResult> DeletePart(int Id)
         ***REMOVED***
             var entity = new Part()
             ***REMOVED***
@@ -95,7 +95,7 @@ namespace Kompiuterija.Controllers
             DBContext.Part.Attach(entity);
             DBContext.Part.Remove(entity);
             await DBContext.SaveChangesAsync();
-            return HttpStatusCode.OK;
+            return NoContent();
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
