@@ -12,7 +12,7 @@ using System.Net;
 namespace Kompiuterija.Controllers
 ***REMOVED***
     [ApiController]
-    [Route("[controller]")]
+    [Route("shops")]
     public class ShopController : ControllerBase
     ***REMOVED***
         private readonly kompiuterijaContext DBContext;
@@ -22,7 +22,7 @@ namespace Kompiuterija.Controllers
             this.DBContext = DBContext;
 ***REMOVED***
 
-        [HttpGet("all")]
+        [HttpGet("")]
         public async Task<ActionResult<List<ShopDTO>>> Get()
         ***REMOVED***
             var List = await DBContext.Shop.Select(
@@ -43,7 +43,7 @@ namespace Kompiuterija.Controllers
                 return List;
     ***REMOVED***
 ***REMOVED***
-        [HttpGet("get/***REMOVED***Id***REMOVED***")]
+        [HttpGet("***REMOVED***Id***REMOVED***")]
         public async Task<ActionResult<ShopDTO>> GetShopById(int Id)
         ***REMOVED***
             ShopDTO Shop = await DBContext.Shop.Select(s => new ShopDTO
@@ -52,7 +52,7 @@ namespace Kompiuterija.Controllers
                 Address = s.Address,
                 City = s.City
     ***REMOVED***).FirstOrDefaultAsync(s => s.Id == Id);
-            if (User == null)
+            if (Shop == null)
             ***REMOVED***
                 return NotFound();
     ***REMOVED***
@@ -61,7 +61,7 @@ namespace Kompiuterija.Controllers
                 return Shop;
     ***REMOVED***
 ***REMOVED***
-        [HttpGet("get/***REMOVED***Id***REMOVED***/computers")]
+        [HttpGet("***REMOVED***Id***REMOVED***/computers")]
         public async Task<ActionResult<IEnumerable<ComputerDTO>>> GetComputersByShop(int Id)
         ***REMOVED***
             var List = await DBContext.Computer.Select(
@@ -84,8 +84,8 @@ namespace Kompiuterija.Controllers
                 return List;
     ***REMOVED***
 ***REMOVED***
-        [HttpPost("insert")]
-        public async Task<HttpStatusCode> InsertShop(ShopDTO Shop)
+        [HttpPost("")]
+        public async Task<ActionResult<ShopDTO>> InsertShop(ShopDTO Shop)
         ***REMOVED***
             var entity = new Shop()
             ***REMOVED***
@@ -94,9 +94,9 @@ namespace Kompiuterija.Controllers
     ***REMOVED***;
             DBContext.Shop.Add(entity);
             await DBContext.SaveChangesAsync();
-            return HttpStatusCode.Created;
+            return Created(new Uri(Request.Path, UriKind.Relative), Shop);
 ***REMOVED***
-        [HttpPut("update")]
+        [HttpPut("")]
         public async Task<HttpStatusCode> UpdateShop(ShopDTO Shop)
         ***REMOVED***
             var entity = await DBContext.Shop.FirstOrDefaultAsync(s => s.Id == Shop.Id);
@@ -105,7 +105,7 @@ namespace Kompiuterija.Controllers
             await DBContext.SaveChangesAsync();
             return HttpStatusCode.OK;
 ***REMOVED***
-        [HttpDelete("delete/***REMOVED***Id***REMOVED***")]
+        [HttpDelete("***REMOVED***Id***REMOVED***")]
         public async Task<HttpStatusCode> DeleteShop(int Id)
         ***REMOVED***
             var entity = new Shop()
@@ -115,7 +115,7 @@ namespace Kompiuterija.Controllers
             DBContext.Shop.Attach(entity);
             DBContext.Shop.Remove(entity);
             await DBContext.SaveChangesAsync();
-            return HttpStatusCode.OK;
+            return HttpStatusCode.NoContent;
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
