@@ -1,9 +1,10 @@
 ***REMOVED***
   "version": 2,
-  "dgSpecHash": "U1u5X7uthim7c8enYQ2KDr+TPC72yrs45z9kEONz/wwV+E2lDEjbOXOpdG9xGachGssB4x78IBpu1HS9GRs3FA==",
+  "dgSpecHash": "9XBJgepGYOArrSMu1v0afvuSRFaCDEZnzToQ7G4JGQZDNDPT6wJgGVYY3aXCoHKkgu5ab9TlO/UnbczfK94jIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Arnas\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Arnas\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Arnas\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
     "C:\\Users\\Arnas\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",

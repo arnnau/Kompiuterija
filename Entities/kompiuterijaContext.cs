@@ -22,6 +22,7 @@ namespace Kompiuterija.Entities
         public virtual DbSet<Computer> Computer ***REMOVED*** get; set; ***REMOVED***
         public virtual DbSet<Part> Part ***REMOVED*** get; set; ***REMOVED***
         public virtual DbSet<Shop> Shop ***REMOVED*** get; set; ***REMOVED***
+        public virtual DbSet<User> User ***REMOVED*** get; set; ***REMOVED***
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         ***REMOVED***
@@ -55,9 +56,10 @@ namespace Kompiuterija.Entities
                     .HasColumnName("shop_id")
                     .HasColumnType("int(11)");
 
-                entity.Property(e => e.UserId)
-                    .HasColumnName("user_id")
-                    .HasColumnType("int(11)");
+                entity.Property(e => e.User)
+                    .IsRequired()
+                    .HasColumnName("user")
+                    .HasMaxLength(255);
     ***REMOVED***);
 
             modelBuilder.Entity<Part>(entity =>
@@ -99,6 +101,28 @@ namespace Kompiuterija.Entities
                 entity.Property(e => e.City)
                     .IsRequired()
                     .HasColumnName("city")
+                    .HasMaxLength(255);
+    ***REMOVED***);
+
+            modelBuilder.Entity<User>(entity =>
+            ***REMOVED***
+                entity.HasKey(e => e.Email)
+                    .HasName("PRIMARY");
+
+                entity.ToTable("user");
+
+                entity.Property(e => e.Email)
+                    .HasColumnName("email")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Password)
+                    .IsRequired()
+                    .HasColumnName("password")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Role)
+                    .IsRequired()
+                    .HasColumnName("role")
                     .HasMaxLength(255);
     ***REMOVED***);
 

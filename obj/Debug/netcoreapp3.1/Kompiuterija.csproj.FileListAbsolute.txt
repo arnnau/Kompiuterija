@@ -64,3 +64,4 @@ C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.IdentityMo
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll

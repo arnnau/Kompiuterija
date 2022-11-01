@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": ***REMOVED***
       "Kompiuterija/1.0.0": ***REMOVED***
         "dependencies": ***REMOVED***
+          "BCrypt.Net-Next": "4.0.3",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.30",
           "Microsoft.EntityFrameworkCore.Design": "3.1.29",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.29",
@@ -303,6 +304,17 @@
 ***REMOVED***,
         "compile": ***REMOVED***
           "Kompiuterija.dll": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
+      "BCrypt.Net-Next/4.0.3": ***REMOVED***
+        "runtime": ***REMOVED***
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": ***REMOVED***
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
+  ***REMOVED***
+***REMOVED***,
+        "compile": ***REMOVED***
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": ***REMOVED******REMOVED***
 ***REMOVED***
   ***REMOVED***
       "Google.Protobuf/3.19.4": ***REMOVED***
@@ -2963,6 +2975,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+***REMOVED***
+    "BCrypt.Net-Next/4.0.3": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "path": "bcrypt.net-next/4.0.3",
+      "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
 ***REMOVED***
     "Google.Protobuf/3.19.4": ***REMOVED***
       "type": "package",

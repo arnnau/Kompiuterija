@@ -10,7 +10,7 @@ namespace Kompiuterija.Entities
     public partial class Computer
     ***REMOVED***
         public int Id ***REMOVED*** get; set; ***REMOVED***
-        public int UserId ***REMOVED*** get; set; ***REMOVED***
+        public string User ***REMOVED*** get; set; ***REMOVED***
         public int ShopId ***REMOVED*** get; set; ***REMOVED***
         public string Name ***REMOVED*** get; set; ***REMOVED***
         public DateTime Registered ***REMOVED*** get; set; ***REMOVED***

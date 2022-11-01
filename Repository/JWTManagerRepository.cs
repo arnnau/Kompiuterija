@@ -8,17 +8,12 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
+using Kompiuterija.Entities;
 
 namespace Kompiuterija.Repository
 ***REMOVED***
 	public class JWTManagerRepository : IJWTManagerRepository
 	***REMOVED***
-		Dictionary<string, string> UsersRecords = new Dictionary<string, string>
-	***REMOVED***
-		***REMOVED*** "user1","password1"***REMOVED***,
-		***REMOVED*** "user2","password2"***REMOVED***,
-		***REMOVED*** "user3","password3"***REMOVED***,
-	***REMOVED***;
 
 		private readonly IConfiguration iconfiguration;
 		public JWTManagerRepository(IConfiguration iconfiguration)
@@ -27,21 +22,26 @@ namespace Kompiuterija.Repository
 		***REMOVED***
 		public Tokens Authenticate(Users users)
 		***REMOVED***
-			if (!UsersRecords.Any(x => x.Key == users.Name && x.Value == users.Password))
+			kompiuterijaContext context = new kompiuterijaContext();
+			User user = context.User.Find(users.Email);
+			if (user == null || !BCrypt.Net.BCrypt.Verify(users.Password, user.Password))
 			***REMOVED***
 				return null;
 			***REMOVED***
 
 			// Else we generate JSON Web Token
+			JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+			JwtSecurityTokenHandler.DefaultOutboundClaimTypeMap.Clear();
 			var tokenHandler = new JwtSecurityTokenHandler();
 			var tokenKey = Encoding.UTF8.GetBytes(iconfiguration["JWT:Key"]);
 			var tokenDescriptor = new SecurityTokenDescriptor
 			***REMOVED***
+
 				Subject = new ClaimsIdentity(new Claim[]
-			  ***REMOVED***
-			 new Claim(ClaimTypes.Name, users.Name),
-			 new Claim(ClaimTypes.Role, users.Role)
-			  ***REMOVED***),
+				***REMOVED***
+					new Claim("email", users.Email),
+					new Claim("role", user.Role)
+				***REMOVED***),
 				Expires = DateTime.UtcNow.AddMinutes(10),
 				SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey), SecurityAlgorithms.HmacSha256Signature)
 			***REMOVED***;

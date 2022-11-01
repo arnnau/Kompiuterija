@@ -8,9 +8,12 @@ using Microsoft.EntityFrameworkCore;
 using Kompiuterija.DTO;
 using Kompiuterija.Entities;
 using System.Net;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Kompiuterija.Controllers
 ***REMOVED***
+    [Authorize(Roles = "user,employee,admin")]
     [ApiController]
     [Route("shops")]
     public class ShopController : ControllerBase
@@ -21,7 +24,6 @@ namespace Kompiuterija.Controllers
         ***REMOVED***
             this.DBContext = DBContext;
 ***REMOVED***
-
         [HttpGet("")]
         public async Task<ActionResult<List<ShopDTO>>> Get()
         ***REMOVED***
@@ -62,28 +64,64 @@ namespace Kompiuterija.Controllers
     ***REMOVED***
 ***REMOVED***
         [HttpGet("***REMOVED***Id***REMOVED***/computers")]
-        public async Task<ActionResult<IEnumerable<ComputerDTO>>> GetComputersByShop(int Id)
+        public async Task<ActionResult<IEnumerable<ComputerDTO>>> GetUserComputersByShop(int Id)
         ***REMOVED***
-            var List = await DBContext.Computer.Select(
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            IEnumerable<Claim> claim = identity.Claims;
+            string role = claim
+            .Where(x => x.Type == ClaimTypes.Role)
+            .FirstOrDefault().Value.ToString();
+            if (role == "user")
+            ***REMOVED***
+                string user = claim
+                .Where(x => x.Type == ClaimTypes.Email)
+                .FirstOrDefault().Value.ToString();
+                //System.Diagnostics.Debug.WriteLine(user);
+                var List = await DBContext.Computer.Select(
+                    s => new ComputerDTO
+                    ***REMOVED***
+                        Id = s.Id,
+                        User = s.User,
+                        Name = s.Name,
+                        ShopId = s.ShopId,
+                        Registered = s.Registered
+            ***REMOVED***
+                ).Where(s => s.ShopId == Id && string.Equals(s.User.Trim(), user.Trim(), StringComparison.OrdinalIgnoreCase)).ToListAsync();
+
+                if (List.Count <= 0)
+                ***REMOVED***
+                    return NotFound();
+        ***REMOVED***
+                else
+                ***REMOVED***
+                    return List;
+        ***REMOVED***
+    ***REMOVED***
+            else if (role == "employee" || role == "admin")
+            ***REMOVED***
+                var List = await DBContext.Computer.Select(
                 s => new ComputerDTO
                 ***REMOVED***
                     Id = s.Id,
-                    UserId = s.UserId,
+                    User = s.User,
                     Name = s.Name,
                     ShopId = s.ShopId,
                     Registered = s.Registered
         ***REMOVED***
             ).Where(s => s.ShopId == Id).ToListAsync();
 
-            if (List.Count <= 0)
-            ***REMOVED***
-                return NotFound();
+                if (List.Count <= 0)
+                ***REMOVED***
+                    return NotFound();
+        ***REMOVED***
+                else
+                ***REMOVED***
+                    return List;
+        ***REMOVED***
     ***REMOVED***
-            else
-            ***REMOVED***
-                return List;
-    ***REMOVED***
+            else return NotFound();
 ***REMOVED***
+        [Authorize(Roles = "employee,admin")]
         [HttpPost("")]
         public async Task<ActionResult<ShopDTO>> InsertShop(ShopDTO Shop)
         ***REMOVED***
@@ -96,6 +134,7 @@ namespace Kompiuterija.Controllers
             await DBContext.SaveChangesAsync();
             return Created(new Uri(Request.Path, UriKind.Relative), entity);
 ***REMOVED***
+        [Authorize(Roles = "employee,admin")]
         [HttpPut("")]
         public async Task<HttpStatusCode> UpdateShop(ShopDTO Shop)
         ***REMOVED***
@@ -105,6 +144,7 @@ namespace Kompiuterija.Controllers
             await DBContext.SaveChangesAsync();
             return HttpStatusCode.OK;
 ***REMOVED***
+        [Authorize(Roles = "employee,admin")]
         [HttpDelete("***REMOVED***Id***REMOVED***")]
         public async Task<IActionResult> DeleteShop(int Id)
         ***REMOVED***

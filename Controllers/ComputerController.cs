@@ -28,7 +28,7 @@ namespace Kompiuterija.Controllers
                 s => new ComputerDTO
                 ***REMOVED***
                     Id = s.Id,
-                    UserId = s.UserId,
+                    User = s.User,
                     Name = s.Name,
                     ShopId = s.ShopId,
                     Registered = s.Registered
@@ -50,7 +50,7 @@ namespace Kompiuterija.Controllers
             ComputerDTO Computer = await DBContext.Computer.Select(s => new ComputerDTO
             ***REMOVED***
                 Id = s.Id,
-                UserId = s.UserId,
+                User = s.User,
                 Name = s.Name,
                 ShopId = s.ShopId,
                 Registered = s.Registered
@@ -69,7 +69,7 @@ namespace Kompiuterija.Controllers
         ***REMOVED***
             var entity = new Computer()
             ***REMOVED***
-                UserId = Computer.UserId,
+                User = Computer.User,
                 Name = Computer.Name,
                 ShopId = Computer.ShopId,
                 Registered = Computer.Registered
@@ -82,7 +82,7 @@ namespace Kompiuterija.Controllers
         public async Task<HttpStatusCode> UpdateComputer(ComputerDTO Computer)
         ***REMOVED***
             var entity = await DBContext.Computer.FirstOrDefaultAsync(s => s.Id == Computer.Id);
-            entity.UserId = Computer.UserId;
+            entity.User = Computer.User;
             entity.Name = Computer.Name;
             entity.ShopId = Computer.ShopId;
             entity.Registered = Computer.Registered;
