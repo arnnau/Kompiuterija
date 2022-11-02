@@ -66,16 +66,9 @@ namespace Kompiuterija.Controllers
         [HttpGet("***REMOVED***Id***REMOVED***/computers")]
         public async Task<ActionResult<IEnumerable<ComputerDTO>>> GetUserComputersByShop(int Id)
         ***REMOVED***
-            var identity = HttpContext.User.Identity as ClaimsIdentity;
-            IEnumerable<Claim> claim = identity.Claims;
-            string role = claim
-            .Where(x => x.Type == ClaimTypes.Role)
-            .FirstOrDefault().Value.ToString();
-            if (role == "user")
+            List<string> ident = GetIdentity();
+            if (ident[1] == "user")
             ***REMOVED***
-                string user = claim
-                .Where(x => x.Type == ClaimTypes.Email)
-                .FirstOrDefault().Value.ToString();
                 //System.Diagnostics.Debug.WriteLine(user);
                 var List = await DBContext.Computer.Select(
                     s => new ComputerDTO
@@ -86,7 +79,7 @@ namespace Kompiuterija.Controllers
                         ShopId = s.ShopId,
                         Registered = s.Registered
             ***REMOVED***
-                ).Where(s => s.ShopId == Id && string.Equals(s.User.Trim(), user.Trim(), StringComparison.OrdinalIgnoreCase)).ToListAsync();
+                ).Where(s => s.ShopId == Id && string.Equals(s.User.Trim(), ident[0].Trim(), StringComparison.OrdinalIgnoreCase)).ToListAsync();
 
                 if (List.Count <= 0)
                 ***REMOVED***
@@ -97,7 +90,7 @@ namespace Kompiuterija.Controllers
                     return List;
         ***REMOVED***
     ***REMOVED***
-            else if (role == "employee" || role == "admin")
+            else if (ident[1] == "employee" || ident[1] == "admin")
             ***REMOVED***
                 var List = await DBContext.Computer.Select(
                 s => new ComputerDTO
@@ -121,7 +114,7 @@ namespace Kompiuterija.Controllers
     ***REMOVED***
             else return NotFound();
 ***REMOVED***
-        [Authorize(Roles = "employee,admin")]
+        [Authorize(Roles = "admin")]
         [HttpPost("")]
         public async Task<ActionResult<ShopDTO>> InsertShop(ShopDTO Shop)
         ***REMOVED***
@@ -134,17 +127,31 @@ namespace Kompiuterija.Controllers
             await DBContext.SaveChangesAsync();
             return Created(new Uri(Request.Path, UriKind.Relative), entity);
 ***REMOVED***
-        [Authorize(Roles = "employee,admin")]
+        [Authorize(Roles = "admin")]
         [HttpPut("")]
-        public async Task<HttpStatusCode> UpdateShop(ShopDTO Shop)
+        public async Task<ActionResult<ShopDTO>> UpdateShop(ShopDTO Shop)
         ***REMOVED***
             var entity = await DBContext.Shop.FirstOrDefaultAsync(s => s.Id == Shop.Id);
-            entity.Address = Shop.Address;
-            entity.City = Shop.City;
-            await DBContext.SaveChangesAsync();
-            return HttpStatusCode.OK;
+            if(entity == null)
+            ***REMOVED***
+                var newEntity = new Shop()
+                ***REMOVED***
+                    Address = Shop.Address,
+                    City = Shop.City
+        ***REMOVED***;
+                DBContext.Shop.Add(newEntity);
+                await DBContext.SaveChangesAsync();
+                return Created(new Uri(Request.Path, UriKind.Relative), newEntity);
+    ***REMOVED***
+            else
+            ***REMOVED***
+                entity.Address = Shop.Address;
+                entity.City = Shop.City;
+                await DBContext.SaveChangesAsync();
+                return Ok();
+    ***REMOVED***
 ***REMOVED***
-        [Authorize(Roles = "employee,admin")]
+        [Authorize(Roles = "admin")]
         [HttpDelete("***REMOVED***Id***REMOVED***")]
         public async Task<IActionResult> DeleteShop(int Id)
         ***REMOVED***
@@ -156,6 +163,21 @@ namespace Kompiuterija.Controllers
             DBContext.Shop.Remove(entity);
             await DBContext.SaveChangesAsync();
             return NoContent();
+***REMOVED***
+        private List<string> GetIdentity()
+        ***REMOVED***
+            List<string> list = new List<string>();
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            IEnumerable<Claim> claim = identity.Claims;
+            string user = claim
+                .Where(x => x.Type == ClaimTypes.Email)
+                .FirstOrDefault().Value.ToString();
+            string role = claim
+                .Where(x => x.Type == ClaimTypes.Role)
+                .FirstOrDefault().Value.ToString();
+            list.Add(user);
+            list.Add(role);
+            return list;
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
