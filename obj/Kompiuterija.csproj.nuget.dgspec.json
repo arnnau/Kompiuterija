@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[3.1.29, )"
     ***REMOVED***,
+            "Microsoft.EntityFrameworkCore.SqlServer": ***REMOVED***
+              "target": "Package",
+              "version": "[3.1.3, )"
+    ***REMOVED***,
             "Microsoft.EntityFrameworkCore.Tools": ***REMOVED***
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
