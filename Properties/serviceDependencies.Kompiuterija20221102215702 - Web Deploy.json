@@ -1,0 +1,14 @@
+***REMOVED***
+  "dependencies": ***REMOVED***
+    "apis1": ***REMOVED***
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/Kompiuterijaapi/apis/Kompiuterija",
+      "type": "apis.azure"
+***REMOVED***
+    "mssql1": ***REMOVED***
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/kompiuterijadbserver/databases/Kompiuterija_db",
+      "type": "mssql.azure",
+      "connectionId": "DefaultConnection",
+      "secretStore": "AzureAppSettings"
+***REMOVED***
+  ***REMOVED***
+***REMOVED***

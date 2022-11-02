@@ -27,6 +27,7 @@
           "BCrypt.Net-Next": "4.0.3",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.30",
           "Microsoft.EntityFrameworkCore.Design": "3.1.29",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.29",
           "MySql.EntityFrameworkCore": "3.1.24",
           "Swashbuckle.AspNetCore": "5.0.0",
@@ -145,12 +146,12 @@
           "Microsoft.VisualBasic.Core": "10.0.5.0",
           "Microsoft.VisualBasic": "10.0.0.0",
           "Microsoft.Win32.Primitives": "4.1.2.0",
-          "Microsoft.Win32.Registry": "4.1.3.0",
+          "Microsoft.Win32.Registry.Reference": "4.1.3.0",
           "mscorlib": "4.0.0.0",
           "netstandard": "2.1.0.0",
           "System.AppContext": "4.2.2.0",
           "System.Buffers.Reference": "4.0.2.0",
-          "System.Collections.Concurrent": "4.0.15.0",
+          "System.Collections.Concurrent.Reference": "4.0.15.0",
           "System.Collections.Reference": "4.1.2.0",
           "System.Collections.NonGeneric.Reference": "4.1.2.0",
           "System.Collections.Specialized.Reference": "4.1.2.0",
@@ -175,7 +176,7 @@
           "System.Diagnostics.TextWriterTraceListener": "4.1.2.0",
           "System.Diagnostics.Tools.Reference": "4.1.2.0",
           "System.Diagnostics.TraceSource": "4.1.2.0",
-          "System.Diagnostics.Tracing": "4.2.2.0",
+          "System.Diagnostics.Tracing.Reference": "4.2.2.0",
           "System": "4.0.0.0",
           "System.Drawing": "4.0.0.0",
           "System.Drawing.Primitives": "4.2.1.0",
@@ -206,10 +207,10 @@
           "System.Net.Http": "4.2.2.0",
           "System.Net.HttpListener": "4.0.2.0",
           "System.Net.Mail": "4.0.2.0",
-          "System.Net.NameResolution": "4.1.2.0",
+          "System.Net.NameResolution.Reference": "4.1.2.0",
           "System.Net.NetworkInformation": "4.2.2.0",
           "System.Net.Ping": "4.1.2.0",
-          "System.Net.Primitives": "4.1.2.0",
+          "System.Net.Primitives.Reference": "4.1.2.0",
           "System.Net.Requests": "4.1.2.0",
           "System.Net.Security": "4.1.2.0",
           "System.Net.ServicePoint": "4.0.2.0",
@@ -246,7 +247,7 @@
           "System.Runtime.Numerics.Reference": "4.1.2.0",
           "System.Runtime.Serialization": "4.0.0.0",
           "System.Runtime.Serialization.Formatters.Reference": "4.0.4.0",
-          "System.Runtime.Serialization.Json": "4.0.5.0",
+          "System.Runtime.Serialization.Json.Reference": "4.0.5.0",
           "System.Runtime.Serialization.Primitives.Reference": "4.2.2.0",
           "System.Runtime.Serialization.Xml": "4.1.5.0",
           "System.Security.AccessControl.Reference": "4.1.1.0",
@@ -255,14 +256,14 @@
           "System.Security.Cryptography.Cng.Reference": "4.3.3.0",
           "System.Security.Cryptography.Csp": "4.1.2.0",
           "System.Security.Cryptography.Encoding": "4.1.2.0",
-          "System.Security.Cryptography.Primitives": "4.1.2.0",
+          "System.Security.Cryptography.Primitives.Reference": "4.1.2.0",
           "System.Security.Cryptography.X509Certificates": "4.2.2.0",
           "System.Security.Cryptography.Xml": "4.0.3.0",
           "System.Security": "4.0.0.0",
           "System.Security.Permissions.Reference": "4.0.3.0",
           "System.Security.Principal": "4.1.2.0",
           "System.Security.Principal.Windows.Reference": "4.1.1.0",
-          "System.Security.SecureString": "4.1.2.0",
+          "System.Security.SecureString.Reference": "4.1.2.0",
           "System.ServiceModel.Web": "4.0.0.0",
           "System.ServiceProcess": "4.0.0.0",
           "System.Text.Encoding.CodePages.Reference": "4.1.3.0",
@@ -294,7 +295,7 @@
           "System.Xml.Serialization": "4.0.0.0",
           "System.Xml.XDocument.Reference": "4.1.2.0",
           "System.Xml.XmlDocument.Reference": "4.1.2.0",
-          "System.Xml.XmlSerializer": "4.1.2.0",
+          "System.Xml.XmlSerializer.Reference": "4.1.2.0",
           "System.Xml.XPath": "4.1.2.0",
           "System.Xml.XPath.XDocument": "4.1.2.0",
           "WindowsBase": "4.0.0.0"
@@ -412,6 +413,40 @@
 ***REMOVED***
   ***REMOVED***
       "Microsoft.CSharp/4.7.0": ***REMOVED******REMOVED***,
+      "Microsoft.Data.SqlClient/1.0.19269.1": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.Identity.Client": "3.0.8",
+          "Microsoft.Win32.Registry": "4.5.0",
+          "System.Configuration.ConfigurationManager": "4.5.0",
+          "System.Runtime.Caching": "4.5.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "System.Text.Encoding.CodePages": "4.5.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.4.0"
+***REMOVED***,
+        "runtime": ***REMOVED***
+          "lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll": ***REMOVED***
+            "assemblyVersion": "1.0.19269.1",
+            "fileVersion": "1.0.19269.1"
+  ***REMOVED***
+***REMOVED***,
+        "runtimeTargets": ***REMOVED***
+          "runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll": ***REMOVED***
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "1.0.19269.1",
+            "fileVersion": "1.0.19269.1"
+  ***REMOVED***,
+          "runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll": ***REMOVED***
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "1.0.19269.1",
+            "fileVersion": "1.0.19269.1"
+  ***REMOVED***
+***REMOVED***,
+        "compile": ***REMOVED***
+          "ref/netcoreapp2.1/Microsoft.Data.SqlClient.dll": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
       "Microsoft.EntityFrameworkCore/3.1.29": ***REMOVED***
         "dependencies": ***REMOVED***
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
@@ -471,6 +506,21 @@
 ***REMOVED***,
         "compile": ***REMOVED***
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": ***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
+      "Microsoft.EntityFrameworkCore.SqlServer/3.1.3": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.Data.SqlClient": "1.0.19269.1",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.29"
+***REMOVED***,
+        "runtime": ***REMOVED***
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": ***REMOVED***
+            "assemblyVersion": "3.1.3.0",
+            "fileVersion": "3.100.320.12804"
+  ***REMOVED***
+***REMOVED***,
+        "compile": ***REMOVED***
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": ***REMOVED******REMOVED***
 ***REMOVED***
   ***REMOVED***
       "Microsoft.EntityFrameworkCore.Tools/3.1.29": ***REMOVED***
@@ -631,6 +681,24 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": ***REMOVED******REMOVED***
 ***REMOVED***
   ***REMOVED***
+      "Microsoft.Identity.Client/3.0.8": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.CSharp": "4.7.0",
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Net.NameResolution": "4.3.0",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "System.Runtime.Serialization.Json": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "System.Security.SecureString": "4.3.0",
+          "System.Xml.XDocument": "4.3.0"
+***REMOVED***,
+        "runtime": ***REMOVED***
+          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": ***REMOVED***
+            "assemblyVersion": "3.0.8.0",
+            "fileVersion": "3.0.8.0"
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
       "Microsoft.IdentityModel.JsonWebTokens/5.5.0": ***REMOVED***
         "dependencies": ***REMOVED***
           "Microsoft.IdentityModel.Tokens": "5.5.0",
@@ -717,6 +785,12 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": ***REMOVED******REMOVED***
 ***REMOVED***
   ***REMOVED***
+      "Microsoft.Win32.Registry/4.5.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+***REMOVED***
+  ***REMOVED***
       "Microsoft.Win32.SystemEvents/4.7.0": ***REMOVED***
         "dependencies": ***REMOVED***
           "Microsoft.NETCore.Platforms": "3.1.0"
@@ -728,10 +802,10 @@
           "K4os.Compression.LZ4.Streams": "1.2.6",
           "Portable.BouncyCastle": "1.9.0",
           "System.Buffers": "4.5.1",
-          "System.Configuration.ConfigurationManager": "4.4.1",
+          "System.Configuration.ConfigurationManager": "4.5.0",
           "System.Runtime.CompilerServices.Unsafe": "5.0.0",
           "System.Security.Permissions": "4.7.0",
-          "System.Text.Encoding.CodePages": "4.4.0"
+          "System.Text.Encoding.CodePages": "4.5.0"
 ***REMOVED***,
         "runtime": ***REMOVED***
           "lib/netstandard2.1/MySql.Data.dll": ***REMOVED***
@@ -819,6 +893,46 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": ***REMOVED******REMOVED***
 ***REMOVED***
   ***REMOVED***
+      "runtime.native.System/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+***REMOVED***
+  ***REMOVED***
+      "runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+***REMOVED***
+  ***REMOVED***
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+        "runtimeTargets": ***REMOVED***
+          "runtimes/win-arm64/native/sni.dll": ***REMOVED***
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+        "runtimeTargets": ***REMOVED***
+          "runtimes/win-x64/native/sni.dll": ***REMOVED***
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+        "runtimeTargets": ***REMOVED***
+          "runtimes/win-x86/native/sni.dll": ***REMOVED***
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
       "Swashbuckle.AspNetCore/5.0.0": ***REMOVED***
         "dependencies": ***REMOVED***
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -872,6 +986,20 @@
           "Microsoft.NETCore.Platforms": "3.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+***REMOVED***
+  ***REMOVED***
+      "System.Collections.Concurrent/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
 ***REMOVED***
   ***REMOVED***
       "System.Collections.Immutable/1.7.1": ***REMOVED***
@@ -942,14 +1070,15 @@
           "System.Threading": "4.3.0"
 ***REMOVED***
   ***REMOVED***
-      "System.Configuration.ConfigurationManager/4.4.1": ***REMOVED***
+      "System.Configuration.ConfigurationManager/4.5.0": ***REMOVED***
         "dependencies": ***REMOVED***
-          "System.Security.Cryptography.ProtectedData": "4.4.0"
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "4.7.0"
 ***REMOVED***,
         "runtime": ***REMOVED***
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": ***REMOVED***
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.25921.2"
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
   ***REMOVED***
 ***REMOVED***,
         "compile": ***REMOVED***
@@ -975,6 +1104,13 @@
 ***REMOVED***
   ***REMOVED***
       "System.Diagnostics.Tools/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+***REMOVED***
+  ***REMOVED***
+      "System.Diagnostics.Tracing/4.3.0": ***REMOVED***
         "dependencies": ***REMOVED***
           "Microsoft.NETCore.Platforms": "3.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
@@ -1095,6 +1231,32 @@
 ***REMOVED***
   ***REMOVED***
       "System.Memory/4.5.4": ***REMOVED******REMOVED***,
+      "System.Net.NameResolution/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "runtime.native.System": "4.3.0"
+***REMOVED***
+  ***REMOVED***
+      "System.Net.Primitives/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.3.0"
+***REMOVED***
+  ***REMOVED***
       "System.ObjectModel/4.3.0": ***REMOVED***
         "dependencies": ***REMOVED***
           "System.Collections": "4.3.0",
@@ -1102,6 +1264,35 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0"
+***REMOVED***
+  ***REMOVED***
+      "System.Private.DataContractSerialization/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "System.Collections": "4.3.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0",
+          "System.Xml.XDocument": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0",
+          "System.Xml.XmlSerializer": "4.3.0"
 ***REMOVED***
   ***REMOVED***
       "System.Reflection/4.3.0": ***REMOVED***
@@ -1173,6 +1364,32 @@
           "Microsoft.NETCore.Targets": "1.1.0"
 ***REMOVED***
   ***REMOVED***
+      "System.Runtime.Caching/4.5.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+***REMOVED***,
+        "runtime": ***REMOVED***
+          "lib/netstandard2.0/System.Runtime.Caching.dll": ***REMOVED***
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+  ***REMOVED***
+***REMOVED***,
+        "runtimeTargets": ***REMOVED***
+          "runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll": ***REMOVED***
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+  ***REMOVED***,
+          "runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll": ***REMOVED***
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
       "System.Runtime.CompilerServices.Unsafe/5.0.0": ***REMOVED***
         "runtime": ***REMOVED***
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": ***REMOVED***
@@ -1225,6 +1442,13 @@
           "System.Runtime.Serialization.Primitives": "4.3.0"
 ***REMOVED***
   ***REMOVED***
+      "System.Runtime.Serialization.Json/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "System.IO": "4.3.0",
+          "System.Private.DataContractSerialization": "4.3.0",
+          "System.Runtime": "4.3.0"
+***REMOVED***
+  ***REMOVED***
       "System.Runtime.Serialization.Primitives/4.3.0": ***REMOVED***
         "dependencies": ***REMOVED***
           "System.Resources.ResourceManager": "4.3.0",
@@ -1238,19 +1462,30 @@
 ***REMOVED***
   ***REMOVED***
       "System.Security.Cryptography.Cng/4.5.0": ***REMOVED******REMOVED***,
-      "System.Security.Cryptography.ProtectedData/4.4.0": ***REMOVED***
+      "System.Security.Cryptography.Primitives/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+***REMOVED***
+  ***REMOVED***
+      "System.Security.Cryptography.ProtectedData/4.5.0": ***REMOVED***
         "runtime": ***REMOVED***
           "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": ***REMOVED***
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.25519.3"
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
   ***REMOVED***
 ***REMOVED***,
         "runtimeTargets": ***REMOVED***
           "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": ***REMOVED***
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.25519.3"
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
   ***REMOVED***
 ***REMOVED***
   ***REMOVED***
@@ -1261,6 +1496,18 @@
 ***REMOVED***
   ***REMOVED***
       "System.Security.Principal.Windows/4.7.0": ***REMOVED******REMOVED***,
+      "System.Security.SecureString/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Security.Cryptography.Primitives": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading": "4.3.0"
+***REMOVED***
+  ***REMOVED***
       "System.Text.Encoding/4.3.0": ***REMOVED***
         "dependencies": ***REMOVED***
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1268,9 +1515,10 @@
           "System.Runtime": "4.3.0"
 ***REMOVED***
   ***REMOVED***
-      "System.Text.Encoding.CodePages/4.4.0": ***REMOVED***
+      "System.Text.Encoding.CodePages/4.5.0": ***REMOVED***
         "dependencies": ***REMOVED***
-          "Microsoft.NETCore.Platforms": "3.1.0"
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
 ***REMOVED***
   ***REMOVED***
       "System.Text.Encoding.Extensions/4.3.0": ***REMOVED***
@@ -1358,6 +1606,27 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+***REMOVED***
+  ***REMOVED***
+      "System.Xml.XmlSerializer/4.3.0": ***REMOVED***
+        "dependencies": ***REMOVED***
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.ReaderWriter": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
 ***REMOVED***
   ***REMOVED***
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": ***REMOVED***
@@ -2050,7 +2319,7 @@
 ***REMOVED***,
         "compileOnly": true
   ***REMOVED***
-      "Microsoft.Win32.Registry/4.1.3.0": ***REMOVED***
+      "Microsoft.Win32.Registry.Reference/4.1.3.0": ***REMOVED***
         "compile": ***REMOVED***
           "Microsoft.Win32.Registry.dll": ***REMOVED******REMOVED***
 ***REMOVED***,
@@ -2080,7 +2349,7 @@
 ***REMOVED***,
         "compileOnly": true
   ***REMOVED***
-      "System.Collections.Concurrent/4.0.15.0": ***REMOVED***
+      "System.Collections.Concurrent.Reference/4.0.15.0": ***REMOVED***
         "compile": ***REMOVED***
           "System.Collections.Concurrent.dll": ***REMOVED******REMOVED***
 ***REMOVED***,
@@ -2230,7 +2499,7 @@
 ***REMOVED***,
         "compileOnly": true
   ***REMOVED***
-      "System.Diagnostics.Tracing/4.2.2.0": ***REMOVED***
+      "System.Diagnostics.Tracing.Reference/4.2.2.0": ***REMOVED***
         "compile": ***REMOVED***
           "System.Diagnostics.Tracing.dll": ***REMOVED******REMOVED***
 ***REMOVED***,
@@ -2416,7 +2685,7 @@
 ***REMOVED***,
         "compileOnly": true
   ***REMOVED***
-      "System.Net.NameResolution/4.1.2.0": ***REMOVED***
+      "System.Net.NameResolution.Reference/4.1.2.0": ***REMOVED***
         "compile": ***REMOVED***
           "System.Net.NameResolution.dll": ***REMOVED******REMOVED***
 ***REMOVED***,
@@ -2434,7 +2703,7 @@
 ***REMOVED***,
         "compileOnly": true
   ***REMOVED***
-      "System.Net.Primitives/4.1.2.0": ***REMOVED***
+      "System.Net.Primitives.Reference/4.1.2.0": ***REMOVED***
         "compile": ***REMOVED***
           "System.Net.Primitives.dll": ***REMOVED******REMOVED***
 ***REMOVED***,
@@ -2656,7 +2925,7 @@
 ***REMOVED***,
         "compileOnly": true
   ***REMOVED***
-      "System.Runtime.Serialization.Json/4.0.5.0": ***REMOVED***
+      "System.Runtime.Serialization.Json.Reference/4.0.5.0": ***REMOVED***
         "compile": ***REMOVED***
           "System.Runtime.Serialization.Json.dll": ***REMOVED******REMOVED***
 ***REMOVED***,
@@ -2710,7 +2979,7 @@
 ***REMOVED***,
         "compileOnly": true
   ***REMOVED***
-      "System.Security.Cryptography.Primitives/4.1.2.0": ***REMOVED***
+      "System.Security.Cryptography.Primitives.Reference/4.1.2.0": ***REMOVED***
         "compile": ***REMOVED***
           "System.Security.Cryptography.Primitives.dll": ***REMOVED******REMOVED***
 ***REMOVED***,
@@ -2752,7 +3021,7 @@
 ***REMOVED***,
         "compileOnly": true
   ***REMOVED***
-      "System.Security.SecureString/4.1.2.0": ***REMOVED***
+      "System.Security.SecureString.Reference/4.1.2.0": ***REMOVED***
         "compile": ***REMOVED***
           "System.Security.SecureString.dll": ***REMOVED******REMOVED***
 ***REMOVED***,
@@ -2944,7 +3213,7 @@
 ***REMOVED***,
         "compileOnly": true
   ***REMOVED***
-      "System.Xml.XmlSerializer/4.1.2.0": ***REMOVED***
+      "System.Xml.XmlSerializer.Reference/4.1.2.0": ***REMOVED***
         "compile": ***REMOVED***
           "System.Xml.XmlSerializer.dll": ***REMOVED******REMOVED***
 ***REMOVED***,
@@ -3039,6 +3308,13 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
 ***REMOVED***
+    "Microsoft.Data.SqlClient/1.0.19269.1": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p2xa+sUAt7IRNxCl8ZT77bd7qHVKookDJ4HDUc+ArWkFk204rIpFhHajCTQqomSbcYi+olwheqQrwr+ohGRmJw==",
+      "path": "microsoft.data.sqlclient/1.0.19269.1",
+      "hashPath": "microsoft.data.sqlclient.1.0.19269.1.nupkg.sha512"
+***REMOVED***
     "Microsoft.EntityFrameworkCore/3.1.29": ***REMOVED***
       "type": "package",
       "serviceable": true,
@@ -3073,6 +3349,13 @@
       "sha512": "sha512-4ytgp6kpGFMgi6gI4UbLjIJqf7hLs+XgfCKWSHwrpdFNB/w+ohKKRKrLgasuv8G3jWkJUne+MynmQh8+iudlPg==",
       "path": "microsoft.entityframeworkcore.relational/3.1.29",
       "hashPath": "microsoft.entityframeworkcore.relational.3.1.29.nupkg.sha512"
+***REMOVED***
+    "Microsoft.EntityFrameworkCore.SqlServer/3.1.3": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1w8LLkPwwrwN1lrwkSNvpUNy/3UX3nbo2fXEBOj8HYOrdIcjdpC3zkdwKznXjHpGAuk8lAIdFSGZJhXZljs3rQ==",
+      "path": "microsoft.entityframeworkcore.sqlserver/3.1.3",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.3.1.3.nupkg.sha512"
 ***REMOVED***
     "Microsoft.EntityFrameworkCore.Tools/3.1.29": ***REMOVED***
       "type": "package",
@@ -3165,6 +3448,13 @@
       "path": "microsoft.extensions.primitives/3.1.29",
       "hashPath": "microsoft.extensions.primitives.3.1.29.nupkg.sha512"
 ***REMOVED***
+    "Microsoft.Identity.Client/3.0.8": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9E1gXBRJta8+UXooYpJkp/8g6Cy4kFQl3iURduGhR7/vU8rGKTWEMJ3tUKOO2m1qzJOfaog/n89lyjdi7S56Rg==",
+      "path": "microsoft.identity.client/3.0.8",
+      "hashPath": "microsoft.identity.client.3.0.8.nupkg.sha512"
+***REMOVED***
     "Microsoft.IdentityModel.JsonWebTokens/5.5.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
@@ -3221,6 +3511,13 @@
       "path": "microsoft.openapi/1.1.4",
       "hashPath": "microsoft.openapi.1.1.4.nupkg.sha512"
 ***REMOVED***
+    "Microsoft.Win32.Registry/4.5.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "path": "microsoft.win32.registry/4.5.0",
+      "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+***REMOVED***
     "Microsoft.Win32.SystemEvents/4.7.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
@@ -3255,6 +3552,41 @@
       "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
       "path": "portable.bouncycastle/1.9.0",
       "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
+***REMOVED***
+    "runtime.native.System/4.3.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
+      "path": "runtime.native.system/4.3.0",
+      "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
+***REMOVED***
+    "runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+***REMOVED***
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+***REMOVED***
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+***REMOVED***
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
 ***REMOVED***
     "Swashbuckle.AspNetCore/5.0.0": ***REMOVED***
       "type": "package",
@@ -3297,6 +3629,13 @@
       "sha512": "sha512-3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "path": "system.collections/4.3.0",
       "hashPath": "system.collections.4.3.0.nupkg.sha512"
+***REMOVED***
+    "System.Collections.Concurrent/4.3.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
+      "path": "system.collections.concurrent/4.3.0",
+      "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
 ***REMOVED***
     "System.Collections.Immutable/1.7.1": ***REMOVED***
       "type": "package",
@@ -3347,12 +3686,12 @@
       "path": "system.componentmodel.typeconverter/4.3.0",
       "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
 ***REMOVED***
-    "System.Configuration.ConfigurationManager/4.4.1": ***REMOVED***
+    "System.Configuration.ConfigurationManager/4.5.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jz3TWKMAeuDEyrPCK5Jyt4bzQcmzUIMcY9Ud6PkElFxTfnsihV+9N/UCqvxe1z5gc7jMYAnj7V1COMS9QKIuHQ==",
-      "path": "system.configuration.configurationmanager/4.4.1",
-      "hashPath": "system.configuration.configurationmanager.4.4.1.nupkg.sha512"
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
 ***REMOVED***
     "System.Diagnostics.Debug/4.3.0": ***REMOVED***
       "type": "package",
@@ -3374,6 +3713,13 @@
       "sha512": "sha512-UUvkJfSYJMM6x527dJg2VyWPSRqIVB0Z7dbjHst1zmwTXz5CcXSYJFWRpuigfbO1Lf7yfZiIaEUesfnl/g5EyA==",
       "path": "system.diagnostics.tools/4.3.0",
       "hashPath": "system.diagnostics.tools.4.3.0.nupkg.sha512"
+***REMOVED***
+    "System.Diagnostics.Tracing/4.3.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rswfv0f/Cqkh78rA5S8eN8Neocz234+emGCtTF3lxPY96F+mmmUen6tbn0glN6PMvlKQb9bPAY5e9u7fgPTkKw==",
+      "path": "system.diagnostics.tracing/4.3.0",
+      "hashPath": "system.diagnostics.tracing.4.3.0.nupkg.sha512"
 ***REMOVED***
     "System.Drawing.Common/4.7.0": ***REMOVED***
       "type": "package",
@@ -3452,12 +3798,33 @@
       "path": "system.memory/4.5.4",
       "hashPath": "system.memory.4.5.4.nupkg.sha512"
 ***REMOVED***
+    "System.Net.NameResolution/4.3.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
+      "path": "system.net.nameresolution/4.3.0",
+      "hashPath": "system.net.nameresolution.4.3.0.nupkg.sha512"
+***REMOVED***
+    "System.Net.Primitives/4.3.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qOu+hDwFwoZPbzPvwut2qATe3ygjeQBDQj91xlsaqGFQUI5i4ZnZb8yyQuLGpDGivEPIt8EJkd1BVzVoP31FXA==",
+      "path": "system.net.primitives/4.3.0",
+      "hashPath": "system.net.primitives.4.3.0.nupkg.sha512"
+***REMOVED***
     "System.ObjectModel/4.3.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "path": "system.objectmodel/4.3.0",
       "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+***REMOVED***
+    "System.Private.DataContractSerialization/4.3.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yDaJ2x3mMmjdZEDB4IbezSnCsnjQ4BxinKhRAaP6kEgL6Bb6jANWphs5SzyD8imqeC/3FxgsuXT6ykkiH1uUmA==",
+      "path": "system.private.datacontractserialization/4.3.0",
+      "hashPath": "system.private.datacontractserialization.4.3.0.nupkg.sha512"
 ***REMOVED***
     "System.Reflection/4.3.0": ***REMOVED***
       "type": "package",
@@ -3522,6 +3889,13 @@
       "path": "system.runtime/4.3.0",
       "hashPath": "system.runtime.4.3.0.nupkg.sha512"
 ***REMOVED***
+    "System.Runtime.Caching/4.5.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-95j9KShuaAENf2gLbQ/9YoJDHIWAnoaFYA71xo4QVQyLkOMginn34cD1+6RcYIrqJamLkMXgvgUnOzwzBk+U0w==",
+      "path": "system.runtime.caching/4.5.0",
+      "hashPath": "system.runtime.caching.4.5.0.nupkg.sha512"
+***REMOVED***
     "System.Runtime.CompilerServices.Unsafe/5.0.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
@@ -3564,6 +3938,13 @@
       "path": "system.runtime.serialization.formatters/4.3.0",
       "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
 ***REMOVED***
+    "System.Runtime.Serialization.Json/4.3.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CpVfOH0M/uZ5PH+M9+Gu56K0j9lJw3M+PKRegTkcrY/stOIvRUeonggxNrfBYLA5WOHL2j15KNJuTuld3x4o9w==",
+      "path": "system.runtime.serialization.json/4.3.0",
+      "hashPath": "system.runtime.serialization.json.4.3.0.nupkg.sha512"
+***REMOVED***
     "System.Runtime.Serialization.Primitives/4.3.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
@@ -3585,12 +3966,19 @@
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
 ***REMOVED***
-    "System.Security.Cryptography.ProtectedData/4.4.0": ***REMOVED***
+    "System.Security.Cryptography.Primitives/4.3.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
-      "path": "system.security.cryptography.protecteddata/4.4.0",
-      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+      "sha512": "sha512-7bDIyVFNL/xKeFHjhobUAQqSpJq9YTOpbEs6mR233Et01STBMXNAc/V+BM6dwYGc95gVh/Zf+iVXWzj3mE8DWg==",
+      "path": "system.security.cryptography.primitives/4.3.0",
+      "hashPath": "system.security.cryptography.primitives.4.3.0.nupkg.sha512"
+***REMOVED***
+    "System.Security.Cryptography.ProtectedData/4.5.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
 ***REMOVED***
     "System.Security.Permissions/4.7.0": ***REMOVED***
       "type": "package",
@@ -3606,6 +3994,13 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
 ***REMOVED***
+    "System.Security.SecureString/4.3.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PnXp38O9q/2Oe4iZHMH60kinScv6QiiL2XH54Pj2t0Y6c2zKPEiAZsM/M3wBOHLNTBDFP0zfy13WN2M0qFz5jg==",
+      "path": "system.security.securestring/4.3.0",
+      "hashPath": "system.security.securestring.4.3.0.nupkg.sha512"
+***REMOVED***
     "System.Text.Encoding/4.3.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
@@ -3613,12 +4008,12 @@
       "path": "system.text.encoding/4.3.0",
       "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
 ***REMOVED***
-    "System.Text.Encoding.CodePages/4.4.0": ***REMOVED***
+    "System.Text.Encoding.CodePages/4.5.0": ***REMOVED***
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
-      "path": "system.text.encoding.codepages/4.4.0",
-      "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
+      "sha512": "sha512-S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
 ***REMOVED***
     "System.Text.Encoding.Extensions/4.3.0": ***REMOVED***
       "type": "package",
@@ -3682,6 +4077,13 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+***REMOVED***
+    "System.Xml.XmlSerializer/4.3.0": ***REMOVED***
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
+      "path": "system.xml.xmlserializer/4.3.0",
+      "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
 ***REMOVED***
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": ***REMOVED***
       "type": "referenceassembly",
@@ -4258,7 +4660,7 @@
       "serviceable": false,
       "sha512": ""
 ***REMOVED***
-    "Microsoft.Win32.Registry/4.1.3.0": ***REMOVED***
+    "Microsoft.Win32.Registry.Reference/4.1.3.0": ***REMOVED***
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4283,7 +4685,7 @@
       "serviceable": false,
       "sha512": ""
 ***REMOVED***
-    "System.Collections.Concurrent/4.0.15.0": ***REMOVED***
+    "System.Collections.Concurrent.Reference/4.0.15.0": ***REMOVED***
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4408,7 +4810,7 @@
       "serviceable": false,
       "sha512": ""
 ***REMOVED***
-    "System.Diagnostics.Tracing/4.2.2.0": ***REMOVED***
+    "System.Diagnostics.Tracing.Reference/4.2.2.0": ***REMOVED***
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4563,7 +4965,7 @@
       "serviceable": false,
       "sha512": ""
 ***REMOVED***
-    "System.Net.NameResolution/4.1.2.0": ***REMOVED***
+    "System.Net.NameResolution.Reference/4.1.2.0": ***REMOVED***
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4578,7 +4980,7 @@
       "serviceable": false,
       "sha512": ""
 ***REMOVED***
-    "System.Net.Primitives/4.1.2.0": ***REMOVED***
+    "System.Net.Primitives.Reference/4.1.2.0": ***REMOVED***
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4763,7 +5165,7 @@
       "serviceable": false,
       "sha512": ""
 ***REMOVED***
-    "System.Runtime.Serialization.Json/4.0.5.0": ***REMOVED***
+    "System.Runtime.Serialization.Json.Reference/4.0.5.0": ***REMOVED***
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4808,7 +5210,7 @@
       "serviceable": false,
       "sha512": ""
 ***REMOVED***
-    "System.Security.Cryptography.Primitives/4.1.2.0": ***REMOVED***
+    "System.Security.Cryptography.Primitives.Reference/4.1.2.0": ***REMOVED***
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4843,7 +5245,7 @@
       "serviceable": false,
       "sha512": ""
 ***REMOVED***
-    "System.Security.SecureString/4.1.2.0": ***REMOVED***
+    "System.Security.SecureString.Reference/4.1.2.0": ***REMOVED***
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5003,7 +5405,7 @@
       "serviceable": false,
       "sha512": ""
 ***REMOVED***
-    "System.Xml.XmlSerializer/4.1.2.0": ***REMOVED***
+    "System.Xml.XmlSerializer.Reference/4.1.2.0": ***REMOVED***
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

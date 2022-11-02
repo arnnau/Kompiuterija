@@ -22,7 +22,7 @@ namespace Kompiuterija.Repository
 		***REMOVED***
 		public Tokens Authenticate(Users users)
 		***REMOVED***
-			kompiuterijaContext context = new kompiuterijaContext();
+			Kompiuterija_dbContext context = new Kompiuterija_dbContext();
 			User user = context.User.Find(users.Email);
 			if (user == null || !BCrypt.Net.BCrypt.Verify(users.Password, user.Password))
 			***REMOVED***

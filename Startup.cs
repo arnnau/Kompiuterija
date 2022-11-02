@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Kompiuterija.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace Kompiuterija
 ***REMOVED***
@@ -50,7 +51,8 @@ namespace Kompiuterija
         ***REMOVED***;
     ***REMOVED***);
             services.AddSingleton<IJWTManagerRepository, JWTManagerRepository>();
-            services.AddDbContext<kompiuterijaContext>();
+            services.AddDbContext<Kompiuterija_dbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.AddSwaggerGen(options =>
             ***REMOVED***

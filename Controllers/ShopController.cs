@@ -18,9 +18,9 @@ namespace Kompiuterija.Controllers
     [Route("shops")]
     public class ShopController : ControllerBase
     ***REMOVED***
-        private readonly kompiuterijaContext DBContext;
+        private readonly Kompiuterija_dbContext DBContext;
 
-        public ShopController(kompiuterijaContext DBContext)
+        public ShopController(Kompiuterija_dbContext DBContext)
         ***REMOVED***
             this.DBContext = DBContext;
 ***REMOVED***

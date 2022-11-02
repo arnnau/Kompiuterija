@@ -17,9 +17,9 @@ namespace Kompiuterija.Controllers
     [Route("computers")]
     public class ComputerController : ControllerBase
     ***REMOVED***
-        private readonly kompiuterijaContext DBContext;
+        private readonly Kompiuterija_dbContext DBContext;
 
-        public ComputerController(kompiuterijaContext DBContext)
+        public ComputerController(Kompiuterija_dbContext DBContext)
         ***REMOVED***
             this.DBContext = DBContext;
 ***REMOVED***

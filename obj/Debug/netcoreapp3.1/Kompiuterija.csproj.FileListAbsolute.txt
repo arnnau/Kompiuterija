@@ -55,7 +55,6 @@ C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCo
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.csprojAssemblyReference.cache
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
@@ -65,3 +64,15 @@ C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.IdentityMo
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Arnas\Desktop\Kompiuterija\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Arnas\Desktop\Kompiuterija\obj\Debug\netcoreapp3.1\Kompiuterija.csprojAssemblyReference.cache

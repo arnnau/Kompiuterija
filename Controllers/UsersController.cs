@@ -15,9 +15,9 @@ namespace Kompiuterija.Controllers
 	public class UsersController : ControllerBase
 	***REMOVED***
 		private readonly IJWTManagerRepository _jWTManager;
-		private kompiuterijaContext DBcontext;
+		private Kompiuterija_dbContext DBcontext;
 
-		public UsersController(IJWTManagerRepository jWTManager, kompiuterijaContext DBcontext)
+		public UsersController(IJWTManagerRepository jWTManager, Kompiuterija_dbContext DBcontext)
 		***REMOVED***
 			this._jWTManager = jWTManager;
 			this.DBcontext = DBcontext;
@@ -49,7 +49,7 @@ namespace Kompiuterija.Controllers
 			DBcontext.User.Add(entity);
 			await DBcontext.SaveChangesAsync();
 
-			return Created(new Uri(Request.Path, UriKind.Relative), entity.Email);
+			return Created(new Uri(Request.Path, UriKind.Relative), entity.Role);
 		***REMOVED***
 	***REMOVED***
 ***REMOVED***

@@ -17,9 +17,9 @@ namespace Kompiuterija.Controllers
     [Route("parts")]
     public class PartController : ControllerBase
     ***REMOVED***
-        private readonly kompiuterijaContext DBContext;
+        private readonly Kompiuterija_dbContext DBContext;
 
-        public PartController(kompiuterijaContext DBContext)
+        public PartController(Kompiuterija_dbContext DBContext)
         ***REMOVED***
             this.DBContext = DBContext;
 ***REMOVED***
