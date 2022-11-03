@@ -1,11 +1,11 @@
-***REMOVED***
-  "dependencies": ***REMOVED***
-    "apis1": ***REMOVED***
-      "type": "apis"
-***REMOVED***
-    "mssql1": ***REMOVED***
-      "type": "mssql",
-      "connectionId": "DefaultConnection"
-***REMOVED***
-  ***REMOVED***
-***REMOVED***
+{
+    "dependencies": {
+        "apis1": {
+            "type": "apis"
+        },
+        "mssql1": {
+            "type": "mssql",
+            "connectionId": "DefaultConnection"
+        }
+    }
+}

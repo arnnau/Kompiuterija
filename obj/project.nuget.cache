@@ -125,12 +125,5 @@
     "C:\\Users\\Arnas\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Arnas\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Arnas\\Desktop\\Kompiuterija\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: *. Path '', line 0, position 0."
-    }
-  ]
+  "logs": []
 }

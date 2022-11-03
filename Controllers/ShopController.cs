@@ -63,7 +63,7 @@ namespace Kompiuterija.Controllers
                 return Shop;
             }
         }
-        [HttpGet("***REMOVED***Id***REMOVED***/computers")]
+        [HttpGet("{Id}/computers")]
         public async Task<ActionResult<IEnumerable<ComputerDTO>>> GetUserComputersByShop(int Id)
         {
             List<string> ident = GetIdentity();
@@ -79,7 +79,7 @@ namespace Kompiuterija.Controllers
                         ShopId = s.ShopId,
                         Registered = s.Registered
                     }
-                ).Where(s => s.ShopId == Id && string.Equals(s.User.Trim(), ident[0].Trim(), StringComparison.OrdinalIgnoreCase)).ToListAsync();
+                ).Where(s => s.ShopId == Id && string.Equals(s.User.Trim(), ident[0].Trim())).ToListAsync();
 
                 if (List.Count <= 0)
                 {
@@ -103,6 +103,132 @@ namespace Kompiuterija.Controllers
             }
         ).Where(s => s.ShopId == Id).ToListAsync();
 
+                if (List.Count <= 0)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    return List;
+                }
+            }
+            else return NotFound();
+        }
+        [HttpGet("{Id}/computers/{ComputerId}")]
+        public async Task<ActionResult<ComputerDTO>> GetUserComputerByShop(int Id, int ComputerId)
+        {
+            List<string> ident = GetIdentity();
+            if (ident[1] == "user")
+            {
+                //System.Diagnostics.Debug.WriteLine(user);
+                ComputerDTO computer = await DBContext.Computer.Select(
+                    s => new ComputerDTO
+                    {
+                        Id = s.Id,
+                        User = s.User,
+                        Name = s.Name,
+                        ShopId = s.ShopId,
+                        Registered = s.Registered
+                    }
+                ).FirstOrDefaultAsync(s => s.Id == ComputerId && s.ShopId == Id && string.Equals(s.User.Trim(), ident[0].Trim()));
+
+                if (computer == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    return computer;
+                }
+            }
+            else if (ident[1] == "employee" || ident[1] == "admin")
+            {
+                ComputerDTO computer = await DBContext.Computer.Select(
+                s => new ComputerDTO
+                {
+                Id = s.Id,
+                User = s.User,
+                Name = s.Name,
+                ShopId = s.ShopId,
+                Registered = s.Registered
+                }
+                ).FirstOrDefaultAsync(s => s.Id == ComputerId && s.ShopId == Id);
+
+                if (computer == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    return computer;
+                }
+            }
+            else return NotFound();
+        }
+        [HttpGet("{Id}/computers/{ComputerId}/parts")]
+        public async Task<ActionResult<IEnumerable<PartDTO>>> GetUserComputerPartsByShop(int Id, int ComputerId)
+        {
+            List<string> ident = GetIdentity();
+            if (ident[1] == "user")
+            {
+                //System.Diagnostics.Debug.WriteLine(user);
+                ComputerDTO computer = await DBContext.Computer.Select(
+                    s => new ComputerDTO
+                    {
+                        Id = s.Id,
+                        User = s.User,
+                        Name = s.Name,
+                        ShopId = s.ShopId,
+                        Registered = s.Registered
+                    }
+                ).FirstOrDefaultAsync(s => s.Id == ComputerId && s.ShopId == Id && string.Equals(s.User.Trim(), ident[0].Trim()));
+                if (computer == null)
+                {
+                    return NotFound();
+                }
+                var List = await DBContext.Part.Select(
+                    s => new PartDTO
+                    {
+                        Id = s.Id,
+                        ComputerId = s.ComputerId,
+                        Name = s.Name,
+                        Type = s.Type
+                    }
+                ).Where(s => s.ComputerId == computer.Id).ToListAsync();
+                if(List.Count <= 0)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    return List;
+                }
+            }
+            else if (ident[1] == "employee" || ident[1] == "admin")
+            {
+                ComputerDTO computer = await DBContext.Computer.Select(
+                    s => new ComputerDTO
+                    {
+                        Id = s.Id,
+                        User = s.User,
+                        Name = s.Name,
+                        ShopId = s.ShopId,
+                        Registered = s.Registered
+                    }
+                ).FirstOrDefaultAsync(s => s.Id == ComputerId && s.ShopId == Id);
+                if (computer == null)
+                {
+                    return NotFound();
+                }
+                var List = await DBContext.Part.Select(
+                    s => new PartDTO
+                    {
+                        Id = s.Id,
+                        ComputerId = s.ComputerId,
+                        Name = s.Name,
+                        Type = s.Type
+                    }
+                ).Where(s => s.ComputerId == computer.Id).ToListAsync();
                 if (List.Count <= 0)
                 {
                     return NotFound();
@@ -152,9 +278,14 @@ namespace Kompiuterija.Controllers
             }
         }
         [Authorize(Roles = "admin")]
-        [HttpDelete("***REMOVED***Id***REMOVED***")]
+        [HttpDelete("{Id}")]
         public async Task<IActionResult> DeleteShop(int Id)
         {
+            var existing = await DBContext.Shop.FirstOrDefaultAsync(s => s.Id == Id);
+            if (existing == null)
+            {
+                return NoContent();
+            }
             var entity = new Shop()
             {
                 Id = Id

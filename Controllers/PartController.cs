@@ -183,9 +183,14 @@ namespace Kompiuterija.Controllers
             }
         }
         [Authorize(Roles = "employee,admin")]
-        [HttpDelete("***REMOVED***Id***REMOVED***")]
+        [HttpDelete("{Id}")]
         public async Task<IActionResult> DeletePart(int Id)
         {
+            var existing = await DBContext.Part.FirstOrDefaultAsync(s => s.Id == Id);
+            if(existing == null)
+            {
+                return NoContent();
+            }
             var entity = new Part()
             {
                 Id = Id

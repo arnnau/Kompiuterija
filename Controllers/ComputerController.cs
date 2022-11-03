@@ -193,9 +193,14 @@ namespace Kompiuterija.Controllers
             }
         }
         [Authorize(Roles = "admin")]
-        [HttpDelete("***REMOVED***Id***REMOVED***")]
+        [HttpDelete("{Id}")]
         public async Task<IActionResult> DeleteComputer(int Id)
         {
+            var existing = await DBContext.Computer.FirstOrDefaultAsync(s => s.Id == Id);
+            if (existing == null)
+            {
+                return NoContent();
+            }
             var entity = new Computer()
             {
                 Id = Id

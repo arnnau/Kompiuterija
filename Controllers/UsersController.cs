@@ -46,6 +46,10 @@ namespace Kompiuterija.Controllers
 				Password = BCrypt.Net.BCrypt.HashPassword(usersdata.Password),
 				Role = "user"
 			};
+			if(DBcontext.User.FirstOrDefault(s => s.Email == usersdata.Email) != null)
+            {
+				return BadRequest();
+            }
 			DBcontext.User.Add(entity);
 			await DBcontext.SaveChangesAsync();
 
