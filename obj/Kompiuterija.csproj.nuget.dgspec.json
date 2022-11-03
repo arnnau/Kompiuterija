@@ -1,12 +1,12 @@
-***REMOVED***
+{
   "format": 1,
-  "restore": ***REMOVED***
-    "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj": ***REMOVED******REMOVED***
-  ***REMOVED***,
-  "projects": ***REMOVED***
-    "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj": ***REMOVED***
+  "restore": {
+    "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj": {
       "version": "1.0.0",
-      "restore": ***REMOVED***
+      "restore": {
         "projectUniqueName": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj",
         "projectName": "Kompiuterija",
         "projectPath": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj",
@@ -20,59 +20,59 @@
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
-        "sources": ***REMOVED***
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": ***REMOVED******REMOVED***,
-          "https://api.nuget.org/v3/index.json": ***REMOVED******REMOVED***
-***REMOVED***,
-        "frameworks": ***REMOVED***
-          "netcoreapp3.1": ***REMOVED***
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": ***REMOVED******REMOVED***
-  ***REMOVED***
-***REMOVED***,
-        "warningProperties": ***REMOVED***
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
           "warnAsError": [
             "NU1605"
           ]
-***REMOVED***
-  ***REMOVED***
-      "frameworks": ***REMOVED***
-        "netcoreapp3.1": ***REMOVED***
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": ***REMOVED***
-            "BCrypt.Net-Next": ***REMOVED***
+          "dependencies": {
+            "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
-    ***REMOVED***,
-            "Microsoft.AspNetCore.Authentication.JwtBearer": ***REMOVED***
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.30, )"
-    ***REMOVED***,
-            "Microsoft.EntityFrameworkCore.Design": ***REMOVED***
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.29, )"
-    ***REMOVED***,
-            "Microsoft.EntityFrameworkCore.SqlServer": ***REMOVED***
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.3, )"
-    ***REMOVED***,
-            "Microsoft.EntityFrameworkCore.Tools": ***REMOVED***
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.29, )"
-    ***REMOVED***,
-            "MySql.EntityFrameworkCore": ***REMOVED***
+            },
+            "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.24, )"
-    ***REMOVED***,
-            "Swashbuckle.AspNetCore": ***REMOVED***
+            },
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.0.0, )"
-    ***REMOVED***
-  ***REMOVED***,
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -83,17 +83,17 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": ***REMOVED***
-            "Microsoft.AspNetCore.App": ***REMOVED***
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
-    ***REMOVED***,
-            "Microsoft.NETCore.App": ***REMOVED***
+            },
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
-    ***REMOVED***
-  ***REMOVED***,
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
-***REMOVED***
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-***REMOVED***
+        }
+      }
+    }
+  }
+}

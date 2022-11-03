@@ -6,13 +6,13 @@ using System.Collections.Generic;
 // #nullable disable
 
 namespace Kompiuterija.Entities
-***REMOVED***
+{
     public partial class Computer
-    ***REMOVED***
-        public int Id ***REMOVED*** get; set; ***REMOVED***
-        public string User ***REMOVED*** get; set; ***REMOVED***
-        public int ShopId ***REMOVED*** get; set; ***REMOVED***
-        public string Name ***REMOVED*** get; set; ***REMOVED***
-        public DateTime Registered ***REMOVED*** get; set; ***REMOVED***
-***REMOVED***
-***REMOVED***
+    {
+        public int Id { get; set; }
+        public string User { get; set; }
+        public int ShopId { get; set; }
+        public string Name { get; set; }
+        public DateTime Registered { get; set; }
+    }
+}

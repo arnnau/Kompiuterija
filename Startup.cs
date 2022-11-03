@@ -19,64 +19,64 @@ using Kompiuterija.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace Kompiuterija
-***REMOVED***
+{
     public class Startup
-    ***REMOVED***
+    {
         public Startup(IConfiguration configuration)
-        ***REMOVED***
+        {
             Configuration = configuration;
-***REMOVED***
+        }
 
-        public IConfiguration Configuration ***REMOVED*** get; ***REMOVED***
+        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        ***REMOVED***
+        {
 
             services.AddAuthentication(x =>
-            ***REMOVED***
+            {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    ***REMOVED***).AddJwtBearer(o =>
-            ***REMOVED***
+            }).AddJwtBearer(o =>
+            {
                 var Key = Encoding.UTF8.GetBytes(Configuration["JWT:Key"]);
                 o.SaveToken = true;
                 o.TokenValidationParameters = new TokenValidationParameters
-                ***REMOVED***
+                {
                     ValidateIssuer = false,
                     ValidateAudience = false,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(Key)
-        ***REMOVED***;
-    ***REMOVED***);
+                };
+            });
             services.AddSingleton<IJWTManagerRepository, JWTManagerRepository>();
             services.AddDbContext<Kompiuterija_dbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.AddSwaggerGen(options =>
-            ***REMOVED***
+            {
                 options.SwaggerDoc("v1", new OpenApiInfo
-                ***REMOVED***
+                {
                     Version = "v1",
                     Title = "Kompiuterija API"
-        ***REMOVED***);
-    ***REMOVED***);
-***REMOVED***
+                });
+            });
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        ***REMOVED***
+        {
             if (env.IsDevelopment())
-            ***REMOVED***
+            {
                 app.UseSwagger();
                 app.UseSwaggerUI(options =>
-                ***REMOVED***
+                {
                     options.SwaggerEndpoint("/swagger/v1/swagger.json", "api");
                     options.RoutePrefix = string.Empty;
-        ***REMOVED***);
+                });
                 app.UseDeveloperExceptionPage();
-    ***REMOVED***
+            }
 
             app.UseHttpsRedirection();
 
@@ -85,9 +85,9 @@ namespace Kompiuterija
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
-            ***REMOVED***
+            {
                 endpoints.MapControllers();
-    ***REMOVED***);
-***REMOVED***
-***REMOVED***
-***REMOVED***
+            });
+        }
+    }
+}

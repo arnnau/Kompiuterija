@@ -8,13 +8,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Kompiuterija.Migrations
-***REMOVED***
+{
     [DbContext(typeof(Kompiuterija_dbContext))]
     [Migration("20221102211429_InitialCreate")]
     partial class InitialCreate
-    ***REMOVED***
+    {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
-        ***REMOVED***
+        {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.29")
@@ -22,7 +22,7 @@ namespace Kompiuterija.Migrations
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("Kompiuterija.Entities.Computer", b =>
-                ***REMOVED***
+                {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnName("id")
@@ -52,10 +52,10 @@ namespace Kompiuterija.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("computer");
-        ***REMOVED***);
+                });
 
             modelBuilder.Entity("Kompiuterija.Entities.Part", b =>
-                ***REMOVED***
+                {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnName("id")
@@ -81,10 +81,10 @@ namespace Kompiuterija.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("part");
-        ***REMOVED***);
+                });
 
             modelBuilder.Entity("Kompiuterija.Entities.Shop", b =>
-                ***REMOVED***
+                {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnName("id")
@@ -106,10 +106,10 @@ namespace Kompiuterija.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("shop");
-        ***REMOVED***);
+                });
 
             modelBuilder.Entity("Kompiuterija.Entities.User", b =>
-                ***REMOVED***
+                {
                     b.Property<string>("Email")
                         .HasColumnName("email")
                         .HasColumnType("nvarchar(255)")
@@ -131,8 +131,8 @@ namespace Kompiuterija.Migrations
                         .HasName("PRIMARY");
 
                     b.ToTable("user");
-        ***REMOVED***);
+                });
 #pragma warning restore 612, 618
-***REMOVED***
-***REMOVED***
-***REMOVED***
+        }
+    }
+}

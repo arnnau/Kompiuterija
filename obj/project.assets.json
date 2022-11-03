@@ -1,111 +1,111 @@
-***REMOVED***
+{
   "version": 3,
-  "targets": ***REMOVED***
-    ".NETCoreApp,Version=v3.1": ***REMOVED***
-      "BCrypt.Net-Next/4.0.3": ***REMOVED***
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BCrypt.Net-Next/4.0.3": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard2.1/BCrypt.Net-Next.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.1/BCrypt.Net-Next.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Google.Protobuf/3.19.4": ***REMOVED***
+        "compile": {
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": {}
+        }
+      },
+      "Google.Protobuf/3.19.4": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Memory": "4.5.3",
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Google.Protobuf.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Google.Protobuf.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "K4os.Compression.LZ4/1.2.6": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
+      "K4os.Compression.LZ4/1.2.6": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Memory": "4.5.4"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/K4os.Compression.LZ4.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/K4os.Compression.LZ4.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "K4os.Compression.LZ4.Streams/1.2.6": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/K4os.Compression.LZ4.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/K4os.Compression.LZ4.dll": {}
+        }
+      },
+      "K4os.Compression.LZ4.Streams/1.2.6": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "K4os.Compression.LZ4": "1.2.6",
           "K4os.Hash.xxHash": "1.0.6"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "K4os.Hash.xxHash/1.0.6": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll": {}
+        }
+      },
+      "K4os.Hash.xxHash/1.0.6": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Memory": "4.5.3"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/K4os.Hash.xxHash.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/K4os.Hash.xxHash.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.30": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/K4os.Hash.xxHash.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/K4os.Hash.xxHash.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.30": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": ***REMOVED******REMOVED***
-***REMOVED***,
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-  ***REMOVED***
-      "Microsoft.Bcl.AsyncInterfaces/1.1.1": ***REMOVED***
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Bcl.HashCode/1.1.1": ***REMOVED***
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Bcl.HashCode/1.1.1": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.CSharp/4.7.0": ***REMOVED***
+        "compile": {
+          "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netcoreapp2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Data.SqlClient/1.0.19269.1": ***REMOVED***
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.Data.SqlClient/1.0.19269.1": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Identity.Client": "3.0.8",
           "Microsoft.Win32.Registry": "4.5.0",
           "System.Configuration.ConfigurationManager": "4.5.0",
@@ -113,27 +113,27 @@
           "System.Security.Principal.Windows": "4.5.0",
           "System.Text.Encoding.CodePages": "4.5.0",
           "runtime.native.System.Data.SqlClient.sni": "4.4.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netcoreapp2.1/Microsoft.Data.SqlClient.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netcoreapp2.1/Microsoft.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll": {
             "assetType": "runtime",
             "rid": "unix"
-  ***REMOVED***,
-          "runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll": ***REMOVED***
+          },
+          "runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.EntityFrameworkCore/3.1.29": ***REMOVED***
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
           "Microsoft.Bcl.HashCode": "1.1.1",
           "Microsoft.EntityFrameworkCore.Abstractions": "3.1.29",
@@ -144,229 +144,229 @@
           "System.Collections.Immutable": "1.7.1",
           "System.ComponentModel.Annotations": "4.7.0",
           "System.Diagnostics.DiagnosticSource": "4.7.1"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.EntityFrameworkCore.Abstractions/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/3.1.29": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.EntityFrameworkCore.Analyzers/3.1.29": ***REMOVED***
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/3.1.29": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.EntityFrameworkCore.Design/3.1.29": ***REMOVED***
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Design/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Microsoft.EntityFrameworkCore.Relational": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "build": ***REMOVED***
-          "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.EntityFrameworkCore.Relational/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.EntityFrameworkCore.SqlServer/3.1.3": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer/3.1.3": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Data.SqlClient": "1.0.19269.1",
           "Microsoft.EntityFrameworkCore.Relational": "3.1.3"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.EntityFrameworkCore.Tools/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.ApiDescription.Server/3.0.0": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
-        "build": ***REMOVED***
-          "build/Microsoft.Extensions.ApiDescription.Server.props": ***REMOVED******REMOVED***,
-          "build/Microsoft.Extensions.ApiDescription.Server.targets": ***REMOVED******REMOVED***
-***REMOVED***,
-        "buildMultiTargeting": ***REMOVED***
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": ***REMOVED******REMOVED***,
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.Caching.Abstractions/3.1.29": ***REMOVED***
+        "build": {
+          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Extensions.Primitives": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.Caching.Memory/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "3.1.29",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.29",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.29",
           "Microsoft.Extensions.Options": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.Configuration/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Extensions.Primitives": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.Configuration.Binder/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Extensions.Configuration": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.DependencyInjection/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.29": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.Logging/3.1.29": ***REMOVED***
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "3.1.29",
           "Microsoft.Extensions.DependencyInjection": "3.1.29",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.29",
           "Microsoft.Extensions.Options": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.Logging.Abstractions/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.29": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.Options/3.1.29": ***REMOVED***
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.29": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.29",
           "Microsoft.Extensions.Primitives": "3.1.29"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Extensions.Primitives/3.1.29": ***REMOVED***
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.29": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Identity.Client/3.0.8": ***REMOVED***
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Identity.Client/3.0.8": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.CSharp": "4.5.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.Net.NameResolution": "4.3.0",
@@ -375,148 +375,148 @@
           "System.Runtime.Serialization.Primitives": "4.3.0",
           "System.Security.SecureString": "4.3.0",
           "System.Xml.XDocument": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netcoreapp2.1/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.IdentityModel.JsonWebTokens/5.5.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.IdentityModel.Tokens": "5.5.0",
           "Newtonsoft.Json": "10.0.1"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.IdentityModel.Logging/5.5.0": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Logging/5.5.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.IdentityModel.Protocols/5.5.0": ***REMOVED***
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/5.5.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.IdentityModel.Logging": "5.5.0",
           "Microsoft.IdentityModel.Tokens": "5.5.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.5.0": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.5.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.IdentityModel.Protocols": "5.5.0",
           "Newtonsoft.Json": "10.0.1",
           "System.IdentityModel.Tokens.Jwt": "5.5.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.IdentityModel.Tokens/5.5.0": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.5.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.IdentityModel.Logging": "5.5.0",
           "Newtonsoft.Json": "10.0.1",
           "System.Security.Cryptography.Cng": "4.5.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.NETCore.Platforms/3.1.0": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.NETCore.Targets/1.1.0": ***REMOVED***
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Targets/1.1.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.OpenApi/1.1.4": ***REMOVED***
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.OpenApi/1.1.4": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Win32.Registry/4.5.0": ***REMOVED***
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Security.AccessControl": "4.5.0",
           "System.Security.Principal.Windows": "4.5.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
             "assetType": "runtime",
             "rid": "unix"
-  ***REMOVED***,
-          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": ***REMOVED***
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Microsoft.Win32.SystemEvents/4.7.0": ***REMOVED***
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.7.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "MySql.Data/8.0.30": ***REMOVED***
+          }
+        }
+      },
+      "MySql.Data/8.0.30": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Google.Protobuf": "3.19.4",
           "K4os.Compression.LZ4.Streams": "1.2.6",
           "Portable.BouncyCastle": "1.9.0",
@@ -525,35 +525,35 @@
           "System.Runtime.CompilerServices.Unsafe": "5.0.0",
           "System.Security.Permissions": "4.7.0",
           "System.Text.Encoding.CodePages": "4.4.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.1/MySql.Data.dll": ***REMOVED******REMOVED***,
-          "lib/netstandard2.1/Ubiety.Dns.Core.dll": ***REMOVED******REMOVED***,
-          "lib/netstandard2.1/ZstdNet.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.1/MySql.Data.dll": ***REMOVED******REMOVED***,
-          "lib/netstandard2.1/Ubiety.Dns.Core.dll": ***REMOVED******REMOVED***,
-          "lib/netstandard2.1/ZstdNet.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "MySql.EntityFrameworkCore/3.1.24": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.1/MySql.Data.dll": {},
+          "lib/netstandard2.1/Ubiety.Dns.Core.dll": {},
+          "lib/netstandard2.1/ZstdNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MySql.Data.dll": {},
+          "lib/netstandard2.1/Ubiety.Dns.Core.dll": {},
+          "lib/netstandard2.1/ZstdNet.dll": {}
+        }
+      },
+      "MySql.EntityFrameworkCore/3.1.24": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.24",
           "Microsoft.EntityFrameworkCore.Relational": "3.1.24",
           "MySql.Data": "8.0.30"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.1/MySql.EntityFrameworkCore.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.1/MySql.EntityFrameworkCore.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Newtonsoft.Json/10.0.1": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.1/MySql.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MySql.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.1": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.CSharp": "4.3.0",
           "System.Collections": "4.3.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
@@ -580,148 +580,148 @@
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard1.3/Newtonsoft.Json.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/Newtonsoft.Json.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Portable.BouncyCastle/1.9.0": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.9.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "runtime.native.System/4.3.0": ***REMOVED***
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "runtime.native.System/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
           "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
           "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
-***REMOVED***
-  ***REMOVED***
-      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "type": "package",
-        "runtimeTargets": ***REMOVED***
-          "runtimes/win-arm64/native/sni.dll": ***REMOVED***
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
             "assetType": "native",
             "rid": "win-arm64"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "type": "package",
-        "runtimeTargets": ***REMOVED***
-          "runtimes/win-x64/native/sni.dll": ***REMOVED***
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
             "assetType": "native",
             "rid": "win-x64"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "type": "package",
-        "runtimeTargets": ***REMOVED***
-          "runtimes/win-x86/native/sni.dll": ***REMOVED***
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
             "assetType": "native",
             "rid": "win-x86"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Swashbuckle.AspNetCore/5.0.0": ***REMOVED***
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/5.0.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
           "Swashbuckle.AspNetCore.Swagger": "5.0.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "5.0.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.0.0"
-***REMOVED***,
-        "build": ***REMOVED***
-          "build/Swashbuckle.AspNetCore.props": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "Swashbuckle.AspNetCore.Swagger/5.0.0": ***REMOVED***
+        },
+        "build": {
+          "build/Swashbuckle.AspNetCore.props": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/5.0.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.OpenApi": "1.1.4"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": ***REMOVED******REMOVED***
-***REMOVED***,
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-  ***REMOVED***
-      "Swashbuckle.AspNetCore.SwaggerGen/5.0.0": ***REMOVED***
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/5.0.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Swashbuckle.AspNetCore.Swagger": "5.0.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": ***REMOVED******REMOVED***
-***REMOVED***,
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-  ***REMOVED***
-      "Swashbuckle.AspNetCore.SwaggerUI/5.0.0": ***REMOVED***
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/5.0.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": ***REMOVED******REMOVED***
-***REMOVED***,
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-  ***REMOVED***
-      "System.Buffers/4.5.1": ***REMOVED***
+      },
+      "System.Buffers/4.5.1": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netcoreapp2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Collections/4.3.0": ***REMOVED***
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Collections/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Collections.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Collections.Concurrent/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Collections.dll": {}
+        }
+      },
+      "System.Collections.Concurrent/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Diagnostics.Tracing": "4.3.0",
@@ -732,43 +732,43 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Collections.Concurrent.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Collections.Immutable/1.7.1": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Concurrent.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.7.1": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/System.Collections.Immutable.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/System.Collections.Immutable.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Collections.NonGeneric/4.3.0": ***REMOVED***
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.Collections.NonGeneric/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Diagnostics.Debug": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Collections.NonGeneric.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Collections.NonGeneric.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Collections.Specialized/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections.NonGeneric": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.Globalization.Extensions": "4.3.0",
@@ -776,52 +776,52 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Collections.Specialized.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.ComponentModel/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Specialized.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.0/System.ComponentModel.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.ComponentModel.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.ComponentModel.Annotations/4.7.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.0/System.ComponentModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.ComponentModel.dll": {}
+        }
+      },
+      "System.ComponentModel.Annotations/4.7.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.ComponentModel.Primitives/4.3.0": ***REMOVED***
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        }
+      },
+      "System.ComponentModel.Primitives/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.ComponentModel": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.0/System.ComponentModel.Primitives.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.0/System.ComponentModel.Primitives.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.ComponentModel.TypeConverter/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.0/System.ComponentModel.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {}
+        }
+      },
+      "System.ComponentModel.TypeConverter/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Collections.NonGeneric": "4.3.0",
           "System.Collections.Specialized": "4.3.0",
@@ -837,95 +837,95 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.5/System.ComponentModel.TypeConverter.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Configuration.ConfigurationManager/4.5.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Security.Cryptography.ProtectedData": "4.5.0",
           "System.Security.Permissions": "4.5.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Diagnostics.Debug/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Diagnostics.Debug/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Diagnostics.Debug.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Diagnostics.DiagnosticSource/4.7.1": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Diagnostics.Debug.dll": {}
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {
         "type": "package",
-        "compile": ***REMOVED***
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Diagnostics.Tools/4.3.0": ***REMOVED***
+        "compile": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+        }
+      },
+      "System.Diagnostics.Tools/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Diagnostics.Tracing/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.0/_._": {}
+        }
+      },
+      "System.Diagnostics.Tracing/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.5/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Drawing.Common/4.7.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.5/_._": {}
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
           "Microsoft.Win32.SystemEvents": "4.7.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netcoreapp3.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/System.Drawing.Common.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
             "assetType": "runtime",
             "rid": "unix"
-  ***REMOVED***,
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": ***REMOVED***
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Dynamic.Runtime/4.3.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Dynamic.Runtime/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Linq": "4.3.0",
@@ -940,79 +940,79 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Dynamic.Runtime.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Dynamic.Runtime.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Globalization/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Dynamic.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Dynamic.Runtime.dll": {}
+        }
+      },
+      "System.Globalization/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Globalization.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Globalization.Extensions/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Globalization.dll": {}
+        }
+      },
+      "System.Globalization.Extensions/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "System.Globalization": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/unix/lib/netstandard1.3/System.Globalization.Extensions.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Globalization.Extensions.dll": {
             "assetType": "runtime",
             "rid": "unix"
-  ***REMOVED***,
-          "runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll": ***REMOVED***
+          },
+          "runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.IdentityModel.Tokens.Jwt/5.5.0": ***REMOVED***
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.5.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
           "Microsoft.IdentityModel.Tokens": "5.5.0",
           "Newtonsoft.Json": "10.0.1"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.IO/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      },
+      "System.IO/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.5/System.IO.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.IO.FileSystem/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.5/System.IO.dll": {}
+        }
+      },
+      "System.IO.FileSystem/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
@@ -1021,42 +1021,42 @@
           "System.Runtime.Handles": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.IO.FileSystem.Primitives/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        }
+      },
+      "System.IO.FileSystem.Primitives/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Linq/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
+        }
+      },
+      "System.Linq/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.6/System.Linq.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.6/System.Linq.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Linq.Expressions/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.6/System.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.Linq.dll": {}
+        }
+      },
+      "System.Linq.Expressions/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Globalization": "4.3.0",
@@ -1074,26 +1074,26 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.6/System.Linq.Expressions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.6/System.Linq.Expressions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Memory/4.5.4": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.6/System.Linq.Expressions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.Linq.Expressions.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netcoreapp2.1/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp2.1/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Net.NameResolution/4.3.0": ***REMOVED***
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Net.NameResolution/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Tracing": "4.3.0",
@@ -1108,52 +1108,52 @@
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "runtime.native.System": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/unix/lib/netstandard1.3/System.Net.NameResolution.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Net.NameResolution.dll": {
             "assetType": "runtime",
             "rid": "unix"
-  ***REMOVED***,
-          "runtimes/win/lib/netstandard1.3/System.Net.NameResolution.dll": ***REMOVED***
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.NameResolution.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Net.Primitives/4.3.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Net.Primitives/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Handles": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.ObjectModel/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        }
+      },
+      "System.ObjectModel/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.ObjectModel.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.ObjectModel.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Private.DataContractSerialization/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.ObjectModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.ObjectModel.dll": {}
+        }
+      },
+      "System.Private.DataContractSerialization/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Collections.Concurrent": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
@@ -1179,294 +1179,294 @@
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0",
           "System.Xml.XmlSerializer": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Private.DataContractSerialization.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Reflection/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "System.Reflection/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.5/System.Reflection.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Reflection.Emit/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Reflection.dll": {}
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.IO": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.1/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Reflection.Emit.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Reflection.Emit.ILGeneration/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.1/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.dll": {}
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Reflection": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Reflection.Emit.Lightweight/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Reflection": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Reflection.Extensions/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
+        }
+      },
+      "System.Reflection.Extensions/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.0/System.Reflection.Extensions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Reflection.Primitives/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.0/System.Reflection.Extensions.dll": {}
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.0/System.Reflection.Primitives.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Reflection.TypeExtensions/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
+        }
+      },
+      "System.Reflection.TypeExtensions/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.5/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Resources.ResourceManager/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.5/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Globalization": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.0/System.Resources.ResourceManager.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.0/System.Resources.ResourceManager.dll": {}
+        }
+      },
+      "System.Runtime/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.5/System.Runtime.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime.Caching/4.5.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Runtime.dll": {}
+        }
+      },
+      "System.Runtime.Caching/4.5.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "System.Configuration.ConfigurationManager": "4.5.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/System.Runtime.Caching.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.Caching.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll": {
             "assetType": "runtime",
             "rid": "unix"
-  ***REMOVED***,
-          "runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll": ***REMOVED***
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime.CompilerServices.Unsafe/5.0.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime.Extensions/4.3.0": ***REMOVED***
+        "compile": {
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Runtime.Extensions/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.5/System.Runtime.Extensions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime.Handles/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Runtime.Extensions.dll": {}
+        }
+      },
+      "System.Runtime.Handles/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime.InteropServices/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        }
+      },
+      "System.Runtime.InteropServices/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Reflection": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Handles": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netcoreapp1.1/_._": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime.Numerics/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netcoreapp1.1/_._": {}
+        }
+      },
+      "System.Runtime.Numerics/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Globalization": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.1/System.Runtime.Numerics.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Runtime.Numerics.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime.Serialization.Formatters/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Numerics.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Formatters/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Serialization.Primitives": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Runtime.Serialization.Formatters.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime.Serialization.Json/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Runtime.Serialization.Formatters.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Json/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.IO": "4.3.0",
           "System.Private.DataContractSerialization": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Runtime.Serialization.Json.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Runtime.Serialization.Primitives/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Json.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Security.AccessControl/4.7.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
           "System.Security.Principal.Windows": "4.7.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard2.0/System.Security.AccessControl.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/System.Security.AccessControl.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Security.Cryptography.Cng/4.5.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Security.Cryptography.Cng/4.5.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netcoreapp2.1/System.Security.Cryptography.Cng.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": ***REMOVED***
+        "compile": {
+          "ref/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Security.Cryptography.Primitives/4.3.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Security.Cryptography.Primitives/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Diagnostics.Debug": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.IO": "4.3.0",
@@ -1474,64 +1474,64 @@
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Security.Cryptography.ProtectedData/4.5.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netstandard2.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": ***REMOVED***
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Security.Permissions/4.7.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Security.Permissions/4.7.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Security.AccessControl": "4.7.0",
           "System.Windows.Extensions": "4.7.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netcoreapp3.0/System.Security.Permissions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.0/System.Security.Permissions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Security.Principal.Windows/4.7.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
-        "compile": ***REMOVED***
-          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": ***REMOVED***
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "assetType": "runtime",
             "rid": "unix"
-  ***REMOVED***,
-          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": ***REMOVED***
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Security.SecureString/4.3.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Security.SecureString/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -1540,134 +1540,134 @@
           "System.Security.Cryptography.Primitives": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/unix/lib/netstandard1.3/System.Security.SecureString.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Security.SecureString.dll": {
             "assetType": "runtime",
             "rid": "unix"
-  ***REMOVED***,
-          "runtimes/win/lib/netstandard1.3/System.Security.SecureString.dll": ***REMOVED***
+          },
+          "runtimes/win/lib/netstandard1.3/System.Security.SecureString.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Text.Encoding/4.3.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Text.Encoding.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Text.Encoding.CodePages/4.5.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Text.Encoding.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "System.Runtime.CompilerServices.Unsafe": "4.5.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Text.Encoding.Extensions/4.3.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Text.Encoding.Extensions/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Text.RegularExpressions/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
+        }
+      },
+      "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netcoreapp1.1/System.Text.RegularExpressions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.6/System.Text.RegularExpressions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Threading/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netcoreapp1.1/System.Text.RegularExpressions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/System.Text.RegularExpressions.dll": {}
+        }
+      },
+      "System.Threading/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Threading.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Threading.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Threading.Tasks/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Threading.dll": {}
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Threading.Tasks.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Threading.Tasks.Extensions/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Threading.Tasks.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "lib/netstandard1.0/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Windows.Extensions/4.7.0": ***REMOVED***
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.Windows.Extensions/4.7.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Drawing.Common": "4.7.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netcoreapp3.0/System.Windows.Extensions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netcoreapp3.0/System.Windows.Extensions.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtimeTargets": ***REMOVED***
-          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": ***REMOVED***
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Windows.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
             "assetType": "runtime",
             "rid": "win"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Xml.ReaderWriter/4.3.0": ***REMOVED***
+          }
+        }
+      },
+      "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Globalization": "4.3.0",
@@ -1683,17 +1683,17 @@
           "System.Text.RegularExpressions": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "System.Threading.Tasks.Extensions": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Xml.ReaderWriter.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Xml.ReaderWriter.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Xml.XDocument/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Xml.ReaderWriter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.ReaderWriter.dll": {}
+        }
+      },
+      "System.Xml.XDocument/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Diagnostics.Tools": "4.3.0",
@@ -1706,17 +1706,17 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Xml.XDocument.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Xml.XDocument.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Xml.XmlDocument/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Xml.XDocument.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XDocument.dll": {}
+        }
+      },
+      "System.Xml.XmlDocument/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Globalization": "4.3.0",
@@ -1727,17 +1727,17 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/System.Xml.XmlDocument.dll": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Xml.XmlDocument.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "System.Xml.XmlSerializer/4.3.0": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Xml.XmlDocument.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
         "type": "package",
-        "dependencies": ***REMOVED***
+        "dependencies": {
           "System.Collections": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.IO": "4.3.0",
@@ -1755,18 +1755,18 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
-***REMOVED***,
-        "compile": ***REMOVED***
-          "ref/netstandard1.3/_._": ***REMOVED******REMOVED***
-***REMOVED***,
-        "runtime": ***REMOVED***
-          "lib/netstandard1.3/System.Xml.XmlSerializer.dll": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***,
-  "libraries": ***REMOVED***
-    "BCrypt.Net-Next/4.0.3": ***REMOVED***
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BCrypt.Net-Next/4.0.3": {
       "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
       "type": "package",
       "path": "bcrypt.net-next/4.0.3",
@@ -1796,8 +1796,8 @@
         "lib/netstandard2.1/BCrypt.Net-Next.xml",
         "readme.md"
       ]
-***REMOVED***
-    "Google.Protobuf/3.19.4": ***REMOVED***
+    },
+    "Google.Protobuf/3.19.4": {
       "sha512": "fd07/ykL4O4FhqrZIELm5lmiyOHfdPg9+o+hWr6tcfRdS7tHXnImg/2wtogLzlW2eEmr0J7j6ZrZvaWOLiJbxQ==",
       "type": "package",
       "path": "google.protobuf/3.19.4",
@@ -1819,8 +1819,8 @@
         "lib/netstandard2.0/Google.Protobuf.pdb",
         "lib/netstandard2.0/Google.Protobuf.xml"
       ]
-***REMOVED***
-    "K4os.Compression.LZ4/1.2.6": ***REMOVED***
+    },
+    "K4os.Compression.LZ4/1.2.6": {
       "sha512": "4EN8EE6bZG2U8dFfeqn+Om3UNajK3cPYHvyQROCFm4jNFVLuRB7Nl5bDkjBSAjfctS6konm+ay3u5RafBzltDA==",
       "type": "package",
       "path": "k4os.compression.lz4/1.2.6",
@@ -1838,8 +1838,8 @@
         "lib/netstandard2.0/K4os.Compression.LZ4.dll",
         "lib/netstandard2.0/K4os.Compression.LZ4.xml"
       ]
-***REMOVED***
-    "K4os.Compression.LZ4.Streams/1.2.6": ***REMOVED***
+    },
+    "K4os.Compression.LZ4.Streams/1.2.6": {
       "sha512": "5KMcNFRHeRrnJ9c8k5fZcfAJJEY0FndMiDiHIYa35Mx5KCMkeSNo/PEXu7YmtCoVczJagx+Vt7J/F+//S1PcJQ==",
       "type": "package",
       "path": "k4os.compression.lz4.streams/1.2.6",
@@ -1859,8 +1859,8 @@
         "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll",
         "lib/netstandard2.1/K4os.Compression.LZ4.Streams.xml"
       ]
-***REMOVED***
-    "K4os.Hash.xxHash/1.0.6": ***REMOVED***
+    },
+    "K4os.Hash.xxHash/1.0.6": {
       "sha512": "jCfNP0inx1sGcP3KSbpiDEH3km2e1sVBjMfKo+V92jr1dL4ZYgA1uhRMl1wAtdGZcbObXIikKqtVlgx3j/CW6g==",
       "type": "package",
       "path": "k4os.hash.xxhash/1.0.6",
@@ -1878,8 +1878,8 @@
         "lib/netstandard2.0/K4os.Hash.xxHash.dll",
         "lib/netstandard2.0/K4os.Hash.xxHash.xml"
       ]
-***REMOVED***
-    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.30": ***REMOVED***
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.30": {
       "sha512": "2hbpEpF2Zob4iG6p7rnp+BmdWLUI24Ontnk09R5iAL5/o2wvMqepIAm6Pq/0ipfkn5CErGgObyUXnPv815x94A==",
       "type": "package",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.30",
@@ -1893,8 +1893,8 @@
         "microsoft.aspnetcore.authentication.jwtbearer.3.1.30.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Bcl.AsyncInterfaces/1.1.1": ***REMOVED***
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
       "path": "microsoft.bcl.asyncinterfaces/1.1.1",
@@ -1918,8 +1918,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "Microsoft.Bcl.HashCode/1.1.1": ***REMOVED***
+    },
+    "Microsoft.Bcl.HashCode/1.1.1": {
       "sha512": "MalY0Y/uM/LjXtHfX/26l2VtN4LDNZ2OE3aumNOHDLsT4fNYy2hiHXI4CXCqKpNUNm7iJ2brrc4J89UdaL56FA==",
       "type": "package",
       "path": "microsoft.bcl.hashcode/1.1.1",
@@ -1946,8 +1946,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "Microsoft.CSharp/4.7.0": ***REMOVED***
+    },
+    "Microsoft.CSharp/4.7.0": {
       "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
       "path": "microsoft.csharp/4.7.0",
@@ -2015,8 +2015,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "Microsoft.Data.SqlClient/1.0.19269.1": ***REMOVED***
+    },
+    "Microsoft.Data.SqlClient/1.0.19269.1": {
       "sha512": "p2xa+sUAt7IRNxCl8ZT77bd7qHVKookDJ4HDUc+ArWkFk204rIpFhHajCTQqomSbcYi+olwheqQrwr+ohGRmJw==",
       "type": "package",
       "path": "microsoft.data.sqlclient/1.0.19269.1",
@@ -2058,8 +2058,8 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Data.SqlClient.dll",
         "runtimes/win/lib/netstandard2.0/Microsoft.Data.SqlClient.pdb"
       ]
-***REMOVED***
-    "Microsoft.EntityFrameworkCore/3.1.29": ***REMOVED***
+    },
+    "Microsoft.EntityFrameworkCore/3.1.29": {
       "sha512": "H0X8aqQMUpgY6+xy3enheiRoZtzbDii3mFfNACUr2p+56mqmF+pD1hQXtoOpaERYIW3fduPcewSN2Xyql3IkJg==",
       "type": "package",
       "path": "microsoft.entityframeworkcore/3.1.29",
@@ -2072,8 +2072,8 @@
         "microsoft.entityframeworkcore.3.1.29.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
-***REMOVED***
-    "Microsoft.EntityFrameworkCore.Abstractions/3.1.29": ***REMOVED***
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/3.1.29": {
       "sha512": "n0wjQxDNpqA9TAM970rw+GNQgnKcfqc3SFGK7O8Mhxj/4byP4H8Z8jpgFTY3WRsyhkYJExRleIJ6BbA8giuTFw==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.abstractions/3.1.29",
@@ -2086,8 +2086,8 @@
         "microsoft.entityframeworkcore.abstractions.3.1.29.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
-***REMOVED***
-    "Microsoft.EntityFrameworkCore.Analyzers/3.1.29": ***REMOVED***
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/3.1.29": {
       "sha512": "+xYjyXpUD0lXF0tYK3rmMniQUhSqfxkdwXn/ygsLHahIkKzKRGDi58/A6KF07VhheVZ+vd0VnPv7UgUc0M3DCg==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.analyzers/3.1.29",
@@ -2100,8 +2100,8 @@
         "microsoft.entityframeworkcore.analyzers.3.1.29.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
-***REMOVED***
-    "Microsoft.EntityFrameworkCore.Design/3.1.29": ***REMOVED***
+    },
+    "Microsoft.EntityFrameworkCore.Design/3.1.29": {
       "sha512": "Oh1BBXloKrghW9NtntSkiNxwqfY6e0OKxjAGZW8MwmNZXj+nkZqw4EGK4aXLzjwhIlDPcqxODM66vZSlcoRjvw==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.design/3.1.29",
@@ -2116,8 +2116,8 @@
         "microsoft.entityframeworkcore.design.3.1.29.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
-***REMOVED***
-    "Microsoft.EntityFrameworkCore.Relational/3.1.29": ***REMOVED***
+    },
+    "Microsoft.EntityFrameworkCore.Relational/3.1.29": {
       "sha512": "4ytgp6kpGFMgi6gI4UbLjIJqf7hLs+XgfCKWSHwrpdFNB/w+ohKKRKrLgasuv8G3jWkJUne+MynmQh8+iudlPg==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.relational/3.1.29",
@@ -2130,8 +2130,8 @@
         "microsoft.entityframeworkcore.relational.3.1.29.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
-***REMOVED***
-    "Microsoft.EntityFrameworkCore.SqlServer/3.1.3": ***REMOVED***
+    },
+    "Microsoft.EntityFrameworkCore.SqlServer/3.1.3": {
       "sha512": "1w8LLkPwwrwN1lrwkSNvpUNy/3UX3nbo2fXEBOj8HYOrdIcjdpC3zkdwKznXjHpGAuk8lAIdFSGZJhXZljs3rQ==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.sqlserver/3.1.3",
@@ -2144,8 +2144,8 @@
         "microsoft.entityframeworkcore.sqlserver.3.1.3.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
-***REMOVED***
-    "Microsoft.EntityFrameworkCore.Tools/3.1.29": ***REMOVED***
+    },
+    "Microsoft.EntityFrameworkCore.Tools/3.1.29": {
       "sha512": "XJdOkmW5O0/6HJ7hiOwaSD6IH1Lvmxtfp7nN14wMhhI5A0u5a2e312WfR8OA+0CYmz6PWApKLxfLphQPwLESew==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.tools/3.1.29",
@@ -2169,8 +2169,8 @@
         "tools/netcoreapp2.0/any/ef.dll",
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
-***REMOVED***
-    "Microsoft.Extensions.ApiDescription.Server/3.0.0": ***REMOVED***
+    },
+    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
       "path": "microsoft.extensions.apidescription.server/3.0.0",
@@ -2196,8 +2196,8 @@
         "tools/netcoreapp2.1/GetDocument.Insider.dll",
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
       ]
-***REMOVED***
-    "Microsoft.Extensions.Caching.Abstractions/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.Caching.Abstractions/3.1.29": {
       "sha512": "pmCS0g2iJul7lCSYEnpJRkq/DwHV6KQuiuoGd2sI1z7UgSGbfFJ9mW5B227KZ9WeByF7+5m2JGooBKXmCeNUvA==",
       "type": "package",
       "path": "microsoft.extensions.caching.abstractions/3.1.29",
@@ -2212,8 +2212,8 @@
         "microsoft.extensions.caching.abstractions.3.1.29.nupkg.sha512",
         "microsoft.extensions.caching.abstractions.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.Caching.Memory/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.Caching.Memory/3.1.29": {
       "sha512": "NnbHrZHs1TtqNr71Al0Y9i/f2S4j2/g2kLdIcK/LzJZB5KJutVBzCyQG2pZmG5DMbcdHUmmwIaGhGuvvkJ2iSA==",
       "type": "package",
       "path": "microsoft.extensions.caching.memory/3.1.29",
@@ -2228,8 +2228,8 @@
         "microsoft.extensions.caching.memory.3.1.29.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.Configuration/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.Configuration/3.1.29": {
       "sha512": "HFRGDJaKIYOsxSq9l9Px9wiuggYNu9xkW58C/E1wXYRKFjHLA2B58WY4c4IaFGnrsG2sfa4lSGVGMB2Dragadw==",
       "type": "package",
       "path": "microsoft.extensions.configuration/3.1.29",
@@ -2244,8 +2244,8 @@
         "microsoft.extensions.configuration.3.1.29.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.29": {
       "sha512": "HAbBFyh47goinoPhYrOa6hs7b8QG9WmswXjkEjafQdSAXHS0Z6kDtYjJlte8uxWdpmGyKSBLq5DPCrp9jOYzew==",
       "type": "package",
       "path": "microsoft.extensions.configuration.abstractions/3.1.29",
@@ -2260,8 +2260,8 @@
         "microsoft.extensions.configuration.abstractions.3.1.29.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.Configuration.Binder/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.1.29": {
       "sha512": "d0Ceo2dna7Y5gLJo9CCHUdW8NtNd9WX0MBP1pb9w4SPMpp+qVBQhLXpeeA+HNpUpCkSUjk9xKbgOYkFZvVDLPg==",
       "type": "package",
       "path": "microsoft.extensions.configuration.binder/3.1.29",
@@ -2276,8 +2276,8 @@
         "microsoft.extensions.configuration.binder.3.1.29.nupkg.sha512",
         "microsoft.extensions.configuration.binder.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.DependencyInjection/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.DependencyInjection/3.1.29": {
       "sha512": "X5QPCQFMM8pdFNzzaXRtamjajHJIyUlmB+QU6Z5xwxmuJPJ9uKwKNUtE+BIWtrnp7Q8SiEjDbTwXH7OJYRPJRg==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection/3.1.29",
@@ -2296,8 +2296,8 @@
         "microsoft.extensions.dependencyinjection.3.1.29.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.29": {
       "sha512": "tGXFrTSRqSSCb49PGZUsA0gY32RXZzfP9XytNwGkw/pEdpadHywkrRYaZcaIzvyw5JZ8aNVd+TFnFkYhuSwfHQ==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.29",
@@ -2310,8 +2310,8 @@
         "microsoft.extensions.dependencyinjection.abstractions.3.1.29.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.Logging/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.Logging/3.1.29": {
       "sha512": "WURKzxYiDum6uNueWjJHxENF19nRL4Cx796KFDpLoJcxc7snG7VKepPYORb4aFOSryQaNq2ybAMyLZTOcS+jZQ==",
       "type": "package",
       "path": "microsoft.extensions.logging/3.1.29",
@@ -2326,8 +2326,8 @@
         "microsoft.extensions.logging.3.1.29.nupkg.sha512",
         "microsoft.extensions.logging.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.Logging.Abstractions/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.29": {
       "sha512": "ZwfCt7zahHx9mIXt9H2vffdWKMta+MaXCfN75NAzG/hRN7w/di91mpMm1XAExeWOU6HnfPIUBwDnErV8yH8JFA==",
       "type": "package",
       "path": "microsoft.extensions.logging.abstractions/3.1.29",
@@ -2340,8 +2340,8 @@
         "microsoft.extensions.logging.abstractions.3.1.29.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.Options/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.Options/3.1.29": {
       "sha512": "YHn5lHnUtT1tix1EmV8q8YwQTFoj65b0BcX6JD9vH4V3k/+iQF++gLzv8swO/GRcybls1RbheXfK5znPZADWDA==",
       "type": "package",
       "path": "microsoft.extensions.options/3.1.29",
@@ -2356,8 +2356,8 @@
         "microsoft.extensions.options.3.1.29.nupkg.sha512",
         "microsoft.extensions.options.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Extensions.Primitives/3.1.29": ***REMOVED***
+    },
+    "Microsoft.Extensions.Primitives/3.1.29": {
       "sha512": "dTfv+4/5lMy7L7LMT98PPl7E6NjN1vwEi+xQUmNzKUOJhASiKnLaPT0OwsvVXpm6RJoAA/slLegTCOoJTqRFag==",
       "type": "package",
       "path": "microsoft.extensions.primitives/3.1.29",
@@ -2372,8 +2372,8 @@
         "microsoft.extensions.primitives.3.1.29.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Identity.Client/3.0.8": ***REMOVED***
+    },
+    "Microsoft.Identity.Client/3.0.8": {
       "sha512": "9E1gXBRJta8+UXooYpJkp/8g6Cy4kFQl3iURduGhR7/vU8rGKTWEMJ3tUKOO2m1qzJOfaog/n89lyjdi7S56Rg==",
       "type": "package",
       "path": "microsoft.identity.client/3.0.8",
@@ -2412,8 +2412,8 @@
         "ref/xamarinmac20/Microsoft.Identity.Client.dll",
         "ref/xamarinmac20/Microsoft.Identity.Client.xml"
       ]
-***REMOVED***
-    "Microsoft.IdentityModel.JsonWebTokens/5.5.0": ***REMOVED***
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
       "sha512": "cT9SCW/dN+ulrvAtbh37c36DR6aArENH3S4UtFmvXRx+VGC0ArDgzRaEbEh+ChS4koxdl2oS691250iZhgKvwg==",
       "type": "package",
       "path": "microsoft.identitymodel.jsonwebtokens/5.5.0",
@@ -2433,8 +2433,8 @@
         "microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
         "microsoft.identitymodel.jsonwebtokens.nuspec"
       ]
-***REMOVED***
-    "Microsoft.IdentityModel.Logging/5.5.0": ***REMOVED***
+    },
+    "Microsoft.IdentityModel.Logging/5.5.0": {
       "sha512": "1w/Hz/7+al+ugQn+6y0tAPmpN8U0u1aBtl1QXYCVkiJfbCC4tgyroFOuhdztOq48rgeM+3JW9bGqOtkfVurW8w==",
       "type": "package",
       "path": "microsoft.identitymodel.logging/5.5.0",
@@ -2454,8 +2454,8 @@
         "microsoft.identitymodel.logging.5.5.0.nupkg.sha512",
         "microsoft.identitymodel.logging.nuspec"
       ]
-***REMOVED***
-    "Microsoft.IdentityModel.Protocols/5.5.0": ***REMOVED***
+    },
+    "Microsoft.IdentityModel.Protocols/5.5.0": {
       "sha512": "m1gwAQwZjUxzRBC+4H40vYSo9Cms9yUbMdW492rQoXHU77G/ItiKxpk2+W9bWYcdsKUDKudye7im3T3MlVxEkg==",
       "type": "package",
       "path": "microsoft.identitymodel.protocols/5.5.0",
@@ -2475,8 +2475,8 @@
         "microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
         "microsoft.identitymodel.protocols.nuspec"
       ]
-***REMOVED***
-    "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.5.0": ***REMOVED***
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.5.0": {
       "sha512": "21F4QlbaD5CXNs2urNRCO6vljbbrhv3gmGT8P18SKGKZ9IYBCn29extoJriHiPfhABd5b8S7RcdKU50XhERkYg==",
       "type": "package",
       "path": "microsoft.identitymodel.protocols.openidconnect/5.5.0",
@@ -2496,8 +2496,8 @@
         "microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
         "microsoft.identitymodel.protocols.openidconnect.nuspec"
       ]
-***REMOVED***
-    "Microsoft.IdentityModel.Tokens/5.5.0": ***REMOVED***
+    },
+    "Microsoft.IdentityModel.Tokens/5.5.0": {
       "sha512": "cu1klZiuCwVYbXHs0QdnseuoRGG1/85VX9d1Sk0vbJlKp+HJUN/4pAS/fe2m9bTOYyIPdeCHeksMiVHgo1EfAA==",
       "type": "package",
       "path": "microsoft.identitymodel.tokens/5.5.0",
@@ -2517,8 +2517,8 @@
         "microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
       ]
-***REMOVED***
-    "Microsoft.NETCore.Platforms/3.1.0": ***REMOVED***
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
       "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
       "path": "microsoft.netcore.platforms/3.1.0",
@@ -2534,8 +2534,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "Microsoft.NETCore.Targets/1.1.0": ***REMOVED***
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
       "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
@@ -2549,8 +2549,8 @@
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
       ]
-***REMOVED***
-    "Microsoft.OpenApi/1.1.4": ***REMOVED***
+    },
+    "Microsoft.OpenApi/1.1.4": {
       "sha512": "6SW0tpbJslc8LAY1XniRfLVcJa7bJUbbwvo2/ZRqfkMbJrsqIj9045vg3STtZhDhYRKhpYgjqGU11eeW4Pzyrg==",
       "type": "package",
       "path": "microsoft.openapi/1.1.4",
@@ -2566,8 +2566,8 @@
         "microsoft.openapi.1.1.4.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
-***REMOVED***
-    "Microsoft.Win32.Registry/4.5.0": ***REMOVED***
+    },
+    "Microsoft.Win32.Registry/4.5.0": {
       "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "type": "package",
       "path": "microsoft.win32.registry/4.5.0",
@@ -2606,8 +2606,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "Microsoft.Win32.SystemEvents/4.7.0": ***REMOVED***
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
       "sha512": "mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "type": "package",
       "path": "microsoft.win32.systemevents/4.7.0",
@@ -2635,8 +2635,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "MySql.Data/8.0.30": ***REMOVED***
+    },
+    "MySql.Data/8.0.30": {
       "sha512": "SRoxG9ASRQrqL/JKU9KxaWfkmWtBuw5rA7d9G34Z1w4Aq5YwvxIjuGDOkUSk/H6VOmlZ/wywgBSX9S6btbUAYg==",
       "type": "package",
       "path": "mysql.data/8.0.30",
@@ -2670,8 +2670,8 @@
         "mysql.data.8.0.30.nupkg.sha512",
         "mysql.data.nuspec"
       ]
-***REMOVED***
-    "MySql.EntityFrameworkCore/3.1.24": ***REMOVED***
+    },
+    "MySql.EntityFrameworkCore/3.1.24": {
       "sha512": "hi93fIB4dRzgV75AON6y0C1PeMYpPVM1/mH4xVxMDL0fTbVHI9f3b9aHacY6r8nHx4zimLRp9xOPWkEp1WCduw==",
       "type": "package",
       "path": "mysql.entityframeworkcore/3.1.24",
@@ -2685,8 +2685,8 @@
         "mysql.entityframeworkcore.3.1.24.nupkg.sha512",
         "mysql.entityframeworkcore.nuspec"
       ]
-***REMOVED***
-    "Newtonsoft.Json/10.0.1": ***REMOVED***
+    },
+    "Newtonsoft.Json/10.0.1": {
       "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "type": "package",
       "path": "newtonsoft.json/10.0.1",
@@ -2712,8 +2712,8 @@
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
       ]
-***REMOVED***
-    "Portable.BouncyCastle/1.9.0": ***REMOVED***
+    },
+    "Portable.BouncyCastle/1.9.0": {
       "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
       "type": "package",
       "path": "portable.bouncycastle/1.9.0",
@@ -2727,8 +2727,8 @@
         "portable.bouncycastle.1.9.0.nupkg.sha512",
         "portable.bouncycastle.nuspec"
       ]
-***REMOVED***
-    "runtime.native.System/4.3.0": ***REMOVED***
+    },
+    "runtime.native.System/4.3.0": {
       "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "type": "package",
       "path": "runtime.native.system/4.3.0",
@@ -2741,8 +2741,8 @@
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
       ]
-***REMOVED***
-    "runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.4.0": {
       "sha512": "A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
       "type": "package",
       "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
@@ -2756,8 +2756,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
       "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
       "type": "package",
       "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
@@ -2772,8 +2772,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
       "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
       "type": "package",
       "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
@@ -2788,8 +2788,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": ***REMOVED***
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
       "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "type": "package",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
@@ -2804,8 +2804,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "Swashbuckle.AspNetCore/5.0.0": ***REMOVED***
+    },
+    "Swashbuckle.AspNetCore/5.0.0": {
       "sha512": "HoJbhDNyeDqr2R1H3YhtPqGacxgZKBFBS6g5U3tlJpv80G/IHW8hHbcnHSTXZpcatnD+xh8UiUrKp4Ua857LSQ==",
       "type": "package",
       "path": "swashbuckle.aspnetcore/5.0.0",
@@ -2816,8 +2816,8 @@
         "swashbuckle.aspnetcore.5.0.0.nupkg.sha512",
         "swashbuckle.aspnetcore.nuspec"
       ]
-***REMOVED***
-    "Swashbuckle.AspNetCore.Swagger/5.0.0": ***REMOVED***
+    },
+    "Swashbuckle.AspNetCore.Swagger/5.0.0": {
       "sha512": "4MhbjCErPsLnkyYrNc7OFUWVYoyhJRGAoFwbuDONslIOhIn5CmM52a4hO8s/jaM5i55uDms/veh24d/fR1UvZw==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swagger/5.0.0",
@@ -2831,8 +2831,8 @@
         "swashbuckle.aspnetcore.swagger.5.0.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
       ]
-***REMOVED***
-    "Swashbuckle.AspNetCore.SwaggerGen/5.0.0": ***REMOVED***
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/5.0.0": {
       "sha512": "liZs2B35w1bHNacpNoDofNCJKmEhUaHVgvtUsjt/AToKQdZQpk9dvLWrEfRHiuwZVUiKLL30lsiV4dEF/Drzlw==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swaggergen/5.0.0",
@@ -2846,8 +2846,8 @@
         "swashbuckle.aspnetcore.swaggergen.5.0.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggergen.nuspec"
       ]
-***REMOVED***
-    "Swashbuckle.AspNetCore.SwaggerUI/5.0.0": ***REMOVED***
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/5.0.0": {
       "sha512": "MKDE976W6VUKc+3N/os/xgfj/WpxoHLGBlnURNyC8cb81XjKfTduoJ4JcsBgFsevSM2Yp4lxNaBeJ6vRYN3V0Q==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swaggerui/5.0.0",
@@ -2861,8 +2861,8 @@
         "swashbuckle.aspnetcore.swaggerui.5.0.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
-***REMOVED***
-    "System.Buffers/4.5.1": ***REMOVED***
+    },
+    "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
       "path": "system.buffers/4.5.1",
@@ -2892,8 +2892,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Collections/4.3.0": ***REMOVED***
+    },
+    "System.Collections/4.3.0": {
       "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
       "path": "system.collections/4.3.0",
@@ -2960,8 +2960,8 @@
         "system.collections.4.3.0.nupkg.sha512",
         "system.collections.nuspec"
       ]
-***REMOVED***
-    "System.Collections.Concurrent/4.3.0": ***REMOVED***
+    },
+    "System.Collections.Concurrent/4.3.0": {
       "sha512": "ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
       "type": "package",
       "path": "system.collections.concurrent/4.3.0",
@@ -3028,8 +3028,8 @@
         "system.collections.concurrent.4.3.0.nupkg.sha512",
         "system.collections.concurrent.nuspec"
       ]
-***REMOVED***
-    "System.Collections.Immutable/1.7.1": ***REMOVED***
+    },
+    "System.Collections.Immutable/1.7.1": {
       "sha512": "B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
       "type": "package",
       "path": "system.collections.immutable/1.7.1",
@@ -3054,8 +3054,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Collections.NonGeneric/4.3.0": ***REMOVED***
+    },
+    "System.Collections.NonGeneric/4.3.0": {
       "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
@@ -3093,8 +3093,8 @@
         "system.collections.nongeneric.4.3.0.nupkg.sha512",
         "system.collections.nongeneric.nuspec"
       ]
-***REMOVED***
-    "System.Collections.Specialized/4.3.0": ***REMOVED***
+    },
+    "System.Collections.Specialized/4.3.0": {
       "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
@@ -3132,8 +3132,8 @@
         "system.collections.specialized.4.3.0.nupkg.sha512",
         "system.collections.specialized.nuspec"
       ]
-***REMOVED***
-    "System.ComponentModel/4.3.0": ***REMOVED***
+    },
+    "System.ComponentModel/4.3.0": {
       "sha512": "VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
       "type": "package",
       "path": "system.componentmodel/4.3.0",
@@ -3191,8 +3191,8 @@
         "system.componentmodel.4.3.0.nupkg.sha512",
         "system.componentmodel.nuspec"
       ]
-***REMOVED***
-    "System.ComponentModel.Annotations/4.7.0": ***REMOVED***
+    },
+    "System.ComponentModel.Annotations/4.7.0": {
       "sha512": "0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
       "type": "package",
       "path": "system.componentmodel.annotations/4.7.0",
@@ -3280,8 +3280,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.ComponentModel.Primitives/4.3.0": ***REMOVED***
+    },
+    "System.ComponentModel.Primitives/4.3.0": {
       "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
@@ -3319,8 +3319,8 @@
         "system.componentmodel.primitives.4.3.0.nupkg.sha512",
         "system.componentmodel.primitives.nuspec"
       ]
-***REMOVED***
-    "System.ComponentModel.TypeConverter/4.3.0": ***REMOVED***
+    },
+    "System.ComponentModel.TypeConverter/4.3.0": {
       "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
@@ -3372,8 +3372,8 @@
         "system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
         "system.componentmodel.typeconverter.nuspec"
       ]
-***REMOVED***
-    "System.Configuration.ConfigurationManager/4.5.0": ***REMOVED***
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
       "sha512": "UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
       "type": "package",
       "path": "system.configuration.configurationmanager/4.5.0",
@@ -3393,8 +3393,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Diagnostics.Debug/4.3.0": ***REMOVED***
+    },
+    "System.Diagnostics.Debug/4.3.0": {
       "sha512": "ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
       "type": "package",
       "path": "system.diagnostics.debug/4.3.0",
@@ -3461,8 +3461,8 @@
         "system.diagnostics.debug.4.3.0.nupkg.sha512",
         "system.diagnostics.debug.nuspec"
       ]
-***REMOVED***
-    "System.Diagnostics.DiagnosticSource/4.7.1": ***REMOVED***
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
       "sha512": "j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
       "type": "package",
       "path": "system.diagnostics.diagnosticsource/4.7.1",
@@ -3487,8 +3487,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Diagnostics.Tools/4.3.0": ***REMOVED***
+    },
+    "System.Diagnostics.Tools/4.3.0": {
       "sha512": "UUvkJfSYJMM6x527dJg2VyWPSRqIVB0Z7dbjHst1zmwTXz5CcXSYJFWRpuigfbO1Lf7yfZiIaEUesfnl/g5EyA==",
       "type": "package",
       "path": "system.diagnostics.tools/4.3.0",
@@ -3544,8 +3544,8 @@
         "system.diagnostics.tools.4.3.0.nupkg.sha512",
         "system.diagnostics.tools.nuspec"
       ]
-***REMOVED***
-    "System.Diagnostics.Tracing/4.3.0": ***REMOVED***
+    },
+    "System.Diagnostics.Tracing/4.3.0": {
       "sha512": "rswfv0f/Cqkh78rA5S8eN8Neocz234+emGCtTF3lxPY96F+mmmUen6tbn0glN6PMvlKQb9bPAY5e9u7fgPTkKw==",
       "type": "package",
       "path": "system.diagnostics.tracing/4.3.0",
@@ -3634,8 +3634,8 @@
         "system.diagnostics.tracing.4.3.0.nupkg.sha512",
         "system.diagnostics.tracing.nuspec"
       ]
-***REMOVED***
-    "System.Drawing.Common/4.7.0": ***REMOVED***
+    },
+    "System.Drawing.Common/4.7.0": {
       "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
       "type": "package",
       "path": "system.drawing.common/4.7.0",
@@ -3673,8 +3673,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Dynamic.Runtime/4.3.0": ***REMOVED***
+    },
+    "System.Dynamic.Runtime/4.3.0": {
       "sha512": "SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
@@ -3744,8 +3744,8 @@
         "system.dynamic.runtime.4.3.0.nupkg.sha512",
         "system.dynamic.runtime.nuspec"
       ]
-***REMOVED***
-    "System.Globalization/4.3.0": ***REMOVED***
+    },
+    "System.Globalization/4.3.0": {
       "sha512": "kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
       "type": "package",
       "path": "system.globalization/4.3.0",
@@ -3812,8 +3812,8 @@
         "system.globalization.4.3.0.nupkg.sha512",
         "system.globalization.nuspec"
       ]
-***REMOVED***
-    "System.Globalization.Extensions/4.3.0": ***REMOVED***
+    },
+    "System.Globalization.Extensions/4.3.0": {
       "sha512": "FhKmdR6MPG+pxow6wGtNAWdZh7noIOpdD5TwQ3CprzgIE1bBBoim0vbR1+AWsWjQmU7zXHgQo4TWSP6lCeiWcQ==",
       "type": "package",
       "path": "system.globalization.extensions/4.3.0",
@@ -3853,8 +3853,8 @@
         "system.globalization.extensions.4.3.0.nupkg.sha512",
         "system.globalization.extensions.nuspec"
       ]
-***REMOVED***
-    "System.IdentityModel.Tokens.Jwt/5.5.0": ***REMOVED***
+    },
+    "System.IdentityModel.Tokens.Jwt/5.5.0": {
       "sha512": "xa8kptJ+uf9hzj366f3pLcs5HFZ6dQMDKzEGq/yZNF0s3mVfyIhuQwgDcTJlAU4AROne/6Z5+vITwrW3gVNKIA==",
       "type": "package",
       "path": "system.identitymodel.tokens.jwt/5.5.0",
@@ -3874,8 +3874,8 @@
         "system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
-***REMOVED***
-    "System.IO/4.3.0": ***REMOVED***
+    },
+    "System.IO/4.3.0": {
       "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "type": "package",
       "path": "system.io/4.3.0",
@@ -3955,8 +3955,8 @@
         "system.io.4.3.0.nupkg.sha512",
         "system.io.nuspec"
       ]
-***REMOVED***
-    "System.IO.FileSystem/4.3.0": ***REMOVED***
+    },
+    "System.IO.FileSystem/4.3.0": {
       "sha512": "3wEMARTnuio+ulnvi+hkRNROYwa1kylvYahhcLk4HSoVdl+xxTFVeVlYOfLwrDPImGls0mDqbMhrza8qnWPTdA==",
       "type": "package",
       "path": "system.io.filesystem/4.3.0",
@@ -3993,8 +3993,8 @@
         "system.io.filesystem.4.3.0.nupkg.sha512",
         "system.io.filesystem.nuspec"
       ]
-***REMOVED***
-    "System.IO.FileSystem.Primitives/4.3.0": ***REMOVED***
+    },
+    "System.IO.FileSystem.Primitives/4.3.0": {
       "sha512": "6QOb2XFLch7bEc4lIcJH49nJN2HV+OC3fHDgsLVsBVBk3Y4hFAnOBGzJ2lUu7CyDDFo9IBWkSsnbkT6IBwwiMw==",
       "type": "package",
       "path": "system.io.filesystem.primitives/4.3.0",
@@ -4032,8 +4032,8 @@
         "system.io.filesystem.primitives.4.3.0.nupkg.sha512",
         "system.io.filesystem.primitives.nuspec"
       ]
-***REMOVED***
-    "System.Linq/4.3.0": ***REMOVED***
+    },
+    "System.Linq/4.3.0": {
       "sha512": "5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "type": "package",
       "path": "system.linq/4.3.0",
@@ -4104,8 +4104,8 @@
         "system.linq.4.3.0.nupkg.sha512",
         "system.linq.nuspec"
       ]
-***REMOVED***
-    "System.Linq.Expressions/4.3.0": ***REMOVED***
+    },
+    "System.Linq.Expressions/4.3.0": {
       "sha512": "PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
       "type": "package",
       "path": "system.linq.expressions/4.3.0",
@@ -4188,8 +4188,8 @@
         "system.linq.expressions.4.3.0.nupkg.sha512",
         "system.linq.expressions.nuspec"
       ]
-***REMOVED***
-    "System.Memory/4.5.4": ***REMOVED***
+    },
+    "System.Memory/4.5.4": {
       "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
       "type": "package",
       "path": "system.memory/4.5.4",
@@ -4211,8 +4211,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Net.NameResolution/4.3.0": ***REMOVED***
+    },
+    "System.Net.NameResolution/4.3.0": {
       "sha512": "AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
       "type": "package",
       "path": "system.net.nameresolution/4.3.0",
@@ -4253,8 +4253,8 @@
         "system.net.nameresolution.4.3.0.nupkg.sha512",
         "system.net.nameresolution.nuspec"
       ]
-***REMOVED***
-    "System.Net.Primitives/4.3.0": ***REMOVED***
+    },
+    "System.Net.Primitives/4.3.0": {
       "sha512": "qOu+hDwFwoZPbzPvwut2qATe3ygjeQBDQj91xlsaqGFQUI5i4ZnZb8yyQuLGpDGivEPIt8EJkd1BVzVoP31FXA==",
       "type": "package",
       "path": "system.net.primitives/4.3.0",
@@ -4332,8 +4332,8 @@
         "system.net.primitives.4.3.0.nupkg.sha512",
         "system.net.primitives.nuspec"
       ]
-***REMOVED***
-    "System.ObjectModel/4.3.0": ***REMOVED***
+    },
+    "System.ObjectModel/4.3.0": {
       "sha512": "bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "type": "package",
       "path": "system.objectmodel/4.3.0",
@@ -4402,8 +4402,8 @@
         "system.objectmodel.4.3.0.nupkg.sha512",
         "system.objectmodel.nuspec"
       ]
-***REMOVED***
-    "System.Private.DataContractSerialization/4.3.0": ***REMOVED***
+    },
+    "System.Private.DataContractSerialization/4.3.0": {
       "sha512": "yDaJ2x3mMmjdZEDB4IbezSnCsnjQ4BxinKhRAaP6kEgL6Bb6jANWphs5SzyD8imqeC/3FxgsuXT6ykkiH1uUmA==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.3.0",
@@ -4418,8 +4418,8 @@
         "system.private.datacontractserialization.4.3.0.nupkg.sha512",
         "system.private.datacontractserialization.nuspec"
       ]
-***REMOVED***
-    "System.Reflection/4.3.0": ***REMOVED***
+    },
+    "System.Reflection/4.3.0": {
       "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
       "path": "system.reflection/4.3.0",
@@ -4499,8 +4499,8 @@
         "system.reflection.4.3.0.nupkg.sha512",
         "system.reflection.nuspec"
       ]
-***REMOVED***
-    "System.Reflection.Emit/4.3.0": ***REMOVED***
+    },
+    "System.Reflection.Emit/4.3.0": {
       "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
@@ -4535,8 +4535,8 @@
         "system.reflection.emit.4.3.0.nupkg.sha512",
         "system.reflection.emit.nuspec"
       ]
-***REMOVED***
-    "System.Reflection.Emit.ILGeneration/4.3.0": ***REMOVED***
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
       "sha512": "59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
@@ -4580,8 +4580,8 @@
         "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
         "system.reflection.emit.ilgeneration.nuspec"
       ]
-***REMOVED***
-    "System.Reflection.Emit.Lightweight/4.3.0": ***REMOVED***
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
       "sha512": "oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.3.0",
@@ -4625,8 +4625,8 @@
         "system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
         "system.reflection.emit.lightweight.nuspec"
       ]
-***REMOVED***
-    "System.Reflection.Extensions/4.3.0": ***REMOVED***
+    },
+    "System.Reflection.Extensions/4.3.0": {
       "sha512": "rJkrJD3kBI5B712aRu4DpSIiHRtr6QlfZSQsb0hYHrDCZORXCFjQfoipo2LaMUHoT9i1B7j7MnfaEKWDFmFQNQ==",
       "type": "package",
       "path": "system.reflection.extensions/4.3.0",
@@ -4682,8 +4682,8 @@
         "system.reflection.extensions.4.3.0.nupkg.sha512",
         "system.reflection.extensions.nuspec"
       ]
-***REMOVED***
-    "System.Reflection.Primitives/4.3.0": ***REMOVED***
+    },
+    "System.Reflection.Primitives/4.3.0": {
       "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
       "type": "package",
       "path": "system.reflection.primitives/4.3.0",
@@ -4739,8 +4739,8 @@
         "system.reflection.primitives.4.3.0.nupkg.sha512",
         "system.reflection.primitives.nuspec"
       ]
-***REMOVED***
-    "System.Reflection.TypeExtensions/4.3.0": ***REMOVED***
+    },
+    "System.Reflection.TypeExtensions/4.3.0": {
       "sha512": "7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.3.0",
@@ -4793,8 +4793,8 @@
         "system.reflection.typeextensions.4.3.0.nupkg.sha512",
         "system.reflection.typeextensions.nuspec"
       ]
-***REMOVED***
-    "System.Resources.ResourceManager/4.3.0": ***REMOVED***
+    },
+    "System.Resources.ResourceManager/4.3.0": {
       "sha512": "/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
       "type": "package",
       "path": "system.resources.resourcemanager/4.3.0",
@@ -4850,8 +4850,8 @@
         "system.resources.resourcemanager.4.3.0.nupkg.sha512",
         "system.resources.resourcemanager.nuspec"
       ]
-***REMOVED***
-    "System.Runtime/4.3.0": ***REMOVED***
+    },
+    "System.Runtime/4.3.0": {
       "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
       "path": "system.runtime/4.3.0",
@@ -4942,8 +4942,8 @@
         "system.runtime.4.3.0.nupkg.sha512",
         "system.runtime.nuspec"
       ]
-***REMOVED***
-    "System.Runtime.Caching/4.5.0": ***REMOVED***
+    },
+    "System.Runtime.Caching/4.5.0": {
       "sha512": "95j9KShuaAENf2gLbQ/9YoJDHIWAnoaFYA71xo4QVQyLkOMginn34cD1+6RcYIrqJamLkMXgvgUnOzwzBk+U0w==",
       "type": "package",
       "path": "system.runtime.caching/4.5.0",
@@ -4976,8 +4976,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Runtime.CompilerServices.Unsafe/5.0.0": ***REMOVED***
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
       "sha512": "ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/5.0.0",
@@ -5008,8 +5008,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Runtime.Extensions/4.3.0": ***REMOVED***
+    },
+    "System.Runtime.Extensions/4.3.0": {
       "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
       "path": "system.runtime.extensions/4.3.0",
@@ -5089,8 +5089,8 @@
         "system.runtime.extensions.4.3.0.nupkg.sha512",
         "system.runtime.extensions.nuspec"
       ]
-***REMOVED***
-    "System.Runtime.Handles/4.3.0": ***REMOVED***
+    },
+    "System.Runtime.Handles/4.3.0": {
       "sha512": "OKiSUN7DmTWeYb3l51A7EYaeNMnvxwE249YtZz7yooT4gOZhmTjIn48KgSsw2k2lYdLgTKNJw/ZIfSElwDRVgg==",
       "type": "package",
       "path": "system.runtime.handles/4.3.0",
@@ -5127,8 +5127,8 @@
         "system.runtime.handles.4.3.0.nupkg.sha512",
         "system.runtime.handles.nuspec"
       ]
-***REMOVED***
-    "System.Runtime.InteropServices/4.3.0": ***REMOVED***
+    },
+    "System.Runtime.InteropServices/4.3.0": {
       "sha512": "uv1ynXqiMK8mp1GM3jDqPCFN66eJ5w5XNomaK2XD+TuCroNTLFGeZ+WCmBMcBDyTFKou3P6cR6J/QsaqDp7fGQ==",
       "type": "package",
       "path": "system.runtime.interopservices/4.3.0",
@@ -5220,8 +5220,8 @@
         "system.runtime.interopservices.4.3.0.nupkg.sha512",
         "system.runtime.interopservices.nuspec"
       ]
-***REMOVED***
-    "System.Runtime.Numerics/4.3.0": ***REMOVED***
+    },
+    "System.Runtime.Numerics/4.3.0": {
       "sha512": "yMH+MfdzHjy17l2KESnPiF2dwq7T+xLnSJar7slyimAkUh/gTrS9/UQOtv7xarskJ2/XDSNvfLGOBQPjL7PaHQ==",
       "type": "package",
       "path": "system.runtime.numerics/4.3.0",
@@ -5277,8 +5277,8 @@
         "system.runtime.numerics.4.3.0.nupkg.sha512",
         "system.runtime.numerics.nuspec"
       ]
-***REMOVED***
-    "System.Runtime.Serialization.Formatters/4.3.0": ***REMOVED***
+    },
+    "System.Runtime.Serialization.Formatters/4.3.0": {
       "sha512": "KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
       "type": "package",
       "path": "system.runtime.serialization.formatters/4.3.0",
@@ -5306,8 +5306,8 @@
         "system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
         "system.runtime.serialization.formatters.nuspec"
       ]
-***REMOVED***
-    "System.Runtime.Serialization.Json/4.3.0": ***REMOVED***
+    },
+    "System.Runtime.Serialization.Json/4.3.0": {
       "sha512": "CpVfOH0M/uZ5PH+M9+Gu56K0j9lJw3M+PKRegTkcrY/stOIvRUeonggxNrfBYLA5WOHL2j15KNJuTuld3x4o9w==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.3.0",
@@ -5365,8 +5365,8 @@
         "system.runtime.serialization.json.4.3.0.nupkg.sha512",
         "system.runtime.serialization.json.nuspec"
       ]
-***REMOVED***
-    "System.Runtime.Serialization.Primitives/4.3.0": ***REMOVED***
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
       "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
@@ -5438,8 +5438,8 @@
         "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
         "system.runtime.serialization.primitives.nuspec"
       ]
-***REMOVED***
-    "System.Security.AccessControl/4.7.0": ***REMOVED***
+    },
+    "System.Security.AccessControl/4.7.0": {
       "sha512": "JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
       "type": "package",
       "path": "system.security.accesscontrol/4.7.0",
@@ -5484,8 +5484,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Security.Cryptography.Cng/4.5.0": ***REMOVED***
+    },
+    "System.Security.Cryptography.Cng/4.5.0": {
       "sha512": "WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "type": "package",
       "path": "system.security.cryptography.cng/4.5.0",
@@ -5547,8 +5547,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Security.Cryptography.Primitives/4.3.0": ***REMOVED***
+    },
+    "System.Security.Cryptography.Primitives/4.3.0": {
       "sha512": "7bDIyVFNL/xKeFHjhobUAQqSpJq9YTOpbEs6mR233Et01STBMXNAc/V+BM6dwYGc95gVh/Zf+iVXWzj3mE8DWg==",
       "type": "package",
       "path": "system.security.cryptography.primitives/4.3.0",
@@ -5576,8 +5576,8 @@
         "system.security.cryptography.primitives.4.3.0.nupkg.sha512",
         "system.security.cryptography.primitives.nuspec"
       ]
-***REMOVED***
-    "System.Security.Cryptography.ProtectedData/4.5.0": ***REMOVED***
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
       "sha512": "wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
       "type": "package",
       "path": "system.security.cryptography.protecteddata/4.5.0",
@@ -5617,8 +5617,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Security.Permissions/4.7.0": ***REMOVED***
+    },
+    "System.Security.Permissions/4.7.0": {
       "sha512": "dkOV6YYVBnYRa15/yv004eCGRBVADXw8qRbbNiCn/XpdJSUXkkUeIvdvFHkvnko4CdKMqG8yRHC4ox83LSlMsQ==",
       "type": "package",
       "path": "system.security.permissions/4.7.0",
@@ -5644,8 +5644,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Security.Principal.Windows/4.7.0": ***REMOVED***
+    },
+    "System.Security.Principal.Windows/4.7.0": {
       "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "type": "package",
       "path": "system.security.principal.windows/4.7.0",
@@ -5698,8 +5698,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Security.SecureString/4.3.0": ***REMOVED***
+    },
+    "System.Security.SecureString/4.3.0": {
       "sha512": "PnXp38O9q/2Oe4iZHMH60kinScv6QiiL2XH54Pj2t0Y6c2zKPEiAZsM/M3wBOHLNTBDFP0zfy13WN2M0qFz5jg==",
       "type": "package",
       "path": "system.security.securestring/4.3.0",
@@ -5739,8 +5739,8 @@
         "system.security.securestring.4.3.0.nupkg.sha512",
         "system.security.securestring.nuspec"
       ]
-***REMOVED***
-    "System.Text.Encoding/4.3.0": ***REMOVED***
+    },
+    "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
@@ -5807,8 +5807,8 @@
         "system.text.encoding.4.3.0.nupkg.sha512",
         "system.text.encoding.nuspec"
       ]
-***REMOVED***
-    "System.Text.Encoding.CodePages/4.5.0": ***REMOVED***
+    },
+    "System.Text.Encoding.CodePages/4.5.0": {
       "sha512": "S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.5.0",
@@ -5855,8 +5855,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Text.Encoding.Extensions/4.3.0": ***REMOVED***
+    },
+    "System.Text.Encoding.Extensions/4.3.0": {
       "sha512": "YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "type": "package",
       "path": "system.text.encoding.extensions/4.3.0",
@@ -5923,8 +5923,8 @@
         "system.text.encoding.extensions.4.3.0.nupkg.sha512",
         "system.text.encoding.extensions.nuspec"
       ]
-***REMOVED***
-    "System.Text.RegularExpressions/4.3.0": ***REMOVED***
+    },
+    "System.Text.RegularExpressions/4.3.0": {
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",
       "path": "system.text.regularexpressions/4.3.0",
@@ -6007,8 +6007,8 @@
         "system.text.regularexpressions.4.3.0.nupkg.sha512",
         "system.text.regularexpressions.nuspec"
       ]
-***REMOVED***
-    "System.Threading/4.3.0": ***REMOVED***
+    },
+    "System.Threading/4.3.0": {
       "sha512": "VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
       "type": "package",
       "path": "system.threading/4.3.0",
@@ -6078,8 +6078,8 @@
         "system.threading.4.3.0.nupkg.sha512",
         "system.threading.nuspec"
       ]
-***REMOVED***
-    "System.Threading.Tasks/4.3.0": ***REMOVED***
+    },
+    "System.Threading.Tasks/4.3.0": {
       "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
       "path": "system.threading.tasks/4.3.0",
@@ -6146,8 +6146,8 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
-***REMOVED***
-    "System.Threading.Tasks.Extensions/4.3.0": ***REMOVED***
+    },
+    "System.Threading.Tasks.Extensions/4.3.0": {
       "sha512": "npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
       "type": "package",
       "path": "system.threading.tasks.extensions/4.3.0",
@@ -6163,8 +6163,8 @@
         "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
         "system.threading.tasks.extensions.nuspec"
       ]
-***REMOVED***
-    "System.Windows.Extensions/4.7.0": ***REMOVED***
+    },
+    "System.Windows.Extensions/4.7.0": {
       "sha512": "CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "type": "package",
       "path": "system.windows.extensions/4.7.0",
@@ -6184,8 +6184,8 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-***REMOVED***
-    "System.Xml.ReaderWriter/4.3.0": ***REMOVED***
+    },
+    "System.Xml.ReaderWriter/4.3.0": {
       "sha512": "GrprA+Z0RUXaR4N7/eW71j1rgMnEnEVlgii49GZyAjTH7uliMnrOU3HNFBr6fEDBCJCIdlVNq9hHbaDR621XBA==",
       "type": "package",
       "path": "system.xml.readerwriter/4.3.0",
@@ -6256,8 +6256,8 @@
         "system.xml.readerwriter.4.3.0.nupkg.sha512",
         "system.xml.readerwriter.nuspec"
       ]
-***REMOVED***
-    "System.Xml.XDocument/4.3.0": ***REMOVED***
+    },
+    "System.Xml.XDocument/4.3.0": {
       "sha512": "5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "type": "package",
       "path": "system.xml.xdocument/4.3.0",
@@ -6326,8 +6326,8 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-***REMOVED***
-    "System.Xml.XmlDocument/4.3.0": ***REMOVED***
+    },
+    "System.Xml.XmlDocument/4.3.0": {
       "sha512": "lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "type": "package",
       "path": "system.xml.xmldocument/4.3.0",
@@ -6365,8 +6365,8 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
-***REMOVED***
-    "System.Xml.XmlSerializer/4.3.0": ***REMOVED***
+    },
+    "System.Xml.XmlSerializer/4.3.0": {
       "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
@@ -6436,9 +6436,9 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-***REMOVED***
-  ***REMOVED***,
-  "projectFileDependencyGroups": ***REMOVED***
+    }
+  },
+  "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "BCrypt.Net-Next >= 4.0.3",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.30",
@@ -6448,13 +6448,13 @@
       "MySql.EntityFrameworkCore >= 3.1.24",
       "Swashbuckle.AspNetCore >= 5.0.0"
     ]
-  ***REMOVED***,
-  "packageFolders": ***REMOVED***
-    "C:\\Users\\Arnas\\.nuget\\packages\\": ***REMOVED******REMOVED***
-  ***REMOVED***,
-  "project": ***REMOVED***
+  },
+  "packageFolders": {
+    "C:\\Users\\Arnas\\.nuget\\packages\\": {}
+  },
+  "project": {
     "version": "1.0.0",
-    "restore": ***REMOVED***
+    "restore": {
       "projectUniqueName": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj",
       "projectName": "Kompiuterija",
       "projectPath": "C:\\Users\\Arnas\\Desktop\\Kompiuterija\\Kompiuterija.csproj",
@@ -6468,59 +6468,59 @@
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
-      "sources": ***REMOVED***
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": ***REMOVED******REMOVED***,
-        "https://api.nuget.org/v3/index.json": ***REMOVED******REMOVED***
-  ***REMOVED***
-      "frameworks": ***REMOVED***
-        "netcoreapp3.1": ***REMOVED***
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": ***REMOVED******REMOVED***
-***REMOVED***
-  ***REMOVED***
-      "warningProperties": ***REMOVED***
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
-  ***REMOVED***
-***REMOVED***
-    "frameworks": ***REMOVED***
-      "netcoreapp3.1": ***REMOVED***
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
-        "dependencies": ***REMOVED***
-          "BCrypt.Net-Next": ***REMOVED***
+        "dependencies": {
+          "BCrypt.Net-Next": {
             "target": "Package",
             "version": "[4.0.3, )"
-  ***REMOVED***,
-          "Microsoft.AspNetCore.Authentication.JwtBearer": ***REMOVED***
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[3.1.30, )"
-  ***REMOVED***,
-          "Microsoft.EntityFrameworkCore.Design": ***REMOVED***
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.29, )"
-  ***REMOVED***,
-          "Microsoft.EntityFrameworkCore.SqlServer": ***REMOVED***
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.3, )"
-  ***REMOVED***,
-          "Microsoft.EntityFrameworkCore.Tools": ***REMOVED***
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.29, )"
-  ***REMOVED***,
-          "MySql.EntityFrameworkCore": ***REMOVED***
+          },
+          "MySql.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.24, )"
-  ***REMOVED***,
-          "Swashbuckle.AspNetCore": ***REMOVED***
+          },
+          "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.0.0, )"
-  ***REMOVED***
-***REMOVED***,
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -6531,16 +6531,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": ***REMOVED***
-          "Microsoft.AspNetCore.App": ***REMOVED***
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
-  ***REMOVED***,
-          "Microsoft.NETCore.App": ***REMOVED***
+          },
+          "Microsoft.NETCore.App": {
             "privateAssets": "all"
-  ***REMOVED***
-***REMOVED***,
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-***REMOVED***
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Arnas\\Desktop\\Kompiuterija\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: *. Path '', line 0, position 0."
+    }
+  ]
+}

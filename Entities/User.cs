@@ -6,11 +6,11 @@ using System.Collections.Generic;
 // #nullable disable
 
 namespace Kompiuterija.Entities
-***REMOVED***
+{
     public partial class User
-    ***REMOVED***
-        public string Email ***REMOVED*** get; set; ***REMOVED***
-        public string Password ***REMOVED*** get; set; ***REMOVED***
-        public string Role ***REMOVED*** get; set; ***REMOVED***
-***REMOVED***
-***REMOVED***
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string Role { get; set; }
+    }
+}

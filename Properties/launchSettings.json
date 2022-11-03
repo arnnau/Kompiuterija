@@ -1,30 +1,27 @@
-﻿***REMOVED***
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-  "iisSettings": ***REMOVED***
+﻿{
+    "$schema": "http://json.schemastore.org/launchsettings.json",
+    "iisSettings": ***REMOVED***
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": ***REMOVED***
-      "applicationUrl": "http://localhost:65358",
-      "sslPort": 44303
-***REMOVED***
-  ***REMOVED***,
-  "profiles": ***REMOVED***
+    "applicationUrl": "http://localhost:65358",
+    "sslPort": 44303
+    ***REMOVED*** ***REMOVED***,
+    "profiles": ***REMOVED***
     "IIS Express": ***REMOVED***
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "",
-      "environmentVariables": ***REMOVED***
-        "ASPNETCORE_ENVIRONMENT": "Development"
-  ***REMOVED***
-***REMOVED***
+    "commandName": "IISExpress",
+    "launchBrowser": true,
+    "launchUrl": "",
+    "environmentVariables": ***REMOVED***
+    "ASPNETCORE_ENVIRONMENT": "Development"
+    ***REMOVED*** ***REMOVED***
     "Kompiuterija": ***REMOVED***
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
-      "environmentVariables": ***REMOVED***
-        "ASPNETCORE_ENVIRONMENT": "Development"
-  ***REMOVED***
-***REMOVED***
-  ***REMOVED***
-***REMOVED***
+    "commandName": "Project",
+    "launchBrowser": true,
+    "launchUrl": "",
+    "applicationUrl": "https://localhost:5001;http://localhost:5000",
+    "environmentVariables": ***REMOVED***
+    "ASPNETCORE_ENVIRONMENT": "Development"
+    ***REMOVED*** ***REMOVED***
+    ***REMOVED***
+}

@@ -1,13 +1,13 @@
-***REMOVED***
-  "runtimeOptions": ***REMOVED***
+{
+  "runtimeOptions": {
     "tfm": "netcoreapp3.1",
-    "framework": ***REMOVED***
+    "framework": {
       "name": "Microsoft.AspNetCore.App",
       "version": "3.1.0"
-***REMOVED***
-    "configProperties": ***REMOVED***
+    },
+    "configProperties": {
       "System.GC.Server": true,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
-***REMOVED***
-  ***REMOVED***
-***REMOVED***
+    }
+  }
+}
