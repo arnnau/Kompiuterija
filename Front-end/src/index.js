@@ -17,9 +17,27 @@ const darkTheme = createTheme({
   },
 });
 
+const parseJwt = (token) => {
+  try {
+    return JSON.parse(atob(token.split(".")[1]));
+  } catch (e) {
+    return null;
+  }
+};
+
 function RequireAuth({ children }) {
+  var isExpired = false;
   let isAuthenticated = localStorage.getItem("token") ? true : false;
-  return isAuthenticated ? children : <Navigate to='/'/>;
+  if(isAuthenticated) {
+    const token = localStorage.getItem("token");
+    const decodedJwt = parseJwt(token);
+    if (decodedJwt.exp * 1000 < Date.now()) {
+      isExpired = true;
+      localStorage.removeItem("token");
+    }
+  }
+  
+  return isExpired ? <Navigate to='/'/> : children;
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
