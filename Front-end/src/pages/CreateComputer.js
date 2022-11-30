@@ -1,11 +1,12 @@
 import MenuBar from "../MenuBar";
 
-const NoPage = () => {
+const CreateComputer = () => {
     return <div>
         <MenuBar />
         <h1>404</h1>
       </div>;
   };
   
-  export default NoPage;
+  export default CreateComputer;
+
   

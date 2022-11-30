@@ -11,6 +11,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import axios from 'axios';
+import MenuBar from '../MenuBar';
 
 export const setAuthToken = token => {
     if (token) {
@@ -50,13 +51,16 @@ export default function SignIn() {
        setAuthToken(token);
  
     //redirect user to home page
-       window.location.href = '/shops'
+       window.location.href = '/'
      })
      .catch(err => console.log(err));
   };
 
   return (
+    <div>
+      <MenuBar />
       <Container component="main" maxWidth="xs">
+        
         <CssBaseline />
         <Box
           sx={{
@@ -115,5 +119,7 @@ export default function SignIn() {
           </Box>
         </Box>
       </Container>
+    </div>
+      
   );
 }

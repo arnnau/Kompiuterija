@@ -116,6 +116,81 @@ namespace Kompiuterija.Controllers
                 }
             }
         }
+        [HttpGet("{Id}/parts")]
+        public async Task<ActionResult<IEnumerable<PartDTO>>> GetUserComputerPartsByComputer(int Id)
+        {
+            List<string> ident = GetIdentity();
+            if (ident[1] == "user")
+            {
+                //System.Diagnostics.Debug.WriteLine(user);
+                ComputerDTO computer = await DBContext.Computer.Select(
+                    s => new ComputerDTO
+                    {
+                        Id = s.Id,
+                        User = s.User,
+                        Name = s.Name,
+                        ShopId = s.ShopId,
+                        Registered = s.Registered
+                    }
+                ).FirstOrDefaultAsync(s => s.Id == Id && string.Equals(s.User.Trim(), ident[0].Trim()));
+                if (computer == null)
+                {
+                    return NotFound();
+                }
+                var List = await DBContext.Part.Select(
+                    s => new PartDTO
+                    {
+                        Id = s.Id,
+                        ComputerId = s.ComputerId,
+                        Name = s.Name,
+                        Type = s.Type
+                    }
+                ).Where(s => s.ComputerId == computer.Id).ToListAsync();
+                if (List.Count <= 0)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    return List;
+                }
+            }
+            else if (ident[1] == "employee" || ident[1] == "admin")
+            {
+                ComputerDTO computer = await DBContext.Computer.Select(
+                    s => new ComputerDTO
+                    {
+                        Id = s.Id,
+                        User = s.User,
+                        Name = s.Name,
+                        ShopId = s.ShopId,
+                        Registered = s.Registered
+                    }
+                ).FirstOrDefaultAsync(s => s.Id == Id);
+                if (computer == null)
+                {
+                    return NotFound();
+                }
+                var List = await DBContext.Part.Select(
+                    s => new PartDTO
+                    {
+                        Id = s.Id,
+                        ComputerId = s.ComputerId,
+                        Name = s.Name,
+                        Type = s.Type
+                    }
+                ).Where(s => s.ComputerId == computer.Id).ToListAsync();
+                if (List.Count <= 0)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    return List;
+                }
+            }
+            else return NotFound();
+        }
         [HttpPost("")]
         public async Task<ActionResult<ComputerDTO>> InsertComputer(ComputerDTO Computer)
         {
