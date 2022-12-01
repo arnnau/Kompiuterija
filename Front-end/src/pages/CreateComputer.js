@@ -1,12 +1,7 @@
 import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
-import Link from '@mui/material/Link';
-import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
@@ -15,7 +10,8 @@ import MenuBar from "../MenuBar";
 import { useEffect, useState } from 'react';
 import { Select, Modal } from '@mui/material';
 import { MenuItem } from '@mui/material';
-import { Navigate } from 'react-router-dom';
+import { CircularProgress } from '@mui/material';
+import { FormControl } from '@mui/material';
 
 const style = {
     position: 'absolute',
@@ -30,8 +26,9 @@ const style = {
   };
 
 const CreateComputer = () => {
-    const [shop, setShop] = React.useState('');
+    const [shop, setShop] = React.useState("");
     const [open, setOpen] = React.useState(false);
+    const [loading, setLoading] = useState(true);
     const handleOpen = () => setOpen(true);
     const handleClose = () =>  {
         setOpen(false);
@@ -48,12 +45,13 @@ const CreateComputer = () => {
         );
         const shops = data;
         setShops(shops);
+        setLoading(false);
       };
     
       useEffect(() => {
         fetchShops();
       }, []);
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
         const url = "https://kompiuterija20221102215702.azurewebsites.net/computers";
         const token = localStorage.getItem("token");
@@ -62,7 +60,7 @@ const CreateComputer = () => {
           shopId: shop,
           name: data.get('name')
         };
-        axios({
+        await axios({
             method: 'post',
             url: url,
             data: JSON.stringify(loginPayload),
@@ -76,7 +74,15 @@ const CreateComputer = () => {
          .catch(err => console.log(err));
         
       };
+      if (loading) {
+        return (
+          <div>
+            <MenuBar />
+            <div className="center"><CircularProgress /></div>
+          </div>
     
+        );
+      }
       return (
         <div>
           <MenuBar />
@@ -94,7 +100,8 @@ const CreateComputer = () => {
               <Typography component="h1" variant="h5">
                 Create new computer
               </Typography>
-              <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+              <Box component="form" onSubmit={handleSubmit} sx={{ mt: 1 }}>
+              <FormControl sx={{ m: 1, minWidth: 300 }}>
                 <TextField
                   margin="normal"
                   required
@@ -106,12 +113,15 @@ const CreateComputer = () => {
                   autoFocus
                 />
                 <Select
-                    labelId="shopId"
+                    labelId="shopLabel"
                     id="shopId"
+                    required
                     value={shop}
-                    label="Shop"
                     onChange={handleChange}
                 >
+                    <MenuItem value="">
+                      <em>Select a shop</em>
+                    </MenuItem>
                     {shops.map((shop) => (
                         <MenuItem key={shop.id} value={shop.id}>{shop.address}, {shop.city}</MenuItem>
                     ))}
@@ -124,6 +134,7 @@ const CreateComputer = () => {
                 >
                   Add computer
                 </Button>
+                </FormControl>
                 <Modal
                     open={open}
                     onClose={handleClose}

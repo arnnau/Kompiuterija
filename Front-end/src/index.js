@@ -18,6 +18,10 @@ import Parts from './pages/Parts';
 import { RequireAuth } from './Auth.js';
 import CreateComputer from './pages/CreateComputer';
 import CreatePart from './pages/CreatePart';
+import DeleteComputer from './pages/DeleteComputer';
+import EditComputer from './pages/EditComputer';
+import DeletePart from './pages/DeletePart';
+import EditPart from './pages/EditPart';
 
 const darkTheme = createTheme({
   palette: {
@@ -82,6 +86,22 @@ root.render(
           }
         />
         <Route
+          path="/computers/delete/:computerId"
+          element={
+            <RequireAuth>
+              <DeleteComputer />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/computers/edit/:computerId"
+          element={
+            <RequireAuth>
+              <EditComputer />
+            </RequireAuth>
+          }
+        />
+        <Route
           path="/computers/:computerId/create"
           element={
             <RequireAuth>
@@ -94,6 +114,22 @@ root.render(
           element={
             <RequireAuth>
               <Parts />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/parts/delete/:partId"
+          element={
+            <RequireAuth>
+              <DeletePart />
+            </RequireAuth>
+          }
+        />
+        <Route
+          path="/parts/edit/:partId"
+          element={
+            <RequireAuth>
+              <EditPart />
             </RequireAuth>
           }
         />

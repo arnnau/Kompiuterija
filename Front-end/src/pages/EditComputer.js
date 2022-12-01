@@ -12,6 +12,7 @@ import { Select, Modal } from '@mui/material';
 import { MenuItem } from '@mui/material';
 import { CircularProgress } from '@mui/material';
 import { FormControl } from '@mui/material';
+import { ComputerOutlined } from '@mui/icons-material';
 import { useParams } from 'react-router-dom';
 
 const style = {
@@ -26,32 +27,62 @@ const style = {
     p: 4,
   };
 
-const CreatePart = () => {
-    const [part, setPart] = React.useState("");
-    const [open, setOpen] = React.useState(false);
-    const [loading, setLoading] = useState(false);
+const EditComputer = () => {
     let { computerId } = useParams();
+    const [shop, setShop] = React.useState("");
+    const [computer, setComputer] = React.useState("");
+    const [open, setOpen] = React.useState(false);
+    const [user, setUser] = useState("user");
+    const [loading, setLoading] = useState(true);
     const handleOpen = () => setOpen(true);
     const handleClose = () =>  {
         setOpen(false);
-        window.location.href = '/parts';
+        window.location.href = '/computers';
     }
     const handleChange = (event) => {
-        setPart(event.target.value);
+        setShop(event.target.value);
     };
-    const handleSubmit = async (event) => {
+    const handleNameChange = (event) => {
+        setComputer(event.target.value);
+    };
+    const [shops, setShops] = useState([]);
+    const fetchShops = async () => {
+        const token = localStorage.getItem("token");
+        const { data } = await axios.get(
+          "https://kompiuterija20221102215702.azurewebsites.net/shops", { headers: { "Authorization": `Bearer ${token}` } }
+        );
+        const shops = data;
+        setShops(shops);
+        setLoading(false);
+      };
+      const fetchComputer = async () => {
+        const token = localStorage.getItem("token");
+        const url = "https://kompiuterija20221102215702.azurewebsites.net/computers/"+computerId;
+        const { data } = await axios.get(
+          url, { headers: { "Authorization": `Bearer ${token}` } }
+        );
+        setShop(data.shopId);
+        setComputer(data.name);
+        setUser(data.user);
+      };
+      useEffect(() => {
+        fetchShops();
+        fetchComputer();
+      }, []);
+    const handleSubmit = (event) => {
         event.preventDefault();
-        const url = "https://kompiuterija20221102215702.azurewebsites.net/parts";
+        const url = "https://kompiuterija20221102215702.azurewebsites.net/computers";
         const token = localStorage.getItem("token");
         const data = new FormData(event.currentTarget);
         const numericId = parseInt(computerId)
         const loginPayload = {
-          computerId: numericId,
+          id: numericId,
+          shopId: shop,
           name: data.get('name'),
-          type: part
+          user: user
         };
-        await axios({
-            method: 'post',
+        axios({
+            method: 'put',
             url: url,
             data: JSON.stringify(loginPayload),
             headers: {
@@ -88,7 +119,7 @@ const CreatePart = () => {
               }}
             >
               <Typography component="h1" variant="h5">
-                Create new part
+                Update computer
               </Typography>
               <Box component="form" onSubmit={handleSubmit} sx={{ mt: 1 }}>
               <FormControl sx={{ m: 1, minWidth: 300 }}>
@@ -97,27 +128,25 @@ const CreatePart = () => {
                   required
                   fullWidth
                   id="name"
-                  label="Part name"
+                  label="Computer name"
                   name="name"
                   autoComplete="name"
-                  autoFocus
+                  value={computer}
+                  onChange={handleNameChange}
                 />
                 <Select
-                    labelId="typeLabel"
-                    id="type"
+                    labelId="shopLabel"
+                    id="shopId"
                     required
-                    value={part}
+                    value={shop}
                     onChange={handleChange}
                 >
                     <MenuItem value="">
-                      <em>Select part type</em>
+                      <em>Select a shop</em>
                     </MenuItem>
-                        <MenuItem key={1} value="GPU">GPU</MenuItem>
-                        <MenuItem key={2} value="CPU">CPU</MenuItem>
-                        <MenuItem key={3} value="RAM">RAM</MenuItem>
-                        <MenuItem key={4} value="PSU">PSU</MenuItem>
-                        <MenuItem key={5} value="HDD">HDD</MenuItem>
-                        <MenuItem key={6} value="SSD">SSD</MenuItem>
+                    {shops.map((shop) => (
+                        <MenuItem key={shop.id} value={shop.id}>{shop.address}, {shop.city}</MenuItem>
+                    ))}
                 </Select>
                 <Button
                   type="submit"
@@ -125,7 +154,7 @@ const CreatePart = () => {
                   variant="contained"
                   sx={{ mt: 3, mb: 2 }}
                 >
-                  Add part
+                  Update computer
                 </Button>
                 </FormControl>
                 <Modal
@@ -136,7 +165,7 @@ const CreatePart = () => {
                 >
                     <Box sx={style}>
                     <Typography id="modal-modal-title" variant="h6" component="h2">
-                        New part has been successfully created
+                        Computer has been successfully updated
                     </Typography>
                     </Box>
                 </Modal>
@@ -147,4 +176,4 @@ const CreatePart = () => {
           
       );
             }
-  export default CreatePart;
+  export default EditComputer;

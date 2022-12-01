@@ -26,11 +26,34 @@ const style = {
     p: 4,
   };
 
-const CreatePart = () => {
+const EditPart = () => {
     const [part, setPart] = React.useState("");
+    const [name, setName] = React.useState("");
     const [open, setOpen] = React.useState(false);
-    const [loading, setLoading] = useState(false);
-    let { computerId } = useParams();
+    const [computer, setComputer] = React.useState(0);
+    const [loading, setLoading] = useState(true);
+    let { partId } = useParams();
+    const handleNameChange = (event) => {
+      setName(event.target.value);
+  };
+    const getPart = async () => {
+      const token = localStorage.getItem("token");
+      const url = "https://kompiuterija20221102215702.azurewebsites.net/parts/"+partId;
+      try {
+        const { data } = await axios.get(
+          url, { headers: { "Authorization": `Bearer ${token}` } }
+        )
+        const part = data;
+        setComputer(part.computerId);
+        setPart(part.type);
+        setName(part.name)
+        setLoading(false);
+      }
+      catch (err) {
+        setPart(0);
+        setLoading(false);
+      };
+    }
     const handleOpen = () => setOpen(true);
     const handleClose = () =>  {
         setOpen(false);
@@ -44,14 +67,15 @@ const CreatePart = () => {
         const url = "https://kompiuterija20221102215702.azurewebsites.net/parts";
         const token = localStorage.getItem("token");
         const data = new FormData(event.currentTarget);
-        const numericId = parseInt(computerId)
+        const numericId = parseInt(partId)
         const loginPayload = {
-          computerId: numericId,
+          id: numericId,
+          computerId: computer,
           name: data.get('name'),
           type: part
         };
         await axios({
-            method: 'post',
+            method: 'put',
             url: url,
             data: JSON.stringify(loginPayload),
             headers: {
@@ -64,6 +88,9 @@ const CreatePart = () => {
          .catch(err => console.log(err));
         
       };
+      useEffect(() => {
+        getPart();
+      }, []);
       if (loading) {
         return (
           <div>
@@ -88,7 +115,7 @@ const CreatePart = () => {
               }}
             >
               <Typography component="h1" variant="h5">
-                Create new part
+                Update part
               </Typography>
               <Box component="form" onSubmit={handleSubmit} sx={{ mt: 1 }}>
               <FormControl sx={{ m: 1, minWidth: 300 }}>
@@ -99,7 +126,9 @@ const CreatePart = () => {
                   id="name"
                   label="Part name"
                   name="name"
+                  value={name}
                   autoComplete="name"
+                  onChange={handleNameChange}
                   autoFocus
                 />
                 <Select
@@ -125,7 +154,7 @@ const CreatePart = () => {
                   variant="contained"
                   sx={{ mt: 3, mb: 2 }}
                 >
-                  Add part
+                  Update part
                 </Button>
                 </FormControl>
                 <Modal
@@ -136,7 +165,7 @@ const CreatePart = () => {
                 >
                     <Box sx={style}>
                     <Typography id="modal-modal-title" variant="h6" component="h2">
-                        New part has been successfully created
+                        Part has been successfully updated
                     </Typography>
                     </Box>
                 </Modal>
@@ -147,4 +176,4 @@ const CreatePart = () => {
           
       );
             }
-  export default CreatePart;
+  export default EditPart;

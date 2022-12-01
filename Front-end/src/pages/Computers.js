@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Axios from "axios";
-import { Stack } from "@mui/system";
-import { CardMedia, Card, CardContent, Typography, CardActionArea, CircularProgress, Grid, Button } from "@mui/material";
+import { CardMedia, Card, CardContent, Typography, CardActionArea, CircularProgress, Grid, Button, Box } from "@mui/material";
 import MenuBar from "../MenuBar";
 import { GetRole } from "../Auth";
 
@@ -40,8 +39,9 @@ const ShopComputers = () => {
   else return (
     <div>
       <MenuBar />
+      <Grid container justifyContent="center" alignItems="center" style={{ paddingTop: '2vh' }}><Button component={Link} to='/computers/create'>New computer...</Button></Grid>
       <Grid container justifyContent="center" alignItems="center" style={{ paddingBottom: '2vh', paddingTop: '2vh' }} columnSpacing={2}>
-        
+          
           {computers.map((computer) => (
             <Grid>
             <Card sx={{ maxWidth: 345 }} key={computer.id}>
@@ -58,19 +58,18 @@ const ShopComputers = () => {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              {(role == "employee" || role == "admin") &&
-              <Button>
+              {(role === "employee" || role === "admin") &&
+              <Button component={Link} to={"/computers/edit/"+computer.id}>
                 Edit
               </Button>}
-              {(role == "admin") &&
-              <Button>
+              {(role === "admin") &&
+              <Button component={Link} to={"/computers/delete/"+computer.id}>
                 Remove
               </Button>}
             </Card>
+            
             </Grid>
           ))}
-        
-
       </Grid>
     </div>
 

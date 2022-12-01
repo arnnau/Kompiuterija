@@ -7,7 +7,6 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Menu, MenuItem } from '@mui/material';
-import { Navigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { IsTokenExpired, LogOut } from './Auth';
 
@@ -47,7 +46,7 @@ export default function MenuBar() {
             >
               <MenuItem component={Link} to={'/'} onClick={handleClose}>Home</MenuItem>
               <MenuItem component={Link} to={'/shops'} onClick={handleClose}>Shops</MenuItem>
-              <MenuItem component={Link} to={'/computers'} onClick={handleClose}>My computers</MenuItem>
+              <MenuItem component={Link} to={'/computers'} onClick={handleClose}>Computers</MenuItem>
             </Menu>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Kompiuterija
@@ -83,7 +82,7 @@ export default function MenuBar() {
             >
               <MenuItem component={Link} to={'/'} onClick={handleClose}>Home</MenuItem>
               <MenuItem component={Link} to={'/shops'} onClick={handleClose}>Shops</MenuItem>
-              <MenuItem component={Link} to={'/computers'} onClick={handleClose}>My computers</MenuItem>
+              <MenuItem component={Link} to={'/computers'} onClick={handleClose}>Computers</MenuItem>
             </Menu>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Kompiuterija

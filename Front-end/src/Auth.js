@@ -8,8 +8,6 @@ export function RequireAuth({ children }) {
   if (isAuthenticated) {
     const token = localStorage.getItem("token");
     const decodedJwt = jwtDecode(token);
-    console.log(decodedJwt.exp * 1000);
-    console.log(Date.now());
     if (decodedJwt.exp * 1000 >= Date.now()) {
       isExpired = false;
     }
@@ -28,8 +26,6 @@ export function IsTokenExpired() {
   if (isAuthenticated) {
     const token = localStorage.getItem("token");
     const decodedJwt = jwtDecode(token);
-    console.log(decodedJwt.exp * 1000);
-    console.log(Date.now());
     if (decodedJwt.exp * 1000 >= Date.now()) {
       isExpired = false;
     }
