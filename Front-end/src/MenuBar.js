@@ -8,7 +8,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Menu, MenuItem } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { IsTokenExpired, LogOut } from './Auth';
+import { GetUser, IsTokenExpired, LogOut } from './Auth';
 
 export default function MenuBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -45,9 +45,6 @@ export default function MenuBar() {
               }}
             >
               <MenuItem component={Link} to={'/'} onClick={handleClose}>Home</MenuItem>
-              <MenuItem component={Link} to={'/shops'} onClick={handleClose}>Shops</MenuItem>
-              <MenuItem component={Link} to={'/computers'} onClick={handleClose}>Computers</MenuItem>
-              <MenuItem component={Link} to={'/parts'} onClick={handleClose}>Parts</MenuItem>
             </Menu>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Kompiuterija
@@ -84,9 +81,10 @@ export default function MenuBar() {
               <MenuItem component={Link} to={'/'} onClick={handleClose}>Home</MenuItem>
               <MenuItem component={Link} to={'/shops'} onClick={handleClose}>Shops</MenuItem>
               <MenuItem component={Link} to={'/computers'} onClick={handleClose}>Computers</MenuItem>
+              <MenuItem component={Link} to={'/parts'} onClick={handleClose}>Parts</MenuItem>
             </Menu>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Kompiuterija
+            {GetUser()}
           </Typography>
           <Button onClick={LogOut} color="inherit">Logout</Button>
         </Toolbar>

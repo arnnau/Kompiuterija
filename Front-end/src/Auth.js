@@ -20,6 +20,11 @@ export function GetRole() {
   const decodedJwt = jwtDecode(token);
   return decodedJwt.role;
 }
+export function GetUser() {
+  const token = localStorage.getItem("token");
+  const decodedJwt = jwtDecode(token);
+  return decodedJwt.email;
+}
 export function IsTokenExpired() {
   var isExpired = true;
   let isAuthenticated = localStorage.getItem("token") ? true : false;

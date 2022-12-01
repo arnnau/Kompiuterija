@@ -20,10 +20,16 @@ import DeleteComputer from './pages/DeleteComputer';
 import EditComputer from './pages/EditComputer';
 import DeletePart from './pages/DeletePart';
 import EditPart from './pages/EditPart';
+import Register from './pages/Register';
 
 const darkTheme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: 'light',
+  },
+  typography: {
+    fontFamily: [
+      'Comic Sans MS',
+    ].join(','),
   },
 });
 
@@ -35,6 +41,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route
           path="/shops"
           element={
