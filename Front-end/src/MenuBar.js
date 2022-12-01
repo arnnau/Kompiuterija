@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Menu, MenuItem } from '@mui/material';
 import { Navigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import { IsTokenExpired, LogOut } from './Auth';
 
 export default function MenuBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -19,7 +20,8 @@ export default function MenuBar() {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  return (
+  if(IsTokenExpired()) {
+    return(
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
@@ -46,12 +48,47 @@ export default function MenuBar() {
               <MenuItem component={Link} to={'/'} onClick={handleClose}>Home</MenuItem>
               <MenuItem component={Link} to={'/shops'} onClick={handleClose}>Shops</MenuItem>
               <MenuItem component={Link} to={'/computers'} onClick={handleClose}>My computers</MenuItem>
-              <MenuItem component={Link} to={'/logout'} onClick={handleClose}>Logout</MenuItem>
             </Menu>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Kompiuterija
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button component={Link} to={'/login'} color="inherit">Login</Button>
+        </Toolbar>
+      </AppBar>
+    </Box>);
+  }
+  else return (
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton
+            size="large"
+            id="basic-button"
+            aria-controls={open ? 'basic-menu' : undefined}
+            aria-haspopup="true"
+            aria-expanded={open ? 'true' : undefined}
+            onClick={handleClick}
+            sx={{ mr: 2 }}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Menu
+              id="basic-menu"
+              anchorEl={anchorEl}
+              open={open}
+              onClose={handleClose}
+              MenuListProps={{
+                'aria-labelledby': 'basic-button',
+              }}
+            >
+              <MenuItem component={Link} to={'/'} onClick={handleClose}>Home</MenuItem>
+              <MenuItem component={Link} to={'/shops'} onClick={handleClose}>Shops</MenuItem>
+              <MenuItem component={Link} to={'/computers'} onClick={handleClose}>My computers</MenuItem>
+            </Menu>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            Kompiuterija
+          </Typography>
+          <Button onClick={LogOut} color="inherit">Logout</Button>
         </Toolbar>
       </AppBar>
     </Box>

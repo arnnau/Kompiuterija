@@ -191,12 +191,8 @@ namespace Kompiuterija.Controllers
             {
                 return NoContent();
             }
-            var entity = new Part()
-            {
-                Id = Id
-            };
-            DBContext.Part.Attach(entity);
-            DBContext.Part.Remove(entity);
+            DBContext.Part.Attach(existing);
+            DBContext.Part.Remove(existing);
             await DBContext.SaveChangesAsync();
             return NoContent();
         }

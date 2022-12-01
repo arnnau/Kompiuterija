@@ -42,7 +42,7 @@ namespace Kompiuterija.Repository
 					new Claim("email", users.Email),
 					new Claim("role", user.Role)
 				}),
-				Expires = DateTime.UtcNow.AddMinutes(10),
+				Expires = DateTime.UtcNow.AddMinutes(60),
 				SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey), SecurityAlgorithms.HmacSha256Signature)
 			};
 			var token = tokenHandler.CreateToken(tokenDescriptor);

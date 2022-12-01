@@ -286,12 +286,8 @@ namespace Kompiuterija.Controllers
             {
                 return NoContent();
             }
-            var entity = new Shop()
-            {
-                Id = Id
-            };
-            DBContext.Shop.Attach(entity);
-            DBContext.Shop.Remove(entity);
+            DBContext.Shop.Attach(existing);
+            DBContext.Shop.Remove(existing);
             await DBContext.SaveChangesAsync();
             return NoContent();
         }

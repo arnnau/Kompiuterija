@@ -4,17 +4,18 @@ import { Button, Stack } from '@mui/material';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import MenuBar from '../MenuBar.js';
 import { IsTokenExpired } from '../Auth.js';
-import { CardActionArea, CardMedia, CardContent, Typography, Card } from '@mui/material';
+import { CardActionArea, CardMedia, CardContent, Typography, Card, Grid } from '@mui/material';
 
 function Home() {
     let navigate = useNavigate();
+    
     function handleLoginClick() {
         navigate('/login');
     }
     function handleRegisterClick() {
         navigate('/register');
     }
-    if (!IsTokenExpired) {
+    if (IsTokenExpired()) {
         return (
             <div>
                 <MenuBar />
@@ -32,13 +33,13 @@ function Home() {
         return (
             <div>
                 <MenuBar />
-                <div className="center">
-                    <Stack spacing={2} direction="column">
+                    <Grid container justifyContent = "center" alignItems="center" style={{ minHeight: '90vh' }}>
+                    <Stack spacing={5} direction={{ xs: 'column', sm: 'row' }}>
                         <Card sx={{ maxWidth: 345 }} key={1}>
                             <CardActionArea component={Link} to="/shops">
                                 <CardMedia
                                     component="img"
-                                    height="140"
+                                    height="300"
                                     src={require("../public/shop.jpg")}
                                     alt={"Shops"}
                                 />
@@ -54,7 +55,7 @@ function Home() {
                             <CardActionArea component={Link} to="/computers">
                                 <CardMedia
                                     component="img"
-                                    height="140"
+                                    height="300"
                                     src={require("../public/computer.jpg")}
                                     alt={"Computers"}
                                 />
@@ -70,7 +71,7 @@ function Home() {
                             <CardActionArea component={Link} to="/parts">
                                 <CardMedia
                                     component="img"
-                                    height="140"
+                                    height="300"
                                     src={require("../public/part.jpg")}
                                     alt={"Parts"}
                                 />
@@ -83,9 +84,9 @@ function Home() {
 
                         </Card>
                     </Stack>
-
+                    </Grid>
                 </div>
-            </div>
+           
 
         );
     }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Axios from "axios";
 import { Stack } from "@mui/system";
 import { Button, Card, CardContent, Typography, CardActionArea, CardMedia } from "@mui/material";
@@ -31,7 +31,7 @@ const ShopComputers = () => {
       <Stack spacing={2} direction="column">
         {computers.map((computer) => (
           <Card sx={{ maxWidth: 345 }} key={computer.id}>
-            <CardActionArea>
+            <CardActionArea component={Link} to={"/computers/" + computer.id}>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   {computer.name}

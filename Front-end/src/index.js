@@ -66,6 +66,14 @@ root.render(
           }
         />
         <Route
+          path="/computers/create"
+          element={
+            <RequireAuth>
+              <CreateComputer />
+            </RequireAuth>
+          }
+        />
+        <Route
           path="/computers/:computerId"
           element={
             <RequireAuth>

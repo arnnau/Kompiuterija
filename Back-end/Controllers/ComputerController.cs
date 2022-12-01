@@ -276,12 +276,8 @@ namespace Kompiuterija.Controllers
             {
                 return NoContent();
             }
-            var entity = new Computer()
-            {
-                Id = Id
-            };
-            DBContext.Computer.Attach(entity);
-            DBContext.Computer.Remove(entity);
+            DBContext.Computer.Attach(existing);
+            DBContext.Computer.Remove(existing);
             await DBContext.SaveChangesAsync();
             return NoContent();
         }

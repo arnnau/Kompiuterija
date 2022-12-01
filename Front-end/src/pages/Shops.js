@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import { Stack } from "@mui/system";
-import { Button, Card, CardContent, Typography, CardActionArea, CardMedia } from "@mui/material";
+import { Card, CardContent, Typography, CardActionArea, CardMedia } from "@mui/material";
 import MenuBar from "../MenuBar";
-
+import { Link } from "react-router-dom";
 
 const Shops = () => {
   const [shops, setShops] = useState([]);
@@ -30,7 +30,7 @@ const Shops = () => {
       <Stack spacing={2} direction="column">
         {shops.map((shop) => (
           <Card sx={{ maxWidth: 345 }} key={shop.id}>
-            <CardActionArea href={"/shops/"+shop.id}>
+            <CardActionArea component={Link} to={"/shops/"+shop.id}>
               <CardMedia
                 component="img"
                 height="140"

@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Axios from "axios";
 import { Stack } from "@mui/system";
-import { Button, Card, CardContent, Typography, CardActionArea, CardMedia } from "@mui/material";
+import { CardMedia, Card, CardContent, Typography, CardActionArea, CircularProgress, Grid, Button } from "@mui/material";
 import MenuBar from "../MenuBar";
+import { GetRole } from "../Auth";
 
 
 const ShopComputers = () => {
   const [computers, setComputers] = useState([]);
-  let { shopId } = useParams();
+  const [loading, setLoading] = useState(true);
+  const [role, setRole] = useState("user");
   const fetchComputers = async () => {
     const token = localStorage.getItem("token");
     const url = "https://kompiuterija20221102215702.azurewebsites.net/computers";
@@ -18,34 +20,60 @@ const ShopComputers = () => {
     const computers = data;
     setComputers(computers);
     console.log(computers);
+    setLoading(false);
   };
 
   useEffect(() => {
     fetchComputers();
+    setRole(GetRole());
   }, []);
 
-  return (
+  if (loading) {
+    return (
+      <div>
+        <MenuBar />
+        <div className="center"><CircularProgress /></div>
+      </div>
+
+    );
+  }
+  else return (
     <div>
       <MenuBar />
-      <div className="center">
-        <Stack spacing={2} direction="column">
+      <Grid container justifyContent="center" alignItems="center" style={{ paddingBottom: '2vh', paddingTop: '2vh' }} columnSpacing={2}>
+        
           {computers.map((computer) => (
+            <Grid>
             <Card sx={{ maxWidth: 345 }} key={computer.id}>
-              <CardActionArea>
+              <CardActionArea component={Link} to={"/computers/" + computer.id}>
+                <CardMedia
+                  component="img"
+                  height="300"
+                  src={require("../public/computer.jpg")}
+                  alt={"Computers"}
+                />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
                     {computer.name}
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              
+              {(role == "employee" || role == "admin") &&
+              <Button>
+                Edit
+              </Button>}
+              {(role == "admin") &&
+              <Button>
+                Remove
+              </Button>}
             </Card>
+            </Grid>
           ))}
-        </Stack>
+        
 
-      </div>
+      </Grid>
     </div>
-    
+
   );
 };
 
