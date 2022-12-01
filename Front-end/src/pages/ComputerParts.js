@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import Axios from "axios";
-import { Stack } from "@mui/system";
 import { Button, Card, CardContent, Typography, CardActionArea, CardMedia, Grid } from "@mui/material";
 import MenuBar from "../MenuBar";
 import {CircularProgress} from "@mui/material";
@@ -43,10 +42,11 @@ if(loading) {
     
     );
 }
-if(parts == 0) {
+if(parts === 0) {
   return (
     <div>
     <MenuBar />
+    <Grid container justifyContent="center" alignItems="center" style={{ paddingTop: '2vh' }}><Button component={Link} to={"/computers/"+computerId+"/create"}>New part...</Button></Grid>
     <div className="center">
     <Typography gutterBottom variant="h5" component="div">
                 No parts found

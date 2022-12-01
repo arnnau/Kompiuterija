@@ -12,7 +12,6 @@ import { Select, Modal } from '@mui/material';
 import { MenuItem } from '@mui/material';
 import { CircularProgress } from '@mui/material';
 import { FormControl } from '@mui/material';
-import { ComputerOutlined } from '@mui/icons-material';
 import { useParams } from 'react-router-dom';
 
 const style = {
@@ -53,7 +52,7 @@ const EditComputer = () => {
         );
         const shops = data;
         setShops(shops);
-        setLoading(false);
+        
       };
       const fetchComputer = async () => {
         const token = localStorage.getItem("token");
@@ -64,6 +63,7 @@ const EditComputer = () => {
         setShop(data.shopId);
         setComputer(data.name);
         setUser(data.user);
+        setLoading(false);
       };
       useEffect(() => {
         fetchShops();

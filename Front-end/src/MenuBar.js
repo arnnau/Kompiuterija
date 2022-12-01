@@ -47,6 +47,7 @@ export default function MenuBar() {
               <MenuItem component={Link} to={'/'} onClick={handleClose}>Home</MenuItem>
               <MenuItem component={Link} to={'/shops'} onClick={handleClose}>Shops</MenuItem>
               <MenuItem component={Link} to={'/computers'} onClick={handleClose}>Computers</MenuItem>
+              <MenuItem component={Link} to={'/parts'} onClick={handleClose}>Parts</MenuItem>
             </Menu>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Kompiuterija

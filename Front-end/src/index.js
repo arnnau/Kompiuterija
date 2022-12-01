@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route, Navigate, useParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.js';
 import Login from './pages/Login.js';
 import NoPage from './pages/NoPage';
@@ -12,7 +11,6 @@ import ShopComputers from './pages/ShopComputers';
 import Computers from './pages/Computers';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import jwtDecode from 'jwt-decode';
 import ComputerParts from './pages/ComputerParts';
 import Parts from './pages/Parts';
 import { RequireAuth } from './Auth.js';

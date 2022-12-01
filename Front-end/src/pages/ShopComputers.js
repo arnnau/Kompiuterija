@@ -14,13 +14,20 @@ const ShopComputers = () => {
   const fetchComputers = async () => {
     const token = localStorage.getItem("token");
     const url = "https://kompiuterija20221102215702.azurewebsites.net/shops/" + shopId + "/computers";
-    const { data } = await Axios.get(
-      url, { headers: { "Authorization": `Bearer ${token}` } }
-    );
-    const computers = data;
-    setComputers(computers);
-    console.log(computers);
-    setLoading(false);
+    try {
+      const { data } = await Axios.get(
+      url, { headers: { "Authorization": `Bearer ${token}` } })
+      
+      const computers = data;
+      setComputers(computers);
+      console.log(computers);
+      setLoading(false);
+    }
+    catch (err) {
+      setComputers([]);
+      setLoading(false);
+    }
+    
   };
 
   useEffect(() => {
@@ -35,6 +42,19 @@ const ShopComputers = () => {
         <div className="center"><CircularProgress /></div>
       </div>
 
+    );
+  }
+  if(computers.length === 0) {
+    return (
+      <div>
+      <MenuBar />
+      <Grid container justifyContent="center" alignItems="center" style={{ paddingTop: '2vh' }}><Button component={Link} to={"/computers/create"}>New computer...</Button></Grid>
+      <div className="center">
+      <Typography gutterBottom variant="h5" component="div">
+                  No computers found
+                </Typography>
+      </div>
+      </div>
     );
   }
   else return (

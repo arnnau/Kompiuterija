@@ -35,7 +35,7 @@ const Shops = () => {
     <div>
     <MenuBar />
     <Grid container justifyContent = "center" alignItems="center" style={{ minHeight: '90vh' }}>
-      <Stack spacing={2} direction="row">
+      <Stack spacing={2} direction={{xs: "column", sm: "row"}}>
         {shops.map((shop) => (
           <Card sx={{ maxWidth: 345 }} key={shop.id}>
             <CardActionArea component={Link} to={"/shops/"+shop.id}>

@@ -7,10 +7,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import axios from "axios";
 import MenuBar from "../MenuBar";
-import { useEffect, useState } from 'react';
 import { Select, Modal } from '@mui/material';
 import { MenuItem } from '@mui/material';
-import { CircularProgress } from '@mui/material';
 import { FormControl } from '@mui/material';
 import { useParams } from 'react-router-dom';
 
@@ -29,7 +27,6 @@ const style = {
 const CreatePart = () => {
     const [part, setPart] = React.useState("");
     const [open, setOpen] = React.useState(false);
-    const [loading, setLoading] = useState(false);
     let { computerId } = useParams();
     const handleOpen = () => setOpen(true);
     const handleClose = () =>  {
@@ -64,15 +61,6 @@ const CreatePart = () => {
          .catch(err => console.log(err));
         
       };
-      if (loading) {
-        return (
-          <div>
-            <MenuBar />
-            <div className="center"><CircularProgress /></div>
-          </div>
-    
-        );
-      }
       return (
         <div>
           <MenuBar />

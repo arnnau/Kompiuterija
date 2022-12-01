@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Axios from "axios";
-import { Stack } from "@mui/system";
 import { Button, Card, CardContent, Typography, CardActionArea, CardMedia } from "@mui/material";
 import MenuBar from "../MenuBar";
 import { CircularProgress, Grid } from "@mui/material";
@@ -43,7 +42,7 @@ const Parts = () => {
       
       );
   }
-  if(parts == 0) {
+  if(parts === 0) {
     return (
       <div>
       <MenuBar />
