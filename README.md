@@ -37,7 +37,15 @@ Database, used technology - MySQL (local), Microsoft SQL Server (deployed)
 GET /shops
 ```
 Returns all shops in the database\
-Potential response codes: 200, 404
+Potential response codes: 200, 404\
+Example response:
+```
+{
+  "id": 0,
+  "address": "string",
+  "city": "string"
+}
+```
 
 ### Get single
 
@@ -45,7 +53,15 @@ Potential response codes: 200, 404
 GET /shops/{id}
 ```
 Returns specified shop\
-Potential response codes: 200, 404
+Potential response codes: 200, 404\
+Example response:
+```
+{
+  "id": 0,
+  "address": "string",
+  "city": "string"
+}
+```
 
 ### Get shop computers
 
@@ -53,7 +69,17 @@ Potential response codes: 200, 404
 GET /shops/{id}/computers
 ```
 Returns all computers belonging to specified shop\
-Potential response codes: 200, 404
+Potential response codes: 200, 404\
+Example response:
+```
+{
+  "id": 0,
+  "userId": 0,
+  "shopId": 0,
+  "name": "string",
+  "registered": "2022-10-06T18:51:32.189Z"
+}
+```
 
 ### Get single shop computers
 
@@ -61,7 +87,17 @@ Potential response codes: 200, 404
 GET /shops/{shopId}/computers/{computerId}
 ```
 Returns all computers belonging to specified shop\
-Potential response codes: 200, 404
+Potential response codes: 200, 404\
+Example response:
+```
+{
+  "id": 0,
+  "userId": 0,
+  "shopId": 0,
+  "name": "string",
+  "registered": "2022-10-06T18:51:32.189Z"
+}
+```
 
 ### Get shop computer parts
 
@@ -69,7 +105,16 @@ Potential response codes: 200, 404
 GET /shops/{shopId}/computers/{computerId}/parts
 ```
 Returns all parts belonging to specified computer in a specified shop\
-Potential response codes: 200, 404
+Potential response codes: 200, 404\
+Example response:
+```
+{
+  "id": 0,
+  "computerId": 0,
+  "type": "string",
+  "name": "string"
+}
+```
 
 ### Post
 
@@ -84,7 +129,15 @@ Inserts new item to database. Example request body:
   "city": "string"
 }
 ```
-Potential response codes: 201
+Potential response codes: 201\
+Example response:
+```
+{
+  "id": 0,
+  "address": "string",
+  "city": "string"
+}
+```
 
 ### Put
 
@@ -99,7 +152,15 @@ Updates item in the database. Example request body:
   "city": "string"
 }
 ```
-Potential response codes: 201, 200
+Potential response codes: 201, 200\
+Example response:
+```
+{
+  "id": 0,
+  "address": "string",
+  "city": "string"
+}
+```
 
 ### Delete
 
@@ -117,7 +178,17 @@ Potential response codes: 204
 GET /computers
 ```
 Returns all computers in the database\
-Potential response codes: 200, 404
+Potential response codes: 200, 404\
+Example response:
+```
+{
+  "id": 0,
+  "userId": 0,
+  "shopId": 0,
+  "name": "string",
+  "registered": "2022-10-06T18:51:32.189Z"
+}
+```
 
 ### Get single
 
@@ -125,7 +196,17 @@ Potential response codes: 200, 404
 GET /computers/{id}
 ```
 Returns specified computer\
-Potential response codes: 200, 404
+Potential response codes: 200, 404\
+Example response:
+```
+{
+  "id": 0,
+  "userId": 0,
+  "shopId": 0,
+  "name": "string",
+  "registered": "2022-10-06T18:51:32.189Z"
+}
+```
 
 ### Post
 
@@ -142,7 +223,17 @@ Inserts new item to database. Example request body:
   "registered": "2022-10-06T18:51:32.189Z"
 }
 ```
-Potential response codes: 201
+Potential response codes: 201\
+Example response:
+```
+{
+  "id": 0,
+  "userId": 0,
+  "shopId": 0,
+  "name": "string",
+  "registered": "2022-10-06T18:51:32.189Z"
+}
+```
 
 ### Put
 
@@ -159,7 +250,17 @@ Updates item in the database. Example request body:
   "registered": "2022-10-06T18:51:32.189Z"
 }
 ```
-Potential response codes: 201, 200
+Potential response codes: 201, 200\
+Example response:
+```
+{
+  "id": 0,
+  "userId": 0,
+  "shopId": 0,
+  "name": "string",
+  "registered": "2022-10-06T18:51:32.189Z"
+}
+```
 
 ### Delete
 
@@ -177,7 +278,16 @@ Potential response codes: 204
 GET /parts
 ```
 Returns all parts in the database\
-Potential response codes: 200, 404
+Potential response codes: 200, 404\
+Example response:
+```
+{
+  "id": 0,
+  "computerId": 0,
+  "type": "string",
+  "name": "string"
+}
+```
 
 ### Get single
 
@@ -185,7 +295,16 @@ Potential response codes: 200, 404
 GET /parts/{id}
 ```
 Returns specified part\
-Potential response codes: 200, 404
+Potential response codes: 200, 404\
+Example response:
+```
+{
+  "id": 0,
+  "computerId": 0,
+  "type": "string",
+  "name": "string"
+}
+```
 
 ### Post
 
@@ -201,7 +320,16 @@ Inserts new item to database. Example request body:
   "name": "string"
 }
 ```
-Potential response codes: 201
+Potential response codes: 201\
+Example response:
+```
+{
+  "id": 0,
+  "computerId": 0,
+  "type": "string",
+  "name": "string"
+}
+```
 
 ### Put
 
@@ -217,7 +345,16 @@ Updates item in the database. Example request body:
   "name": "string"
 }
 ```
-Potential response codes: 201, 200
+Potential response codes: 201, 200\
+Example response:
+```
+{
+  "id": 0,
+  "computerId": 0,
+  "type": "string",
+  "name": "string"
+}
+```
 
 ### Delete
 
