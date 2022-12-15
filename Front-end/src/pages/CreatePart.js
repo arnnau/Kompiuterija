@@ -10,7 +10,7 @@ import MenuBar from "../MenuBar";
 import { Select, Modal } from '@mui/material';
 import { MenuItem } from '@mui/material';
 import { FormControl } from '@mui/material';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const style = {
     position: 'absolute',
@@ -25,13 +25,14 @@ const style = {
   };
 
 const CreatePart = () => {
+  let navigate = useNavigate();
     const [part, setPart] = React.useState("");
     const [open, setOpen] = React.useState(false);
     let { computerId } = useParams();
     const handleOpen = () => setOpen(true);
     const handleClose = () =>  {
         setOpen(false);
-        window.location.href = '/parts';
+        navigate(-1);
     }
     const handleChange = (event) => {
         setPart(event.target.value);

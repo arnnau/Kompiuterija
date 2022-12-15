@@ -12,7 +12,7 @@ import { Select, Modal } from '@mui/material';
 import { MenuItem } from '@mui/material';
 import { CircularProgress } from '@mui/material';
 import { FormControl } from '@mui/material';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const style = {
     position: 'absolute',
@@ -30,6 +30,7 @@ const EditPart = () => {
     const [part, setPart] = React.useState("");
     const [name, setName] = React.useState("");
     const [open, setOpen] = React.useState(false);
+    let navigate = useNavigate();
     const [computer, setComputer] = React.useState(0);
     const [loading, setLoading] = useState(true);
     let { partId } = useParams();
@@ -57,7 +58,7 @@ const EditPart = () => {
     const handleOpen = () => setOpen(true);
     const handleClose = () =>  {
         setOpen(false);
-        window.location.href = '/parts';
+        navigate(-1);
     }
     const handleChange = (event) => {
         setPart(event.target.value);
@@ -175,5 +176,5 @@ const EditPart = () => {
         </div>
           
       );
-            }
+    }
   export default EditPart;

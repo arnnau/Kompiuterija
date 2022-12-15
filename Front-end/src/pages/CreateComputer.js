@@ -12,6 +12,7 @@ import { Select, Modal } from '@mui/material';
 import { MenuItem } from '@mui/material';
 import { CircularProgress } from '@mui/material';
 import { FormControl } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const style = {
     position: 'absolute',
@@ -26,13 +27,14 @@ const style = {
   };
 
 const CreateComputer = () => {
+  let navigate = useNavigate();
     const [shop, setShop] = React.useState("");
     const [open, setOpen] = React.useState(false);
     const [loading, setLoading] = useState(true);
     const handleOpen = () => setOpen(true);
     const handleClose = () =>  {
         setOpen(false);
-        window.location.href = '/computers';
+        navigate(-1);
     }
     const handleChange = (event) => {
         setShop(event.target.value);
