@@ -8,9 +8,11 @@ Regular users can:
 * View shop list
 * Register a computer for a specified shop
 * Check own computer status
+
 Employees can:
 * View all computers
 * Add or delete parts for computers
+
 Admins can:
 * Add or delete shops
 * Delete computers
