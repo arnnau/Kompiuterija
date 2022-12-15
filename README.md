@@ -4,16 +4,16 @@ Project goal - create a web app for registering computers to repair shops\
 Software consists of 3 objects - shop, computer and part which are linked through a hierarchical connection:\
 Shop -> Computer -> Part\
 There are three user roles - admin, employee and a regular user.\
-Regular users can:\
-* View shop list\
-* Register a computer for a specified shop\
-* Check own computer status\
-Employees can:\
-* View all computers\
-* Add or delete parts for computers\
-Admins can:\
-* Add or delete shops\
-* Delete computers\
+Regular users can:
+* View shop list
+* Register a computer for a specified shop
+* Check own computer status
+Employees can:
+* View all computers
+* Add or delete parts for computers
+Admins can:
+* Add or delete shops
+* Delete computers
 * Delete parts
 
 # System architecture
