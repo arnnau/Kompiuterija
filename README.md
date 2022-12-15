@@ -1,26 +1,26 @@
 # Project description
 
-Project goal - create a web app for registering computers to repair shops
-Software consists of 3 objects - shop, computer and part which are linked through a hierarchical connection:
-Shop -> Computer -> Part
-There are three user roles - admin, employee and a regular user.
-Regular users can:
-*View shop list
-*Register a computer for a specified shop
-*Check own computer status
-Employees can:
-*View all computers
-*Add or delete parts for computers
-Admins can:
-*Add or delete shops
-*Delete computers
+Project goal - create a web app for registering computers to repair shops\
+Software consists of 3 objects - shop, computer and part which are linked through a hierarchical connection:\
+Shop -> Computer -> Part\
+There are three user roles - admin, employee and a regular user.\
+Regular users can:\
+*View shop list\
+*Register a computer for a specified shop\
+*Check own computer status\
+Employees can:\
+*View all computers\
+*Add or delete parts for computers\
+Admins can:\
+*Add or delete shops\
+*Delete computers\
 *Delete parts
 
 # System architecture
 
-The system consists of the following components:
-Back-end, used technology - .NET
-Front-end, used technology - React
+The system consists of the following components:\
+Back-end, used technology - .NET\
+Front-end, used technology - React\
 Database, used technology - MySQL (local), Microsoft SQL Server (deployed)
 
 # API documentation
@@ -32,7 +32,7 @@ Database, used technology - MySQL (local), Microsoft SQL Server (deployed)
 ```http
 GET /shops
 ```
-Returns all shops in the database
+Returns all shops in the database\
 Potential response codes: 200, 404
 
 ### Get single
@@ -40,7 +40,7 @@ Potential response codes: 200, 404
 ```http
 GET /shops/{id}
 ```
-Returns specified shop
+Returns specified shop\
 Potential response codes: 200, 404
 
 ### Get shop computers
@@ -48,7 +48,7 @@ Potential response codes: 200, 404
 ```http
 GET /shops/{id}/computers
 ```
-Returns all computers belonging to specified shop
+Returns all computers belonging to specified shop\
 Potential response codes: 200, 404
 
 ### Get single shop computers
@@ -56,7 +56,7 @@ Potential response codes: 200, 404
 ```http
 GET /shops/{shopId}/computers/{computerId}
 ```
-Returns all computers belonging to specified shop
+Returns all computers belonging to specified shop\
 Potential response codes: 200, 404
 
 ### Get shop computer parts
@@ -64,7 +64,7 @@ Potential response codes: 200, 404
 ```http
 GET /shops/{shopId}/computers/{computerId}/parts
 ```
-Returns all parts belonging to specified computer in a specified shop
+Returns all parts belonging to specified computer in a specified shop\
 Potential response codes: 200, 404
 
 ### Post
@@ -102,7 +102,7 @@ Potential response codes: 201, 200
 ```http
 DELETE /shops/{id}
 ```
-Deletes specified shop
+Deletes specified shop\
 Potential response codes: 204
 
 ## Computers
@@ -112,7 +112,7 @@ Potential response codes: 204
 ```http
 GET /computers
 ```
-Returns all computers in the database
+Returns all computers in the database\
 Potential response codes: 200, 404
 
 ### Get single
@@ -120,7 +120,7 @@ Potential response codes: 200, 404
 ```http
 GET /computers/{id}
 ```
-Returns specified computer
+Returns specified computer\
 Potential response codes: 200, 404
 
 ### Post
@@ -162,7 +162,7 @@ Potential response codes: 201, 200
 ```http
 DELETE /computers/{id}
 ```
-Deletes specified computer
+Deletes specified computer\
 Potential response codes: 204
 
 ## Parts
@@ -172,7 +172,7 @@ Potential response codes: 204
 ```http
 GET /parts
 ```
-Returns all parts in the database
+Returns all parts in the database\
 Potential response codes: 200, 404
 
 ### Get single
@@ -180,7 +180,7 @@ Potential response codes: 200, 404
 ```http
 GET /parts/{id}
 ```
-Returns specified part
+Returns specified part\
 Potential response codes: 200, 404
 
 ### Post
@@ -220,5 +220,5 @@ Potential response codes: 201, 200
 ```http
 DELETE /parts/{id}
 ```
-Deletes specified part
+Deletes specified part\
 Potential response codes: 204
