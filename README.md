@@ -25,6 +25,8 @@ Back-end, used technology - .NET\
 Front-end, used technology - React\
 Database, used technology - MySQL (local), Microsoft SQL Server (deployed)
 
+![System architecture diagram](architecture.png)
+
 # API documentation
 
 ## Shops
